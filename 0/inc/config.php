@@ -2,7 +2,7 @@
 
 // ========== REMOTE DATABASE CONNECTION =======
 define('DB_HOST', 'y5svr1t2r5xudqeq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
-define('DB_PASS', 'r8qw8oyoc0awxtvs');
+define('DB_PASS', 'x3re6upu94v48m0x');
 define('DB_NAME', 'r8qw8oyoc0awxtvs');
 define('DB_USER', 'hx1qv76lul5chjhv');
 
@@ -15,10 +15,4 @@ define('DB_USER', 'hx1qv76lul5chjhv');
 
 
 // FUNCTION TO CONVERT DB DATE TO UNIX DATE AND TIMESTAMP
-
-function convertDate($date = '')
-{
-    $convert_date = strtotime($date);
-   return date('j F Y', $convert_date);
-}
 

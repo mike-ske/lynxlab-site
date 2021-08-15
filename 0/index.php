@@ -1,7 +1,7 @@
 <?php require 'header.php' ?>
 <?php require 'nav.php' ?>
-<?php require './blog/inc/function.php' ?>
-<?php require './blog/inc/dbconn.php' ?>
+<?php require 'inc/function.php' ?>
+<?php require 'inc/dbconn.php' ?>
 
 <!-- ***** Preloader Start ***** -->
 <div id="preloader">
