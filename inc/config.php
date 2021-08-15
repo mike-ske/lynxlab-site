@@ -1,6 +1,7 @@
 <?php
 
 // ========== REMOTE DATABASE CONNECTION =======
+
 define('DB_HOST', 'y5svr1t2r5xudqeq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
 define('DB_PASS', 'r8qw8oyoc0awxtvs');
 define('DB_NAME', 'r8qw8oyoc0awxtvs');
