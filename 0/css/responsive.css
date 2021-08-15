@@ -1,6 +1,9 @@
 
 /* -============ RESPONSIVENESS FOR Tablet =========== */
-
+.blg_text {
+    font-size: 14px;
+    line-height: 23px;
+}
  @media only screen and  (max-width: 768px){ */
 
     .bg_main {

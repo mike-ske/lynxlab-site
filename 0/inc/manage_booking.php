@@ -185,14 +185,14 @@ if (isset($_POST['send']))
                    $_SESSION['status'] = "Thank you for Joining. You'll get feedback from our customer service";
                    $_SESSION['status_title'] = "Success";
                    $_SESSION['status_code'] = "success";
-                   header("location: ../bookings");    
+                   header("location: ../bookings.php");    
                }
                else 
                {
                    $_SESSION['status'] = "Failed! Something went wrong";
                    $_SESSION['status_title'] = "Error";
                    $_SESSION['status_code'] = "error";
-                   header("location: ../bookings");       
+                   header("location: ../bookings.php");       
                }
         }
 
@@ -202,7 +202,7 @@ if (isset($_POST['send']))
             $_SESSION['status'] = "Failed please check empty field";
             $_SESSION['status_title'] = "Error";
             $_SESSION['status_code'] = "error";
-            header("location: ../bookings");  
+            header("location: ../bookings.php");  
     
     }
 

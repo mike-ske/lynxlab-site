@@ -162,7 +162,7 @@ if (isset($_POST['send']))
                      <br><br><hr><br><br><strong>Thank you for Trusting in us.</strong>
                      ";
          $mail->send();
- 
+
          if ($mail->send()) 
          {
             
@@ -181,14 +181,14 @@ if (isset($_POST['send']))
                 $_SESSION['status'] = "Message has been sent! Check your email for confirmation. Thank you for contacting lynxlaboratories";
                 $_SESSION['status_title'] = "Success";
                 $_SESSION['status_code'] = "success";
-                header("location: ../contact");    
+                header("location: ../contact.php");    
             }
             else 
             {
                 $_SESSION['status'] = "Failed please check empty field";
                 $_SESSION['status_title'] = "Error";
                 $_SESSION['status_code'] = "error";
-                header("location: ../contact");       
+                header("location: ../contact.php");       
             }
 
         }
@@ -198,7 +198,7 @@ if (isset($_POST['send']))
             $_SESSION['status'] = "Failed please check empty field";
             $_SESSION['status_title'] = "Error";
             $_SESSION['status_code'] = "error";
-            header("location: ../contact");  
+            header("location: ../contact.php");  
     
     }
 
