@@ -13,7 +13,7 @@
 
 <!-- DNA Test HEROE SECTION -->
 <section class="bg_main" id="dna_serve">
-    <div class="fg_center about_us">
+    <div class="fg_center about_us" data-aos="fade-up" data-aos-duration="3000">
         <h1 class="abt_h1">DNA Test Services</h1>
     </div>
             
@@ -23,39 +23,38 @@
 <!-- ==================== DNA-TEST SECTION ======================== -->
 <section class="bg_main" id="dna_tst">
     <div class="fg_center dna_tst">
-        <div class="text_dn">
+        <div class="text_dn" id="paternity">
             <h3 class="txt_1">Paternity DNA Test</h3>
             <p class="txt_bdy">
-                DNA Paternity test is a painless method 
-                used to confirm biological relationship 
-                between a presupposed father and the child 
-                by using buccal swab samples. The lab runs series 
-                of tests known as ‘DNA SEQUENCING’ for genetic match 
+                DNA Paternity test is a painless method used to
+                confirm biological relationship between a presupposed
+                father and the child by using buccal swab samples. 
+                The lab runs series of tests known as 
+                ‘DNA SEQUENCING’ for genetic match between 
                 the alleged father and the child.
-                We offer 3 types of DNA PATERNITY TEST
+                We offer 3 types of DNA PATERNITY TEST 
+
             </p>
 
             
             <h3 class="txt_1">Peace of Mind Test</h3>
             <p class="txt_bdy">
-                A peace of mind test is used basically for 
-                one’s personal interest to ascertain the
-                paternity of a child. Results are not court-admissible.
-
-            </p>
+                A peace of mind test is used basically for one’s personal 
+                interest to ascertain the paternity of a child. 
+                Results are not court-admissible. 
+            </p>    
 
             <h3 class="txt_1">Legal DNA Test</h3>
             <p class="txt_bdy">
                 A legal paternity test is required when one wants to back 
-                all claims legally. It is used as proof of relationship for
-                immigration, custody, birth certificate, inheritance rights,
-                adoption, child support and or other legal reasons. A strict 
-                chain-of-custody is duly 
-                followed for a legal test to be accepted.
-
+                all claims legally. It is used as proof of 
+                relationship for immigration, custody, birth certificate, 
+                inheritance rights, adoption, child support and or other
+                 legal reasons.  A strict chain-of-custody is duly followed 
+                for a legal test to be accepted. 
             </p>
 
-            <h3 class="txt_1">Non-invasive prenatal paternity DNA test</h3>
+            <h3 class="txt_1" id="parental_test">Non-invasive prenatal paternity DNA test</h3>
             <p class="txt_bdy">
                 This test focuses more on the baby DNA. It can be used to 
                 detect some chromosomal abnormalities and some genetic 
@@ -89,7 +88,7 @@
 
 <!-- MARTERNITY SECTION -->
 <section class="bg_main" id="mart_centres">
-    <div class="fg_center maternity">
+    <div class="fg_center maternity" id="parent">
       
         <div class="mart_img">
             <img src="img/t2.png" alt="Pregnancy">
@@ -116,7 +115,7 @@
 
 <!-- MARTERNITY SECTION -->
 <section class="bg_main" id="mart_centres">
-    <div class="fg_center maternity">
+    <div class="fg_center maternity" id="immigration">
       
         <div class="mart_img">
             <img src="img/t_8.png" alt="Pregnancy">
@@ -150,7 +149,7 @@
 
 <!-- SIBLINGS SECTION -->
 <section class="bg_main" id="siblings">
-    <div class="fg_center siblings">
+    <div class="fg_center siblings" id="sib_test">
         <div class="sib_1">
             <h3 class="sib_txt">Siblingship DNA Test/Sibship DNA Test</h3>
             <p class="sib_bdy">
@@ -176,7 +175,7 @@
 
 <!-- RECONSTRUCTION SECTION -->
 <section class="bg_main" id="mart_centres">
-    <div class="fg_center maternity">
+    <div class="fg_center maternity" id="fam_test">
       
         <div class="mart_img">
             <img src="img/t_4.png" alt="Pregnancy">
@@ -204,7 +203,7 @@
 
 <!-- CHROMOSOME SECTION -->
 <section class="bg_main" id="mart_centres">
-    <div class="fg_center maternity">
+    <div class="fg_center maternity" id="chrome_test">
       
         <div class="mart_text_1 sib_1">
             <h3 class="mt_h1">Y chromosome test (inY-STR)</h3>
@@ -236,7 +235,7 @@
 
 <!-- AVUNOCULAR SECTION -->
 <section class="bg_main" id="mart_centres">
-    <div class="fg_center maternity">
+    <div class="fg_center maternity" id="avun_test">
       
         <div class="mart_img">
             <img src="img/t_6.png" alt="Pregnancy">
@@ -266,13 +265,21 @@
 
 <!-- BANK SECTION -->
 <section class="bg_main" id="mart_centres">
-    <div class="fg_center maternity">
+    <div class="fg_center maternity" id="bank_test">
       
         <div class="mart_text_1 sib_1">
             <h3 class="mt_h1">DNA banking</h3>
             <p class="nt_bdy">
-                DNA banking is a secure long term storage/ preservation process of
-                individual’s genetic materials for future use.
+            DNA banking is a secure long term storage/ preservation 
+            process of individual’s genetic materials for future use.
+             DNA contains valuable information of an individual, 
+             family health risks, underlying health conditions, and 
+             ancestry. Preservation of DNA ensures that the information 
+             is accessible to future generations. 
+             <br>
+             A deceased DNA can 
+             be collected and preserved before the person
+             is cremated or buried. 
 
             </p>
         </div>
@@ -284,6 +291,124 @@
     </div>
 </section>
 <!-- END OF BANK SECTION -->
+
+
+<!-- TWIN ZYGOTY SECTION -->
+<section class="bg_main" id="mart_centres">
+    <div class="fg_center maternity" id="twin_test">
+      
+        <div class="mart_img">
+            <img src="img/t_6.png" alt="Pregnancy">
+        </div>
+
+        <div class="mart_text_1">
+            <h3 class="mt_h1">Twin Zygosity Test</h3>
+            <p class="nt_bdy">
+                Twin zygosity DNA testing is used to determine whether 
+                twins are identical or fraternal. A zygosity test analyses
+                the twins’ DNA genetic makeup to see whether they match.
+                Fraternal twins come from two eggs been fertilized by two 
+                sperm cells. 
+                <br><br>
+                Identical twins come from a single fertilized 
+                egg that splits into two thereby 
+                allowing them have similar genetic make-up. 
+
+            </p>
+        </div>
+
+    </div>
+</section>
+<!-- END OF TWIN ZYGOTY SECTION -->
+
+<!-- FORENSIC SERVICE SECTION -->
+<section class="bg_main" id="mart_centres">
+    <div class="fg_center maternity" id="foren_test">
+      
+        <div class="mart_text_1 sib_1">
+            <h3 class="mt_h1">Forensic DNA Services</h3>
+            <p class="nt_bdy">
+                Forensic science is basically the application of science to
+                criminal investigations. Evidence from the crime scene are 
+                collected, preserved and analyzed during the investigation 
+                process. 
+                <br>
+                Forensic DNA uses both complete and partial DNA 
+                profile which is generated by using the distinct aspect of 
+                our DNA that is unique to us. 
+                <br><br>
+                A DNA profile is a complete 
+                description of a person’s appearance while a partial profile 
+                describes only one of the traits.
+                <br><br>
+                DNA profiling for forensic science compares criminal
+                suspects’ profiles to DNA evidence in other to ascertain 
+                their involvement in the crime. Items such as masks, hats,
+                clothing’s, underwear’s, dirty laundry, fingernail scrapings,
+                ups, cigarettes, condoms etc., 
+                are used to identify the perpetrator of the crime. 
+            </p>
+        </div>
+
+        <div class="mart_img">
+            <img src="img/t_7.png" alt="Pregnancy">
+        </div>
+
+    </div>
+</section>
+<!-- END OF FORENSIC SERVICE SECTION -->
+
+
+
+<!-- TWIN Grand-PA TEST SECTION -->
+<section class="bg_main" id="mart_centres">
+    <div class="fg_center maternity" id="grandp_test">
+      
+        <div class="mart_img">
+            <img src="img/t_6.png" alt="Pregnancy">
+        </div>
+
+        <div class="mart_text_1">
+            <h3 class="mt_h1">Grandparent DNA Test</h3>
+            <p class="nt_bdy">
+                A grandparentage test is used to certify biological 
+                relationship between a possible grandparent and the grandchild
+                or to establish paternity of the grandchild. The alleged
+                father’s genetic makers can be reconstructed by assessing 
+                the DNA samples from his biological 
+                parents and sampling with the child.
+
+            </p>
+        </div>
+
+    </div>
+</section>
+<!-- END OF TWIN Grand-PA TEST SECTION -->
+
+
+<!-- FORENSIC SERVICE SECTION -->
+<section class="bg_main" id="mart_centres">
+    <div class="fg_center maternity" id="mt_test">
+      
+        <div class="mart_text_1 sib_1">
+            <h3 class="mt_h1">Mt DNA Test</h3>
+            <p class="nt_bdy">
+                Mt test uses mitochondrial analysis to determine the
+                biological relationship to maternal relatives / lineage. 
+                The Mt DNA compares your Mitochondrial DNA sequences with 
+                that of the mothers DNA and concluded if they are 
+                biologically related through a common female ancestor. 
+            </p>
+        </div>
+
+        <div class="mart_img">
+            <img src="img/t_7.png" alt="Pregnancy">
+        </div>
+
+    </div>
+</section>
+<!-- END OF FORENSIC SERVICE SECTION -->
+
 
 <!-- modal section -->
 <?php require 'modal-section.php' ?>

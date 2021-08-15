@@ -27,7 +27,7 @@
 <section class="bg_main" id="book_centres">
     <div class="fg_center form">
 
-        <div class="frm_txt">
+        <div class="frm_txt" data-aos="fade-up" data-aos-duration="3200">
             <h3 class="abt_h1">Join Lynx Agents and get extra revenue</h3>
             <p class="frm_body">
                 By joining Lynx agents, you will get first 
@@ -37,32 +37,40 @@
         </div>
         
         <div class="main_from">
-            <form>
-                <label for="fullname">Name</label>
-                <div class="form_group">
+            <form id="agency" method="POST" action="inc/manage_booking">
+                <label for="fullname" data-aos="fade-up" data-aos-duration="3200">Name</label>
+                <div class="form_group" >
                     <input type="text" name="fullname" id="fullname" class="fullname">
                 </div>
+                <span id="ag_err" class="f_er"></span>
 
-                <label for="email">Email</label>
-                <div class="form_group">
+                <label for="email" data-aos="fade-up" data-aos-duration="3200">Email</label>
+                <div class="form_group" data-aos="fade-up" data-aos-duration="3200">
                     <input type="email" name="email" id="email" class="email">
                 </div>
+                <span id="ag_err" class="e_er"></span>
 
-                <label for="company">Company</label>
-                <div class="form_group">
+                <label for="company" data-aos="fade-up" data-aos-duration="3200">Company</label>
+                <div class="form_group" data-aos="fade-up" data-aos-duration="3200">
                     <input type="text" name="company" id="company" class="company">
                 </div>
+                <span id="ag_err" class="c_er"></span>
 
-                <label for="phone">Phone</label>
-                <div class="form_group">
+                <label for="phone" data-aos="fade-up" data-aos-duration="3200">Phone</label>
+                <div class="form_group" data-aos="fade-up" data-aos-duration="3200">
                     <input type="number" name="phone" id="phone" class="phone">
                 </div>
+                <span id="ag_err" class="p_er"></span>
 
-                <label for="message">Message</label>
-                <div class="form_group">
+                <label for="message" data-aos="fade-up" data-aos-duration="3200">Message</label>
+                <div class="form_group" data-aos="fade-up" data-aos-duration="3200">
                     <textarea name="message" id="message" class="message"></textarea>
                 </div>
-                <input type="submit" id="send" class="send_mssg" value="Send message">
+                <span id="ag_err" class="m_er"></span>
+
+
+                <input type="submit" name="send" id="send" class="send_mssg" value="Send message">
+                <div class="msg" id="respond">this is the message</div>
             </form>
         </div>
     </div>

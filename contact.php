@@ -15,7 +15,7 @@
 
 <!-- CONTACT SECTION -->
 <section class="bg_main" id="con_centres">
-    <div class="fg_center co_ctre">
+    <div class="fg_center co_ctre" data-aos="fade-up" data-aos-duration="3000">
         <h1 class="abt_h1">We are always ready to answer all your questions.</h1>
     </div>
 </section>
@@ -27,8 +27,8 @@
     <div class="fg_center form">
 
         <div class="frm_txt">
-            <h3 class="abt_h1">Contact us/Bookings</h3>
-            <p class="frm_body">
+            <h3 class="abt_h1" data-aos="fade-up" data-aos-duration="3300">Contact us/Bookings</h3>
+            <p class="frm_body" data-aos="fade-up" data-aos-duration="3300">
                 We are here to serve you with what you need 
                 and answer all your questions. 
                 All calls are encrypted end-to-end and no information is
@@ -37,21 +37,30 @@
         </div>
         
         <div class="main_from">
-            <form>
-                <label for="fullname">Name</label>
-                <div class="form_group">
-                    <input type="text" name="fullname" id="fullname" class="fullname">
-                </div>
+            
+            <form id="form" method="POST" action="inc/manage_contact">
                 
-                <label for="email">Email</label>
-                <div class="form_group">
+                <label for="fullname"  data-aos="fade-up" data-aos-duration="3200">Name</label>
+                <div class="form_group"  data-aos="fade-up" data-aos-duration="3200">
+                    <input type="text" name="fullname" id="fullname" class="fullname">
+                    
+                </div>
+                <span id="ct_err" class="f_er"></span>
+
+                <label for="email"  data-aos="fade-up" data-aos-duration="3200">Email</label>
+                <div class="form_group"  data-aos="fade-up" data-aos-duration="3200">
                     <input type="email" name="email" id="email" class="email">
                 </div>
-                <label for="message">Message</label>
-                <div class="form_group">
+                <span id="ct_err" class="e_er"></span>
+
+                <label for="message"  data-aos="fade-up" data-aos-duration="3200">Message</label>
+                <div class="form_group"  data-aos="fade-up" data-aos-duration="3200">
                     <textarea name="message" id="message" class="message"></textarea>
                 </div>
-                <input type="submit" id="send" class="send_mssg" value="Send message">
+                <span id="ct_err" class="m_er"></span>
+
+                <input type="submit" id="send" name="send" class="send_mssg" value="Send message" >
+                <div class="msg" id="respond">this is the message</div>
             </form>
         </div>
     </div>
@@ -59,9 +68,9 @@
 <!-- END OF FORM SECTION -->
 
 <!-- MAP SECTION -->
-<section class="bg_main" id="frame">
-    <iframe src="" frameborder="0"></iframe>
-</section>
+
+<iframe  class="bg_main" id="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.243737256612!2d3.3454325147291115!3d6.616611723909644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93d05507f23b%3A0xb2a07808c7b83a15!2sLynx%20DNA%20Laboratory%20%7C%20Private%20Paternity%20DNA%20Testing%20Centre%20in%20Nigeria!5e0!3m2!1sen!2sng!4v1627416288662!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
 
 <?php require 'modal-section.php' ?>
 

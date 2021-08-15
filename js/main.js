@@ -7,6 +7,7 @@
 
 let nav__link = document.getElementsByClassName("list_1");
 let main_menu = document.getElementsByClassName("list_menu")[0];
+let close_menu = document.getElementById("close_menu");
 
 for (let i = 0; i < nav__link.length; i++) {
     const list__item = nav__link[i];
@@ -15,12 +16,12 @@ for (let i = 0; i < nav__link.length; i++) {
         document.getElementsByClassName("active")[0].classList.remove("active");
         nav__link[i].classList.add("active");
     })
-    
-    // ==== CODE TO HIDE THE MENU WHEN TABS ARE CLICKED
-    list__item.addEventListener("click", function () {
-        main_menu.classList.remove("show");
-    })
 }
+
+ // ==== CODE TO HIDE THE MENU WHEN TABS ARE CLICKED
+    close_menu.addEventListener("click", function () {
+        main_menu.classList.toggle("show");
+    })
 
 /* 
 ============== CODE TO HIDE AND SHOW MENU ========
@@ -28,10 +29,17 @@ for (let i = 0; i < nav__link.length; i++) {
 
 let main__nav = document.getElementsByClassName("list_menu")[0];
 let nav__icon = document.getElementsByClassName("toggle")[0];
+let mega_menu = document.getElementById("li");
+let a_click = document.querySelector('.mega_list');
 
 nav__icon.addEventListener('click', function () {
     main__nav.classList.toggle("show");
 })
+    a_click.addEventListener('click', function () {
+        document.getElementById("li").classList.toggle("maxHeight");
+    })
+
+
 
 // ============ CODE TO SET ACTIVE MENU FOOTER SECTION
 
@@ -46,6 +54,36 @@ for (let i = 0; i < foot_menu.length; i++) {
     })
 
 }
+
+// ============ CODE TO HIDE AND SHOW FAQS SECTION
+let button =  document.querySelectorAll('.menu__1');
+let ic_1 =  document.querySelector('.ico_1');
+let ic_2 =  document.querySelector('.ico_2');
+
+
+
+for (let i = 0; i < button.length; i++) {
+    let m_menu = button[i];
+    
+    m_menu.addEventListener('click', function () {
+        let panel = this.nextElementSibling;
+        if(panel.style.maxHeight)
+        {
+            panel.style.maxHeight = null;
+            ic_2.style.display = "none";
+            ic_1.style.display = "block";
+        }
+        else
+        {
+            panel.classList.toggle('show_menu');
+            ic_2.style.display = "block";
+            ic_1.style.display = "none";
+        }
+    });
+      
+}
+
+
 
 
 // ========= set scroll nav =====
@@ -110,34 +148,7 @@ for ( var i = 0, len = elms.length; i < len; i++ ) {
 
 // SMOOTH SCROLL ANNIMATION WITH SCROLL REVEAL
 
-
-// const scroll_item = ScrollReveal(
-//     {
-//         origin: 'bottom',
-//         distance: '70px',
-//         duration: 400,
-//         reset: true
-//     }
-// )
-// // start assigning the scroll animation to all div containers
-
-
-//  // =========== INDEX PAGE ANNIMATION ====
-// scroll_item.reveal('.hero__main', {delay: 100})
-// // scroll_item.reveal('.left_icon', {interval: 200})
-// scroll_item.reveal('.about__main', {delay: 100})
-// scroll_item.reveal('.skills__main', {delay: 100})
-// scroll_item.reveal('.outer__bx', {interval: 100})
-// scroll_item.reveal('.works__main', {delay: 100})
-// scroll_item.reveal('.grid__box', {interval: 100})
-// scroll_item.reveal('.expert__main', {delay: 100})
-// scroll_item.reveal('.box1', {interval: 100})
-
-// scroll_item.reveal('.contact__main', {delay: 100})
-
-// scroll_item.reveal('.contact__main', {delay: 100})
-
-
+AOS.init();
 
 // AJAX REQUEST
 
@@ -171,7 +182,10 @@ function sendRequest() {
                 if(this.readyState == 4 && this.status == 200)
                 {
                     respond.innerHTML = this.responseText;
-    
+                    
+                    setTimeout(() => {
+                        respond.style.display = 'none';
+                    }, 5000);
                 }
             }
     
@@ -187,8 +201,3 @@ function sendRequest() {
     
 }
 
-let respond = document.getElementById('respond');
-
-setTimeout(() => {
-    respond.style.display = 'none';
-}, 5000);

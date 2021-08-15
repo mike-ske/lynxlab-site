@@ -10,47 +10,48 @@
         </div>
 
         <ul class="list_menu">
+        <div class="close_menu" id='close_menu'><i class='bx bx-x' ></i></div>
             <li class="list_1 active">
                 <a href="../about-us" class="link__1">About Us</a>
             </li>
             <li class="list_1 mega_list">
                 <a class="link__1 ach" id="ach">DNA Services we offer</a>
-                <ul class="list_2">
+                <ul class="list_2" id="li">
                     <li class="l_2">
-                        <a href="dna-service" class="link__2">DNA Paternity Test</a>
+                        <a href="../dna-service#paternity" class="link__2">DNA Paternity Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="#" class="link__2">Non-Invasive Prenatal DNA Test (Down Syndrome)-NIPT</a>
+                        <a href="../dna-service#parental_test" class="link__2">Non-Invasive Prenatal DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="#" class="link__2">Maternity DNA Test</a>
+                        <a href="../dna-service#parent" class="link__2">Maternity DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="#" class="link__2">Immigration Test</a>
+                        <a href="../dna-service#immigration" class="link__2">Immigration Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="#" class="link__2">Siblingship DNA Test</a>
+                        <a href="../dna-service#sib_test" class="link__2">Siblingship DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="#" class="link__2">Family Reconstruction DNA Test</a>
+                        <a href="../dna-service#fam_test" class="link__2">Family Reconstruction DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="#" class="link__2">Y-Chromosome Test: Male Lineage Testing</a>
+                        <a href="../dna-service#chrome_test" class="link__2">Y-Chromosome Test: Male Lineage Testing</a>
                     </li>
                     <li class="l_2">
-                        <a href="#" class="link__2">Avuncular DNA Test: Aunt-Uncle Testing</a>
+                        <a href="../dna-service#avun_test" class="link__2">Avuncular DNA Test: Aunt-Uncle Testing</a>
                     </li>
                     <li class="l_2">
-                        <a href="#" class="link__2">Grandparent DNA Test</a>
+                        <a href="../dna-service#grandp_test" class="link__2">Grandparent DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="#" class="link__2">MtDNA TEST: Female Lineage Testing</a>
+                        <a href="../dna-service#mt_test" class="link__2">MtDNA TEST: Female Lineage Testing</a>
                     </li>
                     <li class="l_2">
-                        <a href="#" class="link__2">DNA Banking</a>
+                        <a href="../dna-service#bank_test" class="link__2">DNA Banking</a>
                     </li>
                     <li class="l_2">
-                        <a href="#" class="link__2">Twin Zygosity Test</a>
+                        <a href="../dna-service#twin_test" class="link__2">Twin Zygosity Test</a>
                     </li>
                 </ul>
             </li>

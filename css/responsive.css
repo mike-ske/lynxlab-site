@@ -1,7 +1,7 @@
 
 /* -============ RESPONSIVENESS FOR Tablet =========== */
 
-@media only screen and  (max-width: 768px){
+ @media only screen and  (max-width: 768px){ */
 
     .bg_main {
         max-width: 100%;
@@ -14,340 +14,630 @@
         padding: 0px 10px;
     }
     /* Heroe section */
-    .hr__main > h1 {
-        font-size: 60px;
-        line-height: 60px;
+    .splide, .splide__slide{
+        width: auto !important;
     }
-    .hr__main > h2 {
-        font-size: 20px;
-        line-height: 25px;
-    }
-    .sub_head_line {
-        font-size: 16px;
+    .splide__slide .slide_container {
+        column-gap: 0px;
+        flex-direction: column;
+        row-gap: 30px;
     }
 
-    .folow__icon a i {
-        font-size: 20px;
+    .slide_container .text_head > .hd_btn {
+        padding: 10px 20px;
     }
-
-    .ft_logo a img {
+    .splide__slide img{
         width: auto;
-        height: 45px;
+        margin: auto;       
+        display: flex;
+        height: 260px;
+    }
+    .slide_container .text_head{
+        padding-left: 20px !important;
+        width: 80%;
+    }
+    .slide_container .text_head > p {
+        margin: 25px 0px;
+    }    
+    .splide--draggable>.splide__track>.splide__list>.splide__slide{
+        margin: 0px 30px;
+        max-width: 600px;
+        height: 100%;
+    }
+    .splide__arrow {
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+    .splide__arrow svg {
+        width: 1em !important;
+        height: 2em !important
+    }
+    .slide_container .text_head > h1{
+        font-size: 30px;
+    }
+    .slide_container .text_head > p{
+        font-size: 14px;
+    }
+    .logo a img {
+        width: 77px !important;
+        height: 25px !important;
     }
 
-    .about {
+    .nav {
+        height: 70px;
+    }
+
+     .about { 
         flex-direction: column;
         max-width: 100%;
         margin-top: 150px;
+        row-gap: 80px;
     }
 
     title .sub__title {
-        font-size: 30px;
-    }
+        font-size: 24px;
+    } 
 
     .abt__par {
         font-size: 14px;
         line-height: 25px;
     }
-
-    .sub__menu__1 .sub__1 > i,
-    .menu__1 > i {
-        font-size: 20px;
-    }
-
-    .p_head {
-        font-size: 14px;
-    }
-
-    .p_body {
-        line-height: 22px;
-    }
-    .tag__icon > span {
-        width: 25px;
-        height: 25px;
-    }
-    
-    .tag__icon {
-        width: 2px;
-        height: 236px;
-    }
-
-
-    .privacy__1 .privacy__body {
-        padding: 97px 40px;
+    .abt__list__par a{
         font-size: 13px;
     }
+    .abt__1{
+        height: auto;
+    }
+    .abt__1 img {
+        width: auto;
+        height: auto;
+        margin: auto;
+        display: flex;
+    }    
 
-    .fq__center {
-        text-align: center;
+    .boxes {
+        width: 100%;
+        max-width: 100% !important;
     }
-    .conduct__1 .conduct__body {
-        padding: 97px 40px;
-        font-size: 13px;
-    }
-    .join_us {
-       flex-direction: column;
+    .grid__box{
+        width: 100%;
+        max-width: 300px;
     }
 
-    .join__1 {
-        margin-bottom: 100px;
+    .team {
+        margin: 100px auto;
     }
-    .j_txt {
+    .in_bx img{
+        height: 40px;
+    }
+
+    .set_bt > h3{
+        font-size: 18px;
+    }
+    .set_bt > p{
         font-size: 14px;
-        line-height: 25px;
     }
-    .box_1 > p {
+    .team__grid{
+        flex-direction: column;
+        row-gap: 100px;
+    }
+
+    .grid_image {
+        width: 100%;
+        display: flex;
+    }
+    .grid_image img{
+       margin: auto;
+       width: auto;
+    }
+
+    .sp__par > .p_sp{
         font-size: 14px;
-        line-height: 23px;
     }
 
+    .title .sub__title{
+        font-size: 24px;
+    }
 
-    .box_1 {
-        width: 200px;
-        height: 200px;
+    .sp__btn {
+        width: 100%;
+        column-gap: 20px;
+    }
+    .sp__btn > img{
+        width: 150px;
+        height: fit-content;
     }
 
 
     .comm {
         flex-direction: column;
+        row-gap: 50px;
+        padding: 30px;
     }
-
     .wht__title {
-        font-size: 40px !important;
-        line-height: 45px !important;
+        font-size: 30px !important;
+        line-height: 40px !important;
+        font-weight: 500 !important;
     }
-
-    .comm__txt {
-        font-size: 14px;
-        line-height: 25px;
-    }
-
-    .comm__1, .comm__2 {
-        margin: 100px 0px;
-    }
-
-    .comm__2 > img{
-        width: 100%;
-    }
-
-    .sp__par > p {
-        font-size: 14px;
-        line-height: 25px;
-    }
-
-    .sp__btn__1 {
-        padding: 8px 30px;
+    .comm__txt{
         font-size: 14px;
     }
 
-    .in_bx {
-        width: 150px;
-        height: 150px;
+    .text_bx {
+        width: 270px;
+        height: 180px;
     }
-
-    .in_bx > img{
-        width: 100%;
+    .text_bx > p{
+        font-size: 14px;
+        line-height:20px;
     }
-    .set_bt > h3 {
+    .text_bx > .line{
+        margin: 6px 0px 13px;
+    }
+    .text_bx > .x1_name{
         font-size: 16px;
     }
+    .new_sp {
+        font-size: 14px !important;
+    }
 
-    .set_bt > p {
+    .auto_center > img{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .con__title {
+        font-size: 30px !important;
+    }
+    .j_txt {
+        line-height: 30px;
+    }
+    .blog_grid{
+        flex-direction: column;
+        row-gap: 30px;
+        column-gap: 0px;
+    }
+
+    .cnt_btn {
+        padding: 9px 20px;
+    }   
+    .ctb_1,
+    .ctb_2{
+        border: 2px solid white;
+    } 
+
+    .ft__caption{
+        grid-template-columns: auto;       
+        padding: 50px 20px;
+    }
+
+    .in_text {
         font-size: 14px;
-        line-height: 0px;
+    }
+    .ft__01 li{
+        font-size: 13px;
+    }
+    .ft__01 li a{
+        font-size: 13px;
     }
 
-    .set_3 {
-        margin: 20px 0px;
-    }
-    .team__grid {
-        height: auto;
-        width: 100%;
-        display: grid;
-        grid-template-areas:
-            "bx_1 bx_2"
-            "bx_3 bx_4"
-            "bx_5 bx_6"
-            "bx_7 bx_8"
-            "bx_9 bx_10"
-            "bx_11 bx_12"
-        ;
-
-        column-gap: 90px;
+    .ft_copy h3 {
+        font-size: 13px !important;
     }
 
-    .abt__2 {
-        max-width: 100%;
-        margin-top: 50px;
+    .modals_btn {
+        right: 10px;
+    }
+
+    .ft_logo a img {
+        width: 77px;
+        height: 25px;
+    }
+
+    .modals{
+        right: 68px;
+    }
+    .who_sec,
+    .wha_sect,
+    .who_sec{
+        flex-direction: column;
+        row-gap: 100px;
+    }
+
+    .sec_txt{
+        font-size: 14px;
+    }
+    .abt_sec_2  img {
+        margin: auto;
+    }
+
+   
+    .what_p{
+        font-size: 14px;
+    }
+
+    .wht_left {
+        justify-content: center;
+    }
+
+    .main_ctr{
+        grid-template-columns: 1fr 1fr;
+        margin: 100px auto;
         width: auto;
     }
-
- 
-    .connect {
+    .ctr_1{
+        margin: auto;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .part_ctr {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+    }
+    #btm_tres {
+        background-size: cover;
+        height: auto;
+    }
+    .agnt_btn{
+        padding: 15px;
+        font-size: 14px;
+    }
+    .agnt_sec {
         flex-direction: column;
+        row-gap: 30px;
+        padding: 20px;
     }
 
-    .connect__1 > img{
-        width: 100%;
-    }
-    .connect__1 {
-        margin-bottom: 50px;
-    }
-
-    .join__2 {
-        column-gap: 14px;
-    }
-
-    .con__title {
-        font-size: 40px !important;
-        line-height: 45px !important;
-    }
-
-    .con_1 {
-        font-size: 14px;
-    }
-    .sp_link {
-        font-size: 14px;
-    }
-
-    .connect__1, .connect__2 {
-        margin-bottom: 100px;
-    }
-
-    .ft__caption {
-        width: 100%;
-        column-gap: 9px;
-        padding-top: 100px;
-    }
-    .in_text {
+    .sidebar .recent-posts ul li h5 {
         font-size: 16px;
+        font-weight: 500;
     }
-    .ft__01 li a {
-        font-size: 13px;
-    }
-    .ft_copy > h3 {
-        font-size: 13px;
-    }
-    .ft_logo a {
-        width: 108px;
-    }
-    .box_1 > i {
-        font-size: 45px;
+    .connect_btn{
+        flex-direction: column;
+        row-gap: 30px;
     }
 
-    .list_menu li a {
+    .can_head {
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .sub_hd {
+        font-weight: 500;
         font-size: 18px;
     }
-
-    .logo a img {
-        width: 95px;
-        height: 51px;
+    .con__title {
+        letter-spacing: 0px !important;
+        font-weight: initial !important;
     }
-  
-    
 
-    .folow_txt {
+    .frm_txt > h3 {
+        font-size: 25px;
+    }
+    .frm_txt > p {
         font-size: 14px;
     }
 
-    .main__menu .menu__1 {
-        font-size: 24px;
+    .co_ctre > h1{
+        font-weight: initial;
     }
-    .sub__1 {
+    .abt__2 #bar::before{
+        height: 4px;
+    }
+    .siblings,
+    .maternity,
+    .dna_tst{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .text_dn > p{
+        font-size: 14px;
+    }
+    .sib_1 > h3,
+    .mart_text_1 > h3,
+    .text_dn > h3 {
+        font-weight: 400;
+        font-size: 18px;
+
+    } 
+    .about_us > h1{
+        font-weight: 400;
+    } 
+    .sib_2 > img,  
+    .img_dn > img{
+        width: 100%;
+    }
+    .mart_img > img{
+        width: 100%;
+    }
+
+    .wht_left img{
+        width: 100%;
+        margin: auto;
+    }
+
+    /* FAQS SECTION */
+    .main__menu{
+        margin: auto 50px;
+    }
+    .fq__center > h2{
+        font-weight: 500 !important;
+    }
+
+    .menu__1 {
+        padding: 10px;
         font-size: 16px;
     }
 
-}
-
+    .sub__menu__1 {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 3px 20px;
+    }
+    .set_bdy{
+        font-size: 12px;
+    }
+    .abt_h1{
+        font-size: 20px;
+    }
+ }
 /* ====== For Ipad phones === */
-@media only screen and (max-width:1424px) and (min-width: 768px)
-{
+ @media only screen and (max-width:1424px) and (min-width: 768px) 
+ {
     .fg_center {
         max-width: 100%;
         padding-left: 30px;
         padding-right: 30px;
-    }
+    } 
 
     .team__grid {
         column-gap: 60px;
     }
 
+    .splide--draggable>.splide__track>.splide__list>.splide__slide
+    {
+        width: auto !important;
+        margin: 0px 150px;
+    }
 
+    .splide__slide img {
+        height: 280px;
+    }
+
+    .slide_container .text_head > h1{
+        font-size: 30px;
+    }
+
+    .slide_container .text_head > .hd_btn {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+    .splide__slide img{
+        margin: auto;
+    }
+    .img_head{
+        display: flex;
+    }
+
+    .splide__arrow {
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+
+    .splide__arrow svg {
+        width: 1em !important;
+        height: 1em !important;
+    }
+    .title .sub__title{
+        font-size: 30px;
+    }
+    .abt__par{
+        font-size: 14px;
+    }
+
+    .abt__2 #bar::before {
+        height: 5px;
+    }
     .in_bx {
-        width: 150px;
-        height: 150px;
+        width: auto;
     }
     .in_bx > img {
+        width: auto;
+    }
+    .splide__slide .slide_container
+    {
+        height: 500px;
+        width: 65rem;
+    }
+    .blog_grid{
+        column-gap: 40px;
+    }
+
+    .footer {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .tm__align {
+        margin: 0px auto 100px auto;
+    }
+
+    .team {
+        margin: 150px auto;
+    }
+    .cnt_btn {
+        padding: 15px 20px;
+    }
+
+    .ctb_2 {
+        border: 2px solid white;
+    }
+    .grid__box {
         width: 100%;
     }
 
-    .connect {
-        column-gap: 53px;
+    .set_bt > p {
+        font-size: 14px;
     }
-
-    .comm {
+    .set_bt > h3 {
+        font-size: 20px;
+    }
+    .sp_link {
+        font-size: 14px;
+    }
+    .grid_image img{
+        width: 100%;
+    }
+     .comm {
         column-gap: 30px;
+    }
+    .auto_center > img {
+        width: 65px !important;
+        height: 65px !important;
+    }
+    .modals_btn{
+        right: 30px;
     }
 
     .list_menu li a {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .join_btn a {
         font-size: 16px;
+    } 
+
+    .blg_bx .blg_img img{
+        width: 100%;
+    }
+    .sib_2 > img,
+    .mart_img > img,
+    .img_dn > img {
+        width: 100%;
+    }
+    .sib_1 > h3,
+    .text_dn > h3,
+    .mart_text_1 > h3{
+        font-weight: 500;
+    }
+    .con__title {
+        font-weight: 400 !important;
+        font-size: 40px !important;
+        letter-spacing: 0px;
+    }
+    .can_head {
+        font-weight: 400;
     }
 
+    .co_ctre > h1 {
+        font-weight: 400;
+    }
 
-}
+    .main_ctr {
+        margin: 100px auto;
+    }
+
+    .agnt_btn {
+        padding: 15px 30px;
+    }
+
+    .frm_txt > h3 {
+        font-weight: 500;
+    }
+
+    .ctr_1 {
+         width: 100%;
+    }
+    .main__menu{
+        margin: auto 100px;
+    }
+    .fq__center .h2_fq{
+        font-weight: 500 !important;
+    }
+} 
 
 
 /* ====== For Ipad phones === */
-@media only screen and (max-width:830px) and (min-width: 768px)
-{
-   .hr__main > h1 {
-    font-size: 68px;
-    line-height: 68px;
-   }
-
-   .hr__main > h2 {
-    font-size: 24px;
-    line-height: 33px;
-   }
-    .tag__icon {
-      /* height: 240px; */
+@media only screen and (max-width:1000px) and (min-width: 768px) 
+ {
+    .list_menu li {
+        margin: 0px 6px;
+    }
+    .agent_1 > h3 {
+        font-style: normal;
+        font-weight: 500 !important;
     }
 
-    .about {
-        flex-direction: column;
-        row-gap: 100px;
+    .sidebar .recent-posts ul li h5 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .splide__slide .slide_container {
+        column-gap: 40px;
+        width: 45rem;
+        column-gap: 40px;
+    }
+    .splide__slide img {
+        width: 100%;
+    }
+    .text_bx > .x1_name {
+        font-size: 16px;
+    }
+    .slide_container .text_head > h1 {
+        font-size: 35px;
+        line-height: 44px;
     }
 
+    .text_bx {
+        width: 265px;
+        height: 230px;
+    }
+    .slide_container .text_head > p {
+        line-height: 27px;
+    }
+    .ft__01 li a {
+        font-size: 14px;
+    }
+
+    .sidebar .categories ul li a {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .in_text {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .ft__01 li{
+        font-size: 14px;
+    }
+    .ft_copy h3 {
+        font-size: 14px !important
+    }
+
+    .sidebar .categories ul li a {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .logo a img {
+        width: 100px;
+        height: 30px;
+    }
+    .ft_logo a img
+    {   width: 100px;
+        height: 30px;
+    }
     .box_1 {
         width: 200px;
     }
-    .tag__icon > span {
-        width: 30px;
-        height: 30px;
-    }
-
-    .join_us {
-        flex-direction: column;
-        row-gap: 100px;
+    
+    .title .sub__title {
+        font-weight: 400;
+        font-size: 25px;
     }
 
     .wht__title {
         font-size: 40px !important;
-    }
-
-    .team__grid {
-        height: auto;
-        width: 100%;
-        display: grid;
-        grid-template-areas:
-            "bx_1 bx_2 bx_3"
-            "bx_4 bx_5 bx_6"
-            "bx_7 bx_8 bx_9"
-            "bx_10 bx_11 bx_12";
     }
 
     .con__title {
@@ -357,256 +647,228 @@
     .abt__2{
         width: auto;
     }
+    .who_sec,
+    .wha_sect {
+        column-gap: 50px;
+    }
 
-
-
-
-
-}
+    .about_us > h1 {
+        font-weight: 400;
+    }
+    .main__menu{
+        margin: auto 100px;
+    }
+    .fq__center > h2{
+        font-weight: 500 !important;
+    }
+} 
 
 /* ====== For smartphones === */
-@media only screen and (max-width: 450px)
-{
-    .hr__main {
-        width: 100%;
-    }
-
-    .hr__main > h2 {
-        font-size: 16px;
-    }
-    .hr__main > h1 {
-        font-size: 40px;
-    }
-    .title .sub__title {
-        font-size: 28px;
-        line-height: 30px;
-        
-    }
-    .abt__2 {
-        padding: 0px 4px;
-        margin: 0px;
-        width: auto;
-    }
-    .box_1 > i {
-        font-size: 40px;
-    }
-    .box_1 > p {
+ @media only screen and (max-width: 450px)
+{ 
+    .set_bdy{
         font-size: 12px;
     }
-
-    .wht__title {
-        font-size: 28px !important;
-        line-height: 38px !important;
+    .abt_h1{
+        font-size: 20px;
+    }
+    .slide_container .text_head{
+        width: 60%;
+    }
+    .slide_container .text_head > h1{
+        font-size: 30px;
+        line-height: 35px;
     }
 
-    .comm__txt {
-        font-size: 13px;
+    .slide_container .text_head > p{
+        line-height: 20px;
     }
 
-    .join__2 {
-        grid-template-areas:
-            "bx1"
-            "bx2"
-            "bx3"
-            "bx4"
-            ;
+    .splide__slide img {
+        height: 180px;
+    }
+    .abt__1 img {
+        width: inherit;
     }
 
-    .join_btn_2 {
-        font-size: 14px;
+    .title .sub__title {
+        font-size: 20px;
+        font-weight: 400;
     }
-    .sp__par > p {
-        font-size: 13px;
-    }
-
-    .sp__btn__1 {
-        padding: 4px 25px;
+    .set_bt > h3{
+        line-height: 24px;
+        margin-bottom: 24px;
     }
 
-    .set_3 > i {
-        font-size: 28px;
+    .boxes {
+        grid-template-columns: 100%;
+    }
+    .grid__box {
+        margin: auto;
+    }
+    .in_bx{
+        display: flex;
+    }
+    .in_bx img{
+        margin: auto;
     }
 
-    .con__title {
-        font-size: 28px !important;
-    }
-
-    .con_1 {
-        font-size: 13px;
-    }
-
-    .sp_link {
-        font-size: 13px;
-        padding: 8px 30px;
-    }
-
-    .ft__caption {
-        flex-direction: column;
-        row-gap: 67px;
-    }
-    .folow__icon {
-        justify-content: center;
-        column-gap: 23px;
-    }
-    .ft__caption {
+    .set_bt {
         text-align: center;
     }
 
-    .ft_logo a {
-        margin: auto;
+    .modals_btn a {
+        width: 40px;
+        height: 40px;
     }
-
-    .ft__01 li a::before{
-        content: "";
-        margin: auto;
-    }
-
-    .ft__01 li a:hover::before{
-        width: 40%;
-    }
-    
-    .out_bx {
-        width: 100px;
-        margin: auto;
-        padding: 8px;
-    }
-
-    .sp__btn {
-        column-gap: 60px;
-    }
-    .in_bx {
-        width: 100px;
-        height: 100px;
-        margin: auto;
-    }
-    .set_bt > h3 {
-        font-size: 15px;
-    }
-    .set_bt > p {
-        font-size: 12px !important;
-    }
-    .set_3 > i {
+    .modals_btn a i{
         font-size: 24px;
     }
-
-    .list_menu li a {
-        font-size: 16px;
+    .grid_image img {
+        width: inherit;
+    }
+    .ft_copy h3 {
+        line-height: 20px;
+    }
+    .modals {
+        width: 300px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        box-shadow: 0px 0px 50px #7f7f7f9c;
+        padding: 15px;
+        transition: .6s ease top;
+        animation: .5s fade-in forwards;
+    }
+    .overlay{
+        width: 100% !important;
+        position: fixed;
+        height: 100% !important;
+        background: rgb(0 0 0 / 68%);
+        top: 0px;
+        left: 0px;
+        display: none;
+        z-index: 9999;
+        overflow: auto;
     }
 
-    
-    .toggle i {
-        font-size: 30px;
+    .sib_1 > h3,
+    .mart_text_1 > h3,
+    .text_dn > h3 {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    } 
+    .sib_1 > p,
+    .mart_text_1 > p,
+    .text_dn > p {
+        text-align: center;
+    } 
+
+    .blg_img img {
+        width: 100%;
     }
 
-    .logo a img {
-        width: 90px;
-        height: 45px;
-    }
-
-    .folow_txt {
-        font-size: 13px;
-    }
-
-    .team__grid {
-        column-gap: 30px;
-    }
-
-    .abt__1 {
-        height:auto;
-    }
-    
-     .about {
-        row-gap: 100px;
-    }
-
-    .tag__icon {
-        width: 2px;
-        height: 280px;
-    }
-
-    .sub__menu__1 {
-        padding: 7px 20px;
-    }
-
-    .sub__menu__1 .sub__1 > i, .menu__1 > i {
-        font-size: 14px;
-    }
-
-    .main__menu .menu__1 {
+    .main_from{
+        width: 100%;
         padding: 0px 20px;
     }
+    form {
+        margin: auto;
+    }
+
+    .part_ctr {
+        grid-template-columns: 100%;
+    }
+
+    .ctr_1 {
+        width: 200px;
+    }
 
 
+    .who_sec, 
+    .wha_sect, 
+    .who_sec, 
+    .what_1
+    {
+        text-align: center;
+    }
 
+    .title_right {
+        text-align: inherit;
+    }
+
+    .wht_left img{
+        width: 100%;
+        margin: auto;
+    }
+    .main_ctr{
+        grid-template-columns: 100%;
+    }
+    .main__menu{
+        margin: auto;
+    }
+    .fq__center .h2_fq{
+        font-weight: 500 !important;
+    }
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+            top: 0%;
+        }
+        100% {
+            opacity: 1;
+            top: 50%;
+        }
+    }
 }
 
 /* ====== For Mobile phones === */
 
-@media only screen and (max-width: 300px)
-{
-    .hr__main > h1 
-    {
-        font-size: 30px;
-        line-height: 30px;
+ @media only screen and (max-width: 300px) 
+ {
+    .part_ctr {
+        grid-template-columns: 100%;
     }
 
-    .hr__main > h2 {
-        font-size: 14px;
-        line-height: 20px;
+    .ctr_1 {
+        width: 200px;
     }
 
-   
-    .title .sub__title {
-        font-size: 24px;
-        line-height: 30px;
+    .blg_img img {
+        width: 100%;
     }
 
-    .abt__par {
-        font-size: 13px;
+    form {
+        margin: auto;
+        /* width: 100%; */
     }
 
-    .tag__icon {
-        height: 280px;
+    .main_from{
+        width: 100%;
     }
 
-    .abt__1 {
-        height:auto;
-    }
-   
-
-    .j_txt {
-        font-size: 13px;
+    .title_right {
+        text-align: inherit;
     }
 
-    .about {
-        row-gap: 100px;
-    }
-    .sp__btn {
-        column-gap: 33px;
+    .wht_left img{
+        width: 100%;
+        margin: auto;
     }
 
-    .sp__btn__1 {
-        font-size: 13px;
+    .main__menu{
+        margin: auto;
     }
 
-
-    .team__grid {
-        column-gap: 20px;
+    .set_bdy{
+        font-size: 12px;
     }
-
-
-
-    .sub__menu__1 {
-        padding: 7px 20px;
+    .abt_h1{
+        font-size: 20px;
     }
-
-    .sub__menu__1 .sub__1 > i, .menu__1 > i {
-        font-size: 14px;
-    }
-
-    .main__menu .menu__1 {
-        padding: 0px 20px;
-    }
+ } 
 
 
 
@@ -615,7 +877,4 @@
 
 
 
-
-
-
-}
+    

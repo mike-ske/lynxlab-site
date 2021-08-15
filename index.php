@@ -1,5 +1,7 @@
 <?php require 'header.php' ?>
 <?php require 'nav.php' ?>
+<?php require './blog/inc/function.php' ?>
+<?php require './blog/inc/dbconn.php' ?>
 
 <!-- ***** Preloader Start ***** -->
 <div id="preloader">
@@ -23,17 +25,17 @@
                         <!--===== first slide ======== -->
                         <li class="splide__slide" style="width:1540px">
                             <div class="slide_container">
-                                <div class="text_head">
+                                <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
                                     <h1 class="h1_hd">We are specialists in DNA and Forensic services</h1>
                                     <p class="p_hd">
                                         Costumers have trusted us with innumerable DNA test cases. 
                                         We have built credible and sustainable partnerships that gives us an edge
                                         over our competitors in the industry.
                                     </p>
-                                    <a class="hd_btn">Bookings</a>
+                                    <a href="contact" class="hd_btn">Bookings</a>
                                 </div>
 
-                                <div class="img_head">
+                                <div class="img_head" data-aos="fade-up" data-aos-duration="3200">
                                     <img src="img/bg/g3.png" alt="Doctor on suit">
                                 </div>
                             </div>
@@ -42,7 +44,7 @@
                         <!--===== second slide ======== -->
                         <li class="splide__slide">
                             <div class="slide_container">
-                                <div class="text_head">
+                                <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
                                     <h1 class="h1_hd">Cancer Risk DNA Testing</h1>
                                     <p class="p_hd">
                                         Knowing your cancer risk can help you and your doctor make life saving 
@@ -51,7 +53,7 @@
                                 
                                 </div>
 
-                                <div class="img_head">
+                                <div class="img_head" data-aos="fade-up" data-aos-duration="3200">
                                     <img src="img/bg/g5.png" alt="Doctor on suit">
                                 </div>
                             </div>
@@ -60,7 +62,7 @@
                         <!--===== third slide ======== -->
                         <li class="splide__slide">
                             <div class="slide_container">
-                                <div class="text_head">
+                                <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
                                     <h1 class="h1_hd">Paternity & Maternity Test</h1>
                                     <p class="p_hd">
                                         Who is your daddy or who is the mother has remained a 
@@ -70,7 +72,7 @@
                                 
                                 </div>
 
-                                <div class="img_head">
+                                <div class="img_head" data-aos="fade-up" data-aos-duration="3200">
                                     <img src="img/bg/g4.png" alt="Doctor on suit">
                                 </div>
                             </div>
@@ -79,7 +81,7 @@
                         <!--===== fourth slide ======== -->
                         <li class="splide__slide">
                             <div class="slide_container">
-                                <div class="text_head">
+                                <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
                                     <h1 class="h1_hd">Pre-natal DNA Test</h1>
                                     <p class="p_hd">
                                         Want to establish biological paternity of an 
@@ -88,7 +90,7 @@
                                 
                                 </div>
 
-                                <div class="img_head">
+                                <div class="img_head" data-aos="fade-up" data-aos-duration="3200">
                                     <img src="img/bg/g1.png" alt="Doctor on suit">
                                 </div>
                             </div>
@@ -97,7 +99,7 @@
                         <!--===== fifth slide ======== -->
                         <li class="splide__slide">
                             <div class="slide_container">
-                                <div class="text_head">
+                                <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
                                     <h1 class="h1_hd">Speak to a counselor</h1>
                                     <p class="p_hd">
                                         We understand the sensitivity of most of our test, the reason we take our 
@@ -108,7 +110,7 @@
                                 
                                 </div>
 
-                                <div class="img_head">
+                                <div class="img_head" data-aos="fade-up" data-aos-duration="3200">
                                     <img src="img/bg/g2.png" alt="Doctor on suit">
                                 </div>
                             </div>
@@ -125,12 +127,12 @@
 <!-- ==================== ABOUT US SECTION ======================== -->
 <section class="bg_main" id="about">
     <div class="fg_center about">
-        <div class="abt__1">
+        <div class="abt__1" data-aos="fade-up" data-aos-duration="3400">
             <img src="img/l_1.png" alt="In Office">
         </div>
 
-        <div class="abt__2">
-            <div class="title" id="bar">
+        <div class="abt__2" data-aos="fade-up" data-aos-duration="3400">
+            <div class="title" id="bar" data-aos="fade-up" data-aos-duration="3400">
                 <h2 class="sub__title">About Us</h2>
             </div>
 
@@ -145,8 +147,9 @@
 
             <!-- Design vision section -->
             <div class="abt__list__par">
-                <a target="_blank" href="#" class="sp_link">Read more <i class="icofont-long-arrow-right"></i></a>
+                <a href="about-us" class="sp_link">Read more <i class="icofont-long-arrow-right"></i></a>
             </div>
+        </div>
 </section>
 <!-- ==================== END ABOUT US SECTION ======================== -->
 
@@ -154,12 +157,12 @@
 <!-- ==================== VALUES SECTION ======================== -->
 <section class="bg_main ">
     <div class="fg_center team">
-        <div class="title">
+        <div class="title" data-aos="fade-up" data-aos-duration="3400">
             <h2 class="sub__title tm__align">Our Core Values</h2>
         </div>
 
         <div class="team__grid">
-            <div class="boxes">
+            <div class="boxes" data-aos="fade-up" data-aos-duration="3400">
                 
             <!-- BOX 1 -->
                 <div class="grid__box bx_1">
@@ -225,7 +228,7 @@
 
             </div>
 
-            <div class="grid_image">
+            <div class="grid_image" data-aos="fade-up" data-aos-duration="3400">
                 <img src="img/l_3.png" alt="Woman Takes Note">
             </div>
         </div>
@@ -238,15 +241,15 @@
 <section class="bg_main ">
     <div class="fg_center sponsor">
             <div class="title">
-                <h2 class="sub__title">We Partner with the best Laboratories</h2>
+                <h2 class="sub__title" data-aos="fade-up" data-aos-duration="3400">We Partner with the best Laboratories</h2>
             </div>
 
             <div class="sp__par">
-                <p class="p_sp">
+                <p class="p_sp" data-aos="fade-up" data-aos-duration="3400">
                     100% Accreditation centres
                 </p>
 
-                <div class="sp__btn">
+                <div class="sp__btn" data-aos="fade-up" data-aos-duration="3400">
                     <img src="img/b_2.png">
                     <img src="img/b_1.png">
                 </div>
@@ -259,11 +262,11 @@
 <section class="bg_main comm__bg__cl">
     <div class="fg_center comm">
         <div class="comm__1">
-            <div class="title">
+            <div class="title" data-aos="fade-up" data-aos-duration="3400">
                 <h2 class="sub__title wht__title">Welcome to our DNA centres in Nigeria</h2>
             </div>
 
-            <p class="comm__txt">
+            <p class="comm__txt" data-aos="fade-up" data-aos-duration="3400">
                 Lynx DNA Laboratory offers care across a range of 
                 specialty medical and DNA services. This is a first of its kind 
                 facility in Nigeria and will deliver high quality services in 
@@ -308,12 +311,12 @@
 <!-- ==================== PARTNER SECTION ======================== -->
 <section class="bg_main ">
     <div class="fg_center sponsor">
-            <div class="title">
+            <div class="title" data-aos="fade-up" data-aos-duration="3400">
                 <h2 class="sub__title">Testimonials</h2>
             </div>
 
             <div class="sp__par">
-                <p class="p_sp">
+                <p class="p_sp" data-aos="fade-up" data-aos-duration="3400">
                     Our Happy Clients
                 </p>
 
@@ -395,16 +398,16 @@
 
 
 <!-- ==================== WORK SECTION ======================== -->
-<section class="bg_main ">
+<section class="bg_main">
     <div class="fg_center team">
-        <div class="title set_ht">
+        <div class="title set_ht" data-aos="fade-up" data-aos-duration="3400">
             <h2 class="sub__title tm__align change">How We Work!</h2>
             <p class="p_sp new_sp">
                 Kickstart your DNA Test with our three simple process
             </p>
         </div>
 
-        <div class="team__grid">
+        <div class="team__grid" data-aos="fade-up" data-aos-duration="3400">
         <!-- BOX 1 -->
             <div class="grid__box bx_1">
                 
@@ -462,7 +465,7 @@
 <!-- ==================== BLOG US SECTION ======================== -->
 <section class="bg_main ">
     <div class="fg_center blog">
-        <div class="join__1">
+        <div class="join__1" data-aos="fade-up" data-aos-duration="3400">
             <div class="title">
                 <h2 class="sub__title">Blogposts & Health Tips</h2>
             </div>
@@ -473,46 +476,34 @@
             </p>
         </div>
 
-        <div class="blog_grid">
+        <div class="blog_grid" data-aos="fade-up" data-aos-duration="3400">
             
+            <?php
+                $post = getAllPost($conn, 3);
+                foreach ($post as $value) 
+                {
+                
+            ?>
+
             <!-- 1 box -->
             <div class="blg_bx">
-                <div class="blg_img">
-                    <img src="img/r_1.png" alt="">
+                <div class="blg_img"style="height: 250px;overflow:hidden">
+                    <img style="width:100%;height:100%;" src="data:image/jpeg;base64,<?php echo getPostImageById($conn, $value['id'])?>" />
                 </div>
                 <div class="blg_set">
-                    <h3 class="blg_h3">BLOG</h3>
+                    <h3 class="blg_h3">
+                        <a href="post-details?id=<?php echo $value['id']?>">
+                            <?php echo $value['title']?>
+                        </a>
+                    </h3>
+
                     <p class="blg_txt">
-                        Everything about DNA Test
+                        <?php echo substr(strip_tags($value['content']), 0, 250). "..."?>
                     </p>
                 </div>
             </div>
 
-            <!-- 2 box -->
-            <div class="blg_bx">
-                <div class="blg_img">
-                    <img src="img/r_2.png" alt="">
-                </div>
-                <div class="blg_set">
-                    <h3 class="blg_h3">BLOG</h3>
-                    <p class="blg_txt">
-                        Everything about DNA Test
-                    </p>
-                </div>
-            </div>
-
-            <!-- 3 box -->
-            <div class="blg_bx">
-                <div class="blg_img">
-                    <img src="img/r_3.png" alt="">
-                </div>
-                <div class="blg_set">
-                    <h3 class="blg_h3">BLOG</h3>
-                    <p class="blg_txt">
-                        Everything about DNA Test
-                    </p>
-                </div>
-            </div>
+            <?php };?>
 
         </div>
 
