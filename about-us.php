@@ -14,7 +14,7 @@
 
 <!-- ABOUT US HEROE SECTION -->
 <section class="bg_main" id="about_us">
-    <div class="fg_center about_us">
+    <div class="fg_center about_us" data-aos="fade-up" data-aos-duration="3000">
         <h1 class="abt_h1">About Us</h1>
     </div>
             
@@ -24,7 +24,7 @@
 <!-- WHO SECTION -->
 <section class="bg_main" id="who">
     <div class="fg_center who_sec">
-        <div class="abt_sec_1">
+        <div class="abt_sec_1"   data-aos="fade-up" data-aos-duration="3200">
             <div class="title">
                 <h2 class="sub__title">Who We Are!</h2>
             </div>
@@ -40,7 +40,7 @@
             </p>
         </div>
 
-        <div class="abt_sec_2">
+        <div class="abt_sec_2"   data-aos="fade-up" data-aos-duration="3200">
             <img src="img/m_3.png" alt="Doc image" class="img">
         </div>
        
@@ -54,11 +54,11 @@
 <section class="bg_main" id="what">
     <div class="fg_center wha_sect">
         
-        <div class="what_2 wht_left">
+        <div class="what_2 wht_left"   data-aos="fade-up" data-aos-duration="3200">
             <img src="img/m_1.png" alt="Doc image" class="img">
         </div>
 
-        <div class="what_1">
+        <div class="what_1"   data-aos="fade-up" data-aos-duration="3200">
             <div class="title">
                 <h2 class="sub__title title_right">What We Do!</h2>
             </div>
@@ -79,7 +79,7 @@
 <!-- HOW SECTION -->
 <section class="bg_main" id="who">
     <div class="fg_center who_sec">
-        <div class="abt_sec_1">
+        <div class="abt_sec_1"   data-aos="fade-up" data-aos-duration="3200">
             <div class="title">
                 <h2 class="sub__title">How We Do It!</h2>
             </div>
@@ -99,7 +99,7 @@
             </p>
         </div>
 
-        <div class="abt_sec_2">
+        <div class="abt_sec_2"   data-aos="fade-up" data-aos-duration="3200">
             <img src="img/m_2.png" alt="Doc image" class="img">
         </div>
        
@@ -112,11 +112,11 @@
 <section class="bg_main" id="what">
     <div class="fg_center wha_sect">
         
-        <div class="what_2 wht_left">
+        <div class="what_2 wht_left"   data-aos="fade-up" data-aos-duration="3200">
             <img src="img/l_2.png" alt="Doc image" class="img">
         </div>
 
-        <div class="what_1">
+        <div class="what_1"   data-aos="fade-up" data-aos-duration="3200">
             <div class="title">
                 <h2 class="sub__title title_right">Why Choose Us?</h2>
             </div>

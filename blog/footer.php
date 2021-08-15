@@ -8,8 +8,8 @@
             <div class="sec_ft">
 
                 <div class="ft_logo">
-                    <a href="index.php">
-                        <img src="../img/logo.png" alt="">
+                    <a href="../">
+                        <img src="../img/logo.png" alt="lynx logo">
                     </a>
                 </div>
 
@@ -44,16 +44,16 @@
 
                 <ul class="ft__01">
                     <li class="ft__list active_2">
-                        <a href="#" class="inv_1">Home</a>
+                        <a href="../" class="inv_1">Home</a>
                     </li> 
                     <li class="ft__list">
-                        <a href="#" class="inv_1">Our Services</a>
+                        <a href="../dna-service" class="inv_1">Our Services</a>
                     </li> 
                     <li class="ft__list">
-                        <a href="#" class="inv_1">About us</a>
+                        <a href="../about-us" class="inv_1">About us</a>
                     </li> 
                     <li class="ft__list">
-                        <a href="#" class="inv_1">FAQS</a>
+                        <a href="../faqs" class="inv_1">FAQS</a>
                     </li> 
                 </ul>
 
@@ -64,13 +64,13 @@
 
                 <ul class="ft__01">
                     <li class="ft__list active_2">
-                        <a href="#" class="inv_1">Collection Centres</a>
+                        <a href="../collection-centers" class="inv_1">Collection Centres</a>
                     </li> 
                     <li class="ft__list">
-                        <a href=".#" class="inv_1">Blog</a>
+                        <a href="../blog" class="inv_1">Blog</a>
                     </li> 
                     <li class="ft__list">
-                        <a href="#" class="inv_1">Contact Us</a>
+                        <a href="../contact" class="inv_1">Contact Us</a>
                     </li> 
                 </ul>
 
@@ -81,55 +81,62 @@
         <hr>
         
         <div class="ft_copy">
-            <h3 class="copy__1">© Copyright © Lynx Laboratories 2021. All rights reserved. <a href="#" class="cct">Collection Centre</a></h3>
+            <h3 class="copy__1">© Copyright © Lynx Laboratories 2021. All rights reserved. <a href="../collection-centers" class="cct">Collection Centre</a></h3>
         </div>
 
+       
         <!-- MODALS SECTIONS -->
-        <div class="modals" id="mail_modal">
-            <div class="close" id='close'><i class='bx bx-x' ></i></div>
-            <form>
-                <p id="intro">Welcome to lynxlaboratories, how may we help you?..</p>
-                <div class="form_group">
-                    <input type="email" name="email" id="email" class="email" placeholder="Your email" required>
-                    
+        <div class="overlay" style="width:auto; height:auto" id="ovrlay">
+                <div class="modals" id="mail_modal">
+                
+                    <div class="close" id='close'><i class='bx bx-x' ></i></div>
+                    <form>
+                        <p id="intro">Welcome to lynxlaboratories, how may we help you?..</p>
+                        <div class="form_group">
+                            <input type="email" name="email" id="email" class="email" placeholder="Your email" required>
+                            
+                        </div>
+                        <span id="name_error" style="font-size:12px"></span>
+                        <div class="form_group">
+                            <input type="number" name="phone" id="phone" class="phone" placeholder="Your phone number" required>
+                            
+                        </div>
+                        <span id="num_error" style="font-size:12px"></span>
+                        <div class="form_group">
+                        <textarea name="message" id="message" placeholder="Message..." required></textarea>
+                        
+                        </div>
+                        <span id="msg_error" style="font-size:12px"></span>
+                        <input type="submit" value="Send message" name="send" onclick="sendRequest()">
+                        <div class="response" id="respond">this is the message</div>
+                    </form>
+
                 </div>
-                <span id="name_error" style="font-size:12px"></span>
-                <div class="form_group">
-                    <input type="number" name="phone" id="phone" class="phone" placeholder="Your phone number" required>
-                    
-                </div>
-                <span id="num_error" style="font-size:12px"></span>
-                <div class="form_group">
-                   <textarea name="message" id="message" placeholder="Message..." required></textarea>
-                  
-                </div>
-                <span id="msg_error" style="font-size:12px"></span>
-                <input type="submit" value="Send message" name="send" onclick="sendRequest()">
-                <!-- <div class="response" id="respond">this is the message</div> -->
-            </form>
-        </div>
+        </div>   
         <!-- END OF MODALS SECTIONS -->
         <div class="modals_btn">
-            <a href="#" class="whtsap"> <i class="icofont-brand-whatsapp"></i></a>
-            <a href="#" class="mail" id="mail_icon"><i class='bx bx-mail-send' ></i> </a>
+            <a href="#" class="whtsap"><i class="icofont-brand-whatsapp"></i> </a>
+            <a class="mail" id="mail_icon"><i class='bx bx-mail-send' ></i> </a>
         </div>
-
-        <div class="top__btn">
-            <a href="#" class="top"> <i class='bx bx-chevron-up' ></i></a>
-        </div>
-        
-    </div>
-
         <script>
             let modal = document.getElementById('mail_modal');
             let mail = document.getElementById('mail_icon');
             let close = document.getElementById('close');
+            // let ovrlay = document.getElementById('ovrlay');
+            let ovrlay = document.querySelector('.overlay');
+
+            ovrlay.addEventListener('click', function () {
+                // mail.style.display = "flex";
+                // ovrlay.style.display = "none";
+                // modal.classList.remove('pop_up');
+            })
 
             close.addEventListener('click', function () {
                 if (modal.classList.contains('pop_up')) 
                 {
                     modal.classList.remove('pop_up');
                     mail.style.display = "flex";
+                    ovrlay.style.display = "none";
                 }
                 else
                 {
@@ -139,27 +146,33 @@
             mail.addEventListener('click', function () {
                 modal.classList.toggle('pop_up');
                 mail.style.display = "none";
-               
+                ovrlay.style.display = "block";
                 
             })
 
 
         </script>
+        <div class="top__btn">
+            <a href="#" class="top"> <i class='bx bx-chevron-up' ></i></a>
+        </div>
+
+      
+    </div>
 </section>
 <!-- ==================== END FOOTER SECTION ======================== -->
+
+<script src="../js/main.js"></script>
+
 
 <script src="../splide/dist/js/splide.min.js"></script>
 <!-- ==================== JS Slider (Courosel) SECTION ======================== -->
 
-
-
-<script src="../js/main.js"></script>
-
 <!-- ======== MAIN ICON SCRIPT ========= -->
 <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
 
-<!-- ================ SCROLL EFFECT =============== -->
-<script src="https://unpkg.com/scrollreveal"></script>
+<!-- ================ SCROLL ANNIMATION =============== -->
+<script src="aos/dist/aos.js"></script>
+
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>

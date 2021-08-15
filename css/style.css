@@ -98,8 +98,8 @@ ul {
 
 .toggle {
     padding: 3px;
-    background-color: #55114B;
-    border-radius: 8px;
+    background-color: #4097D4;
+    border-radius: 4px;
     box-shadow: 0px 0px 8px #ccc;
     display: none;
 }
@@ -144,8 +144,9 @@ p {
 }
 
 .show {
-    left: 0px !important;
+    left: 0px!important;
 }
+
 
 /* =================== MEGA MENU ============ */
 .list_menu .mega_list > .list_2{
@@ -166,8 +167,8 @@ p {
     transition: .5s ease all;
 }
 
-.list_menu .mega_list:hover .list_2{
-    display: grid !important;
+.list_menu .mega_list:hover > #li{
+    display: grid;
 }
 .list_menu .mega_list > .list_2 .l_2{
     border-bottom: 2px solid #cccc;
@@ -192,7 +193,15 @@ p {
     border-bottom: none;
 }
 
+
+#close_menu
+{
+    display: none;
+}
 /* =================== END OF MEGA MENU ============ */
+
+
+  
 
 @media only screen and  (max-width: 768px){
      /* RESET NAV CODE */
@@ -203,28 +212,55 @@ p {
         justify-content: initial;
         align-items: initial;
     }
+   
+    *,
+    *::before,
+    *::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .list_menu .mega_list .maxHeight {
+        max-height: 100% !important;
+    }
     
   /* =================== MEGA MENU ============ */
-.list_menu .mega_list > .list_2{
-    width: initial;
-    max-width: initial;
-    height: initial;
-    padding: initial;
-    background: initial;
-    border: initial;
-    position: initial;
-    margin: initial;
-    left: initial;
-    top: initial;
-    z-index: initial;
-    display: initial;
-    grid-template-columns: initial;
-    box-shadow: initial;
-    transition: initial;
-    }
-    .list_menu .mega_list:hover > .list_2{
+    .list_menu .mega_list > .list_2{
+        width: initial;
+        max-width: initial;
+        height: initial;
+        padding: initial;
+        background: initial;
+        border: initial;
+        position: initial;
+        margin: initial;
+        left: initial;
+        top: initial;
+        z-index: initial;
         display: initial;
+        grid-template-columns: initial;
+        box-shadow: initial;
+        transition: initial;
+        /* display: unset; */
     }
+   
+    #close_menu
+    {
+        display: block;
+    }
+    #close_menu i
+    {
+        background-color: #4097D4;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+    }
+    .list_menu .mega_list .ach:hover > .list_2{
+        display: unset;
+    }
+ 
+    
     .list_menu .mega_list > .list_2 .l_2{
         border-bottom: initial;
         cursor: initial;
@@ -232,48 +268,88 @@ p {
         display: initial;
         justify-content: initial;
         align-items: initial;
+        height: unset;
     }
+  
     .list_menu .mega_list > .list_2 .l_2:hover{
         background: initial;
     }
     .list_menu .mega_list > .list_2 .l_2  .link__2{
         margin: initial;
-    
+        /* height: unset; */
     }
     .list_menu li {
         height: initial;
         margin: initial;
         transition: .3s ease all;
-        
+        width: unset;
+        height: unset;
+        vertical-align: unset;
+        display: unset;
+        justify-content: unset;
+        align-items: unset;
+        margin: unset;
     }
     .list_menu {
         width: initial;
         height: initial;
     }
 
-    .nav {
-        height: 70px;
-    }
-
+  
     /* CODE FOR RESPONSIVE SCREEN */
     .list_menu {
-        position: absolute;
-        width: 100%;
-        height: auto;
-        top: 70px;
-        left: -100%;
-        background: #f1f1ff;
-        transition: .5s ease all;
-        z-index: 9999;
-        margin: auto;
-        margin: 0px;
+      position: fixed;
+      width: 100%;
+      left: -160%;
+      top: 0px;
+      height: 100%;
+      max-height: 100vh;
+      background: white;
+      z-index: 9999;
+      flex-direction: column;
+      display: flex;
+      padding-top: 80px;
+      overflow-y: scroll;
+      transition: .5s ease left;
     }
     
+    .list_menu li {
+        flex-direction: column;
+        max-width: 100%;
+        border-bottom: 1px solid #ddd;
+    } 
+    .list_menu li a{
+        line-height: 50px;
+        padding-left: 20px;
+    }
+    .list_menu .mega_list > ul{
+        position: relative;
+        max-width: 100%;
+        left: 0px;
+        width: 100%;
+        display: block !important;
+        max-height: 0px;
+        overflow: hidden;
+        transition: .5s max-height ease !important;
+    }
+   
+    .list_menu li ul li{
+        width: 100%;
+        float: left;
+        border: 1px solid #ddd;
+    }
+
+    .list_menu li ul li a{
+        line-height: 50px;
+        padding-left: 40px;
+    }
+    .list_menu .active li ul li a{
+        color: none !important;
+    }
     .toggle {
         display: flex;
-        font-size: 36px;
         position: absolute;
-        right: 0px;
+        right: 15px;
         cursor: pointer;
     }
     .toggle i{
@@ -281,20 +357,14 @@ p {
         font-size: 33px;
     }
 
-    .list_menu li {
-        margin: 45px 20px;
-        text-align: left;
-    }
-    .join_btn {
-        max-width: 25%;
-        margin: 0px 0px 50px 20px;
-        padding: 0px;
+    .close_menu{
+        width: 100%;
+        text-align: right;
+        font-size: 35px;
+        color: #333;
+        padding-right: 20px;
     }
 
-    .join_btn a{
-        font-size: 14px;
-    }
-   
 }
 
 /*  ==================== HEROE SECTION ========================  */
@@ -399,7 +469,7 @@ p {
 }
 .abt__1 img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 
@@ -480,7 +550,7 @@ p {
 /* <!-- ==================== COMMUNITY SECTION ======================== --> */
 
 .comm__bg__cl{
-    background: #55114B;
+    background: #4097D4;
     margin: 150px 0px;
 }
 
@@ -738,7 +808,7 @@ p {
 /* <!-- ==================== BLOG SECTION ======================== --> */
 .blog {
     max-width: auto;
-    margin: 300px auto;
+    margin: 100px auto;
 }
 
 .join__1 {
@@ -826,11 +896,11 @@ p {
 /* <!-- ==================== FOOTER SECTION ======================== --> */
 
 .footer {
-    padding: 70px 0px!important;
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 .ft__bg {
     background: #fff;
-    /* background: blueviolet; */
 }
 .ft_logo a{
     width: auto !important;
@@ -953,6 +1023,7 @@ p {
     transition: .4s ease-in;
     display: none;
     z-index: 999;
+    padding: 10px;
 }
 .close {
     max-width: 100%;
@@ -1072,12 +1143,38 @@ input[type=submit]:hover{
     border-radius: 5px;
     padding: 15px 20px;
     text-align: left;
-    font-size: 12px;
-    display: flex;
+    font-size: 14px;
+    display: none;
     margin-top: 10px;
     transition: .5s ease all;
 }
+.response {
+    display: block;
+}
 
+#err {
+    max-width: 100%;
+    font-size: 14px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin: 1px auto 30px auto; 
+    display: block;
+}
+#ag_err {
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-align:left;
+    display: none;
+}
+#ct_err {
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-align:left;
+    display: none;
+}
 .modals_btn{
     width: auto;
     height: auto;
@@ -1086,7 +1183,8 @@ input[type=submit]:hover{
     row-gap: 20px;
     position: fixed;
     bottom: 11px;
-    right: 120px;
+    z-index: 999;
+    right: 60px;
 }
 .modals_btn a {
     width: 50px;
@@ -1232,20 +1330,22 @@ input[type=submit]:hover{
 }
 
 .main_ctr {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     margin: 200px auto;
+    row-gap: 40px;
     column-gap: 40px;
 }
 
 .ctr_1 {
-    width: 300px;
+    width: auto;
     height: auto;
 }
 .set_1_ctr {
     display: flex;
-    column-gap: 40px;
+    column-gap: 16px;
     margin-bottom: 20px;
 }
 .set_1_ctr > i{
@@ -1376,7 +1476,7 @@ input[type=submit]:hover{
 }
 .text_dn > h3 {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     color: #4097D4;
@@ -1413,7 +1513,7 @@ input[type=submit]:hover{
 }
 .mart_text_1 > h3 {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     color: #4097D4;
@@ -1442,7 +1542,7 @@ input[type=submit]:hover{
 
 .sib_1 > h3{
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     color: #4097D4;
@@ -1576,6 +1676,8 @@ input[type=submit]:hover{
     line-height: 28px;
     color: #1A1A1A;
     text-align: center;
+    margin: auto;
+    width: 50%;
 }
 
 .main_from {
@@ -1595,10 +1697,10 @@ form > label {
     text-align: left;
     color: #1A1A1A;
 }
+
 #frame{
     width: 100%;
     height: 500px;
-    background: red;
 }
 /* <!-- ==================== END OF CONTACT US SECTION ======================== --> */
 
@@ -1623,3 +1725,79 @@ form > label {
 }
 
 /* <!-- ==================== END OF BOOKINGS  SECTION ======================== --> */
+
+/* <!-- ==================== FAQ  SECTION ======================== --> */
+.fq_ctre {
+    width: 100%;
+    height: 420px;
+    background-position: center;
+    background-image: url(../img/faqs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqs{
+    padding: 100px 0px;
+}
+
+.fq__center {
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    margin: 100px auto;
+}
+
+.faqs__1 {
+    width: 100%;
+    height: auto;
+}
+
+.main__menu{
+    margin: auto 100px;
+}
+
+.menu__1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.menu__1 i{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    color: #000000;
+    transition: .5s ease forwards;
+}
+.sub__menu__1 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 38px;
+    color: #1A1A1A;
+    padding: 10px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: .4s ease height;
+}
+
+.show_menu {
+    max-height: 100% !important;
+}
+
+.menu__1 i:nth-child(2){
+    display: none;
+}
+/* <!-- ==================== END OF FAQ  SECTION ======================== --> */

@@ -1,3 +1,5 @@
+<?php session_start()?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +15,12 @@
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="blog/assets/css/fontawesome.css">
     <link rel="stylesheet" href="blog/assets/css/templatemo-stand-blog.css">
+
+      <!-- sweetAlert2 CSS FILE -->
+      <link rel="stylesheet" href="packed/plugins/sweetalert2/sweetalert2.min.css">
+
+    <!-- Aninmation CSS Files -->
+    <link rel="stylesheet" href="aos/dist/aos.css">
 
     <!--========== SLIDER CSS ===== -->
     <link rel="stylesheet" href="splide/dist/css/splide.min.css">
