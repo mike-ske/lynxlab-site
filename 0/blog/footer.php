@@ -20,7 +20,7 @@
                     </h3>
 
                     <ul class="ft__01">
-                        <li class="ft__list" style="display:flex;align-items:center">
+                       <li class="ft__list" style="display:flex;align-items:center;justify-content:left">
                             <i class="icofont-phone-circle"></i>+2349010001990, +2349010001992
                         </li> 
                         <li class="ft__list" style="display:flex;align-items:center">
@@ -29,9 +29,9 @@
                        
                         <li class="ft__list">
                             <div class="ftIcons">
-                                <a href="#" class="ic_1"><i class='bx bxl-facebook-circle' ></i></a>
-                                <a href="#" class="ic_1"><i class='bx bxl-twitter' ></i></a>
-                                <a href="#" class="ic_1"><i class='bx bxl-instagram' ></i></a>
+                                <a href="https://web.facebook.com/LYNXDNA/?_rdc=1&_rdr" target="_blank" class="ic_1"><i class='bx bxl-facebook-circle' ></i></a>
+                                <a href="https://twitter.com/DnaLynx?s=09" target="_blank" class="ic_1"><i class='bx bxl-twitter' ></i></a>
+                                <a href="https://instagram.com/lynxdna?utm_medium=copy_link" target="_blank" class="ic_1"><i class='bx bxl-instagram' ></i></a>
                                 <p class="ic_txt">lynxdna</p>
                             </div>
                         </li> 
@@ -40,7 +40,7 @@
             </div>
             
             <div class="ft_about">
-                <h3 class="in_text">RRELATED LINKS</h3>
+                <h3 class="in_text">RELATED LINKS</h3>
 
                 <ul class="ft__01">
                     <li class="ft__list active_2">
@@ -89,7 +89,12 @@
         <div class="overlay" style="width:auto; height:auto" id="ovrlay">
                 <div class="modals" id="mail_modal">
                 
-                    <div class="close" id='close'><i class='bx bx-x' ></i></div>
+                    <div class="close" id='close'>
+                        <div id="support">
+                            <img src="img/support.jpeg" alt="">
+                        </div>
+                        <i class='bx bx-x' ></i>
+                    </div>
                     <form>
                         <p id="intro">Welcome to lynxlaboratories, how may we help you?..</p>
                         <div class="form_group">

@@ -92,7 +92,12 @@
             <div class="overlay" style="width:auto; height:auto" id="ovrlay">
                 <div class="modals" id="mail_modal">
                 
-                    <div class="close" id='close'><i class='bx bx-x' ></i></div>
+                    <div class="close" id='close'>
+                        <div id="support">
+                            <img src="img/support.jpeg" alt="">
+                        </div>
+                        <i class='bx bx-x' ></i>
+                    </div>
                     
                     <form id="mail_msg" method="POST" action="inc/manage_mail">
                         <p id="intro">Welcome to lynxlaboratories, how may we help you?..</p>
