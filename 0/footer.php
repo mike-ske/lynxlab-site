@@ -20,7 +20,7 @@
                     </h3>
 
                     <ul class="ft__01">
-                        <li class="ft__list" style="display:flex;align-items:center">
+                        <li class="ft__list" style="display:flex;align-items:center;justify-content:left">
                             <i class="icofont-phone-circle"></i>+2349010001990, +2349010001992
                         </li> 
                         <li class="ft__list" style="display:flex;align-items:center">
@@ -29,9 +29,9 @@
                        
                         <li class="ft__list">
                             <div class="ftIcons">
-                                <a href="#" class="ic_1"><i class='bx bxl-facebook-circle' ></i></a>
-                                <a href="#" class="ic_1"><i class='bx bxl-twitter' ></i></a>
-                                <a href="#" class="ic_1"><i class='bx bxl-instagram' ></i></a>
+                                <a href="https://web.facebook.com/LYNXDNA/?_rdc=1&_rdr" target="_blank" class="ic_1"><i class='bx bxl-facebook-circle' ></i></a>
+                                <a href="https://twitter.com/DnaLynx?s=09" target="_blank" class="ic_1"><i class='bx bxl-twitter' ></i></a>
+                                <a href="https://instagram.com/lynxdna?utm_medium=copy_link" target="_blank" class="ic_1"><i class='bx bxl-instagram' ></i></a>
                                 <p class="ic_txt">lynxdna</p>
                             </div>
                         </li> 
@@ -124,7 +124,7 @@
             </div>   
         <!-- END OF MODALS SECTIONS -->
         <div class="modals_btn">
-            <a href="https://wa.me/<+2349010001990>" target="_blank" class="whtsap"><i class="icofont-brand-whatsapp"></i> </a>
+            <a href="https://api.whatsapp.com/send?phone=2349010001992" target="_blank" class="whtsap"><i class="icofont-brand-whatsapp"></i> </a>
             <a class="mail" id="mail_icon"><i class='bx bx-mail-send' ></i> </a>
         </div>
         <script>

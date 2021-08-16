@@ -165,7 +165,7 @@ if (isset($_POST['send']))
             echo  "<script>alert('Message has been sent! Check your email for confirmation. Thank you for contacting us')</script>";
 
             // Insert data into DATABASE
-            $sql = "INSERT INTO mails(email, phone, message) VALUES ('$email', '$phone', '$message')";
+            $sql = "INSERT INTO mails(`email`, `phone`, `message`) VALUES ('$email', '$phone', '$message')";
             $query = mysqli_query($conn, $sql) or die("Failed to insert to database!" . mysqli_error($conn));
             $mail_id = mysqli_insert_id($conn);
 
@@ -195,8 +195,9 @@ if (isset($_POST['send']))
         }
         else 
         {
-            echo  "<script>alert('Message could not be sent. Check your internet connection')</script>";
-           
+            // echo  "<script>alert('Message could not be sent. Check your internet connection')</script>";
+            header("location: ./0/");  
+            return false; 
         }
         // ========== END OF PHP MAILER TO SEND EMAILS =================
 

@@ -165,7 +165,7 @@ if (isset($_POST['send']))
 
          if ($mail->send()) 
          {
-            
+            echo 'session_name';
             // Insert data into DATABASE
             $sql = "INSERT INTO bookings(full_name, email, message) VALUES ('$name', '$email', '$message')";
             $query = mysqli_query($conn, $sql) or die("Failed to insert to database!" . mysqli_error($conn));
@@ -181,7 +181,8 @@ if (isset($_POST['send']))
                 $_SESSION['status'] = "Message has been sent! Check your email for confirmation. Thank you for contacting lynxlaboratories";
                 $_SESSION['status_title'] = "Success";
                 $_SESSION['status_code'] = "success";
-                header("location: ../contact.php");    
+                header("location: ../contact.php");   
+                
             }
             else 
             {

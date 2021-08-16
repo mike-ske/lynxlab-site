@@ -564,7 +564,7 @@ p {
 .wht__title {
     color: #fff !important;
     font-style: normal;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
     font-size: 40px !important;
     line-height: 49px !important;
   
@@ -716,11 +716,12 @@ p {
 .team {
     max-width: auto;
     margin: 300px auto;
+    margin-top: 150px;
 }
 
 .tm__align {
     text-align: center;
-    margin: 200px 0px;
+    margin: 150px 0px;
 }
 .team__grid,
 .boxes
@@ -992,7 +993,7 @@ p {
     text-align: center;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
     color: #333;
     display: flex;
     cursor: pointer;
@@ -1060,7 +1061,7 @@ input[type=text]
 {
     width: 100%;
     height: auto;
-    padding: 6px 15px 6px 15px;
+    padding: 10px 15px 10px 15px;
     background: rgba(238, 236, 234, 0.4);
     outline: none;
     border: none;
@@ -1096,6 +1097,9 @@ textarea::placeholder
     font-weight: 400;
 }
 
+.blg_set {
+    margin-top: 20px;
+}
 textarea
 {   margin-bottom: 20px;
     padding: 6px 15px 6px 15px;
@@ -1103,7 +1107,7 @@ textarea
     width: 100%;
     border: none;
     outline: none;
-    height: 140px;
+    height: 400px;
     background: rgba(238, 236, 234, 0.4);
     border-radius: 10px;
     color: #979797;
@@ -1682,7 +1686,7 @@ input[type=submit]:hover{
 
 .main_from {
     margin: 70px auto;
-    width: 400px;
+    width: 80%;
     height: auto;
 }
 form {
