@@ -110,7 +110,7 @@
 
                         
                         <div class="form_group">
-                        <textarea name="message" class="message_1" id="message" placeholder="Message..."></textarea>
+                        <textarea name="message" style="height: 150px;" class="message_1" id="message" placeholder="Message..."></textarea>
                         
                         </div>
                         <span id="ct_err" class="msg_er"></span>
