@@ -196,7 +196,7 @@ if (isset($_POST['send']))
         else 
         {
             // echo  "<script>alert('Message could not be sent. Check your internet connection')</script>";
-            header("location: ./0/");  
+            header("location: ../");  
             return false; 
         }
         // ========== END OF PHP MAILER TO SEND EMAILS =================

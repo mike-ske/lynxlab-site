@@ -165,7 +165,6 @@ if (isset($_POST['send']))
 
          if ($mail->send()) 
          {
-            echo 'session_name';
             // Insert data into DATABASE
             $sql = "INSERT INTO bookings(full_name, email, message) VALUES ('$name', '$email', '$message')";
             $query = mysqli_query($conn, $sql) or die("Failed to insert to database!" . mysqli_error($conn));
