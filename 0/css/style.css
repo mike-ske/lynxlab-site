@@ -1510,10 +1510,11 @@ input[type=submit]:hover{
 
 .mart_img > img{
     border-radius: 50px;
+    width: 100%;
 }
 .mart_text_1 {
     margin-top: 20px;
-    text-align: right;
+    text-align: left;
 }
 .mart_text_1 > h3 {
     font-style: normal;
@@ -1551,7 +1552,7 @@ input[type=submit]:hover{
     line-height: 28px;
     color: #4097D4;
     margin: 20px auto;
-    text-align: left;
+    text-align: right;
 }
 
 .sib_1 > p{
@@ -1560,7 +1561,7 @@ input[type=submit]:hover{
     font-size: 15px;
     line-height: 28px;
     color: #1A1A1A;
-    text-align: left;
+    text-align: right;
 }
 
 .sib_2 > img{

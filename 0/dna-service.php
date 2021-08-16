@@ -94,7 +94,7 @@
             <img src="img/t2.png" alt="Pregnancy">
         </div>
 
-        <div class="mart_text_1">
+        <div class="mart_text_1" style="text-align: right;">
             <h3 class="mt_h1">Maternity DNA Test in Nigeria</h3>
             <p class="nt_bdy">
                 Maternity DNA testing determines whether the tested woman 
@@ -117,10 +117,6 @@
 <section class="bg_main" id="mart_centres">
     <div class="fg_center maternity" id="immigration">
       
-        <div class="mart_img">
-            <img src="img/t_8.png" alt="Pregnancy">
-        </div>
-
         <div class="mart_text_1">
             <h3 class="mt_h1">Immigration DNA Test</h3>
             <p class="nt_bdy">
@@ -142,6 +138,10 @@
             </p>
         </div>
 
+        <div class="mart_img">
+            <img src="img/t_8.png" alt="Pregnancy">
+        </div>
+
     </div>
 </section>
 <!-- END OF MARTERNITY SECTION -->
@@ -150,6 +150,11 @@
 <!-- SIBLINGS SECTION -->
 <section class="bg_main" id="siblings">
     <div class="fg_center siblings" id="sib_test">
+        
+        <div class="sib_2">
+            <img src="img/t_3.png" alt="">
+        </div>
+
         <div class="sib_1">
             <h3 class="sib_txt">Siblingship DNA Test/Sibship DNA Test</h3>
             <p class="sib_bdy">
@@ -166,9 +171,6 @@
             </p>
         </div>
 
-        <div class="sib_2">
-            <img src="img/t_3.png" alt="">
-        </div>
     </div>
 </section>
 <!-- END OF SIBLINGS SECTION -->
@@ -177,10 +179,6 @@
 <section class="bg_main" id="mart_centres">
     <div class="fg_center maternity" id="fam_test">
       
-        <div class="mart_img">
-            <img src="img/t_4.png" alt="Pregnancy">
-        </div>
-
         <div class="mart_text_1">
             <h3 class="mt_h1">Family Reconstruction DNA Test</h3>
             <p class="nt_bdy">
@@ -196,6 +194,10 @@
             </p>
         </div>
 
+        <div class="mart_img">
+            <img src="img/t_4.png" alt="Pregnancy">
+        </div>
+
     </div>
 </section>
 <!-- END OF RECONSTRUCTION SECTION -->
@@ -205,6 +207,10 @@
 <section class="bg_main" id="mart_centres">
     <div class="fg_center maternity" id="chrome_test">
       
+        <div class="mart_img">
+            <img src="img/t_5.png" alt="Pregnancy">
+        </div>
+
         <div class="mart_text_1 sib_1">
             <h3 class="mt_h1">Y chromosome test (inY-STR)</h3>
             <p class="nt_bdy">
@@ -225,10 +231,6 @@
             </p>
         </div>
 
-        <div class="mart_img">
-            <img src="img/t_5.png" alt="Pregnancy">
-        </div>
-
     </div>
 </section>
 <!-- END OF CHROMOSOME SECTION -->
@@ -237,10 +239,6 @@
 <section class="bg_main" id="mart_centres">
     <div class="fg_center maternity" id="avun_test">
       
-        <div class="mart_img">
-            <img src="img/t_6.png" alt="Pregnancy">
-        </div>
-
         <div class="mart_text_1">
             <h3 class="mt_h1">Avuncular DNA Test</h3>
             <p class="nt_bdy">
@@ -258,6 +256,10 @@
             </p>
         </div>
 
+        <div class="mart_img">
+            <img src="img/t_6.png" alt="Pregnancy">
+        </div>
+
     </div>
 </section>
 <!-- END OF AVUNOCULAR SECTION -->
@@ -267,6 +269,10 @@
 <section class="bg_main" id="mart_centres">
     <div class="fg_center maternity" id="bank_test">
       
+        <div class="mart_img">
+            <img src="img/t_7.png" alt="Pregnancy">
+        </div>
+
         <div class="mart_text_1 sib_1">
             <h3 class="mt_h1">DNA banking</h3>
             <p class="nt_bdy">
@@ -284,10 +290,6 @@
             </p>
         </div>
 
-        <div class="mart_img">
-            <img src="img/t_7.png" alt="Pregnancy">
-        </div>
-
     </div>
 </section>
 <!-- END OF BANK SECTION -->
@@ -297,10 +299,6 @@
 <section class="bg_main" id="mart_centres">
     <div class="fg_center maternity" id="twin_test">
       
-        <div class="mart_img">
-            <img src="img/t_6.png" alt="Pregnancy">
-        </div>
-
         <div class="mart_text_1">
             <h3 class="mt_h1">Twin Zygosity Test</h3>
             <p class="nt_bdy">
@@ -317,6 +315,10 @@
             </p>
         </div>
 
+        <div class="mart_img">
+            <img src="img/Twin zygosity.jpeg" alt="Pregnancy">
+        </div>
+
     </div>
 </section>
 <!-- END OF TWIN ZYGOTY SECTION -->
@@ -325,6 +327,10 @@
 <section class="bg_main" id="mart_centres">
     <div class="fg_center maternity" id="foren_test">
       
+        <div class="mart_img">
+            <img src="img/t_7.png" alt="Pregnancy">
+        </div>
+
         <div class="mart_text_1 sib_1">
             <h3 class="mt_h1">Forensic DNA Services</h3>
             <p class="nt_bdy">
@@ -350,10 +356,6 @@
             </p>
         </div>
 
-        <div class="mart_img">
-            <img src="img/t_7.png" alt="Pregnancy">
-        </div>
-
     </div>
 </section>
 <!-- END OF FORENSIC SERVICE SECTION -->
@@ -364,10 +366,6 @@
 <section class="bg_main" id="mart_centres">
     <div class="fg_center maternity" id="grandp_test">
       
-        <div class="mart_img">
-            <img src="img/t_6.png" alt="Pregnancy">
-        </div>
-
         <div class="mart_text_1">
             <h3 class="mt_h1">Grandparent DNA Test</h3>
             <p class="nt_bdy">
@@ -381,6 +379,10 @@
             </p>
         </div>
 
+        <div class="mart_img">
+            <img src="img/Grandparent DNA.jpeg" alt="Pregnancy">
+        </div>
+
     </div>
 </section>
 <!-- END OF TWIN Grand-PA TEST SECTION -->
@@ -390,6 +392,10 @@
 <section class="bg_main" id="mart_centres">
     <div class="fg_center maternity" id="mt_test">
       
+        <div class="mart_img">
+            <img src="img/Mt DAN test.jpeg" alt="Pregnancy">
+        </div>
+
         <div class="mart_text_1 sib_1">
             <h3 class="mt_h1">Mt DNA Test</h3>
             <p class="nt_bdy">
@@ -401,14 +407,96 @@
             </p>
         </div>
 
-        <div class="mart_img">
-            <img src="img/t_7.png" alt="Pregnancy">
-        </div>
-
     </div>
 </section>
 <!-- END OF FORENSIC SERVICE SECTION -->
 
+<!-- TWIN Grand-PA TEST SECTION -->
+<section class="bg_main" id="mart_centres">
+    <div class="fg_center maternity" id="pt_test">
+      
+        <div class="mart_text_1">
+            <h3 class="mt_h1">Non-invasive prenatal</h3>
+            <p class="nt_bdy">
+                Non-invasive prenatal is a screening test that analyses the feto-placental 
+                DNA that is present in the blood for abnormalities of specific
+                chromosomes such as Down syndrome (Trisomy 21), Edwards syndrome 
+                (Trisomy 18), and Patau syndrome (Trisomy 13) as well as conditions caused
+                by missing or extra X and Y chromosome (sex chromosome aneuploidy). 
+                NIPT looks for chromosomal abnormalities/ disorders that are caused by the presence
+                of an extra or missing copy of a chromosome by analyzing the cell free DNA from the 
+                placenta without harming the fetus
+            </p>
+        </div>
+
+        <div class="mart_img">
+            <img src="img/non-invasive test.jpeg" alt="Pregnancy">
+        </div>
+
+    </div>
+</section>
+<!-- END OF TWIN Grand-PA TEST SECTION -->
+
+
+<!-- TRISOMY SERVICE SECTION -->
+<section class="bg_main" id="mart_centres">
+    <div class="fg_center maternity" id="trisomy_test">
+      
+        <div class="mart_img">
+            <img src="img/t_7.png" alt="Pregnancy">
+        </div>
+
+        <div class="mart_text_1 sib_1">
+            <h3 class="mt_h1">TRISOMY</h3>
+            <p class="nt_bdy">
+           
+                These conditions are caused by the presence of an extra copy of a chromosome, 
+                instead of the usual pair. This additional genetic material can cause dysmorphic features, 
+                congenital malformation and different degrees of intellectual disability. Downs Syndrome (Trisomy 21), 
+                Edwards Syndrome (Trisomy 18), Patau syndrome (Trisomy 13), Trisomy 9, Trisomy 16 & Trisomy 22
+                <br><br>
+                <strong style="color:#4097D4;font-weight:400">SEX CHROMOSOMAL ABNORMALITIES</strong> <br><br>
+                Sex chromosome aneuploidy is abnormality of an X or Y chromosome, with the addition or loss
+                of an entire X or 
+                Y chromosome. Affected individuals have a well-established phenotype that 
+                can include physical abnormalities, learning delays and infertility. 
+                Sex Chromosome abnormalities include Turner syndrome (Monosomy X), 
+                Klinefelter syndrome (XXY), Triple X syndrome (XXX) & Jacobs syndrome (XYY)
+
+            </p>
+        </div>
+
+    </div>
+</section>
+<!-- END OF TRISOMY SERVICE SECTION -->
+
+
+<!-- MICRODELETION TEST SECTION -->
+<section class="bg_main" id="mart_centres">
+    <div class="fg_center maternity" id="micro_test">
+      
+        <div class="mart_text_1">
+            <h3 class="mt_h1">MICRODELETION AND DUPLICATION SYNDROMES</h3>
+            <p class="nt_bdy">
+            
+                Deletion and duplication syndromes are disorders characterised by
+                small deletions or duplications of a chromosomal segment. This  
+                determines which clinical features are manifested and how severe they are.
+                Clinical features may include developmental delays and intellectual disability, 
+                growth differences, behavioural problems, feeding difficulties, low muscle tone,
+                seizures, dysmorphic features. They include Cri du Chat (5p deletion) Syndrome, 
+                DiGeorge Type 1 and 2 Syndrome, Cat-eye Syndrome, Angelman Syndrome and Prader-Willi 
+                Syndrome and Jacobsen Syndrome.
+            </p>
+        </div>
+
+        <div class="mart_img">
+            <img src="img/t_6.png" alt="Pregnancy">
+        </div>
+
+    </div>
+</section>
+<!-- END OF MICRODELETION TEST SECTION -->
 
 <!-- modal section -->
 <?php require 'modal-section.php' ?>
