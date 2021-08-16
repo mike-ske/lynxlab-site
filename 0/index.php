@@ -491,7 +491,7 @@
                     <img style="width:100%;height:100%;" src="data:image/jpeg;base64,<?php echo getPostImageById($conn, $value['id'])?>" />
                 </div>
                 <div class="blg_set">
-                    <h3 class="blg_h3"  style="display: flex;align-items:center;justify-content:space-between">
+                    <h3 class="blg_h3" id="blg_h3" style="display: flex;align-items:center;justify-content:space-between">
                         <a href="post-details?id=<?php echo $value['id']?>" style="color: #4097d4;">
                             <?php echo $value['title']?>
                         </a>

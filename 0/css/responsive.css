@@ -10,7 +10,11 @@
         max-width: 100%;
         max-height: auto;
     }
-
+    #blg_h3 {
+        flex-direction: column; 
+        font-size: 14;
+        align-items: flex-start;
+    }
     .fg_center{
         max-height: auto;
         max-width: 100%;
