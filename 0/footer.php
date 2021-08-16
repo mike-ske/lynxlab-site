@@ -43,7 +43,7 @@
          
 
             <div class="ft_about">
-                <h3 class="in_text">RRELATED LINKS</h3>
+                <h3 class="in_text">RELATED LINKS</h3>
 
                 <ul class="ft__01">
                     <li class="ft__list active_2">
