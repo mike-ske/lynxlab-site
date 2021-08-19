@@ -4,6 +4,23 @@
     font-size: 14px;
     line-height: 23px;
 }
+
+.disable {
+    opacity: 0.3 !important;
+    background: white !important;
+    border: 2px solid #4097d4 !important;
+    color: #4097d4 !important;
+}
+
+.bx_1,
+.bx_2,
+.bx_3,
+.bx_4
+{
+    box-shadow: none !important;
+}
+
+
  @media only screen and  (max-width: 768px){ */
 
     .bg_main {
@@ -66,7 +83,7 @@
         font-size: 14px;
     }
     .logo a img {
-        width: 77px !important;
+        width: 90px !important;
         height: 25px !important;
     }
 
@@ -236,7 +253,7 @@
     }
 
     .ft_logo a img {
-        width: 77px;
+        width: 90px;
         height: 25px;
     }
 

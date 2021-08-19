@@ -54,23 +54,14 @@
                         <a href="dna-service#twin_test" class="link__2">Twin Zygosity Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="dna-service#mt_test" class="link__2">MtDNA TEST: Female Lineage Testing</a>
+                        <a href="dna-service#pt_test" class="link__2">Non-invasive Prenatal Screen Test</a>
                     </li>
-                    <li class="l_2">
-                        <a href="dna-service#bank_test" class="link__2">DNA Banking</a>
-                    </li>
-                    <li class="l_2">
-                        <a href="dna-service#twin_test" class="link__2">Twin Zygosity Test</a>
-                    </li>
-                    <li class="l_2">
-                        <a href="dna-service#pt_test" class="link__2">Non-invasive Prenatal </a>
-                    </li>
-                    <li class="l_2">
+                    <!-- <li class="l_2">
                         <a href="dna-service#trisomy_test" class="link__2">TRISOMY</a>
                     </li>
                     <li class="l_2">
                         <a href="dna-service#micro_test" class="link__2">MICRODELETION AND DUPLICATION SYNDROMES</a>
-                    </li>
+                    </li> -->
                 </ul>
             </li>
             <li class="list_1">

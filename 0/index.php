@@ -4,13 +4,13 @@
 <?php require 'inc/dbconn.php' ?>
 
 <!-- ***** Preloader Start ***** -->
-<div id="preloader">
+<!-- <div id="preloader">
     <div class="jumper">
         <div></div>
         <div></div>
         <div></div>
     </div>
-</div>  
+</div>   -->
 <!-- ***** Preloader End ***** -->
 
 
@@ -409,7 +409,7 @@
 
         <div class="team__grid" data-aos="fade-up" data-aos-duration="2000">
         <!-- BOX 1 -->
-            <div class="grid__box bx_1">
+            <div class="grid__box">
                 
                 <div class="in_bx auto_center"><img src="img/W_3.png" alt=""> </div>
                
@@ -424,7 +424,7 @@
                 </div>
             </div>
         <!-- BOX 2 -->
-            <div class="grid__box bx_2">
+            <div class="grid__box">
                 
                 <div class="in_bx auto_center"><img src="img/W_2.png" alt=""> </div>
                
@@ -438,7 +438,7 @@
  
                 </div>
             </div>
-            <div class="grid__box bx_3">
+            <div class="grid__box">
                 
                 <div class="in_bx auto_center"><img src="img/W_1.png" alt=""> </div>
                
@@ -495,7 +495,7 @@
                         <a href="post-details?id=<?php echo $value['id']?>" style="color: #4097d4;">
                             <?php echo $value['title']?>
                         </a>
-                        <div class="small" style="font-size: 80%;font-weight: 400;color: #b7b9cc"><?php echo convertDate($value['created_date'])?></div>
+                        <div class="small" style="font-size: 55%;font-weight: 400;color: #b7b9cc"><?php echo convertDate($value['created_date'])?></div>
                     </h3>
 
                     <p class="blg_txt">

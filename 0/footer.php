@@ -99,34 +99,35 @@
                         <i class='bx bx-x' ></i>
                     </div>
                     
-                    <form id="mail_msg" method="POST" action="inc/manage_mail">
+                    <form id="mail_msg" method="POST" action="inc/manage_mail" name="sendForm">
                         <p id="intro">Welcome to lynxlaboratories, how may we help you?..</p>
                         <div class="form_group">
-                            <input type="email" name="email" id="email" class="email_1" placeholder="Your email">
+                            <input type="email" name="email" id="email" class="email_1" placeholder="Your email" onkeyup="checkfield()">
                             
                         </div>
                         <span id="ct_err" class="mail_er"></span>
                         
                         <div class="form_group">
-                            <input type="number" name="phone" id="phone" class="phone_1" placeholder="Your phone number">
+                            <input type="number" name="phone" id="phone" class="phone_1" placeholder="Your phone number" onkeyup="checkfield()">
                             
                         </div>
                         <span id="ct_err" class="phone_er"></span>
 
                         
                         <div class="form_group">
-                        <textarea name="message" style="height: 150px;" class="message_1" id="message" placeholder="Message..."></textarea>
+                        <textarea name="message" style="height: 150px;" class="message_1" id="message" placeholder="Message..." onkeyup="checkfield()"></textarea>
                         
                         </div>
                         <span id="ct_err" class="msg_er"></span>
 
                         
-                        <input type="submit" value="Send message" name="send">
-                        <div class="response" id="respond">this is the message</div>
+                        <input type="submit" value="Send message" name="send" disabled="disabled" style="padding:0px" id="pick" >
                     </form>
 
                 </div>
-            </div>   
+            </div> 
+
+
         <!-- END OF MODALS SECTIONS -->
         <div class="modals_btn">
             <a href="https://api.whatsapp.com/send?phone=2349010001992" target="_blank" class="whtsap"><i class="icofont-brand-whatsapp"></i> </a>

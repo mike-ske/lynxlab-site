@@ -38,28 +38,28 @@
         
         <div class="main_from">
             
-            <form id="form" method="POST" action="inc/manage_contact">
+            <form id="form" method="POST" action="inc/manage_contact" name="form">
                 
                 <label for="fullname"  data-aos="fade-up" data-aos-duration="3200">Name</label>
                 <div class="form_group"  data-aos="fade-up" data-aos-duration="3200">
-                    <input type="text" name="fullname" id="fullname" class="fullname">
+                    <input type="text" name="fullname" id="fullname" class="fullname" onkeyup="checkform()">
                     
                 </div>
                 <span id="ct_err" class="f_er"></span>
 
                 <label for="email"  data-aos="fade-up" data-aos-duration="3200">Email</label>
                 <div class="form_group"  data-aos="fade-up" data-aos-duration="3200">
-                    <input type="email" name="email" id="email" class="email">
+                    <input type="email" name="email" id="email" class="email" onkeyup="checkform()">
                 </div>
                 <span id="ct_err" class="e_er"></span>
 
                 <label for="message"  data-aos="fade-up" data-aos-duration="3200">Message</label>
                 <div class="form_group"  data-aos="fade-up" data-aos-duration="3200">
-                    <textarea name="message" id="message" class="message"></textarea>
+                    <textarea name="message" id="message" class="message" onkeyup="checkform()"></textarea>
                 </div>
                 <span id="ct_err" class="m_er"></span>
 
-                <input type="submit" id="send" name="send" class="send_mssg" value="Send message" >
+                <input type="submit" id="output" name="send" class="send_mssg" value="Send message" disabled="disabled">
                 <div class="msg" id="respond">this is the message</div>
             </form>
         </div>
