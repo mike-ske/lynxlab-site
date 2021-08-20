@@ -339,6 +339,7 @@
     }
     .frm_txt > p {
         font-size: 14px;
+        width: 100% ;
     }
 
     .co_ctre > h1{
