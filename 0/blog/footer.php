@@ -87,37 +87,44 @@
        
         <!-- MODALS SECTIONS -->
         <div class="overlay" style="width:auto; height:auto" id="ovrlay">
-                <div class="modals" id="mail_modal">
-                
-                    <div class="close" id='close'>
-                        <div id="support">
-                            <img src="img/support.jpeg" alt="">
-                        </div>
-                        <i class='bx bx-x' ></i>
+            <div class="modals" id="mail_modal">
+            
+                <div class="close" id='close'>
+                    <div id="support">
+                        <img src="../img/support.jpeg" alt="">
                     </div>
-                    <form>
-                        <p id="intro">Welcome to lynxlaboratories, how may we help you?..</p>
-                        <div class="form_group">
-                            <input type="email" name="email" id="email" class="email" placeholder="Your email" required>
-                            
-                        </div>
-                        <span id="name_error" style="font-size:12px"></span>
-                        <div class="form_group">
-                            <input type="number" name="phone" id="phone" class="phone" placeholder="Your phone number" required>
-                            
-                        </div>
-                        <span id="num_error" style="font-size:12px"></span>
-                        <div class="form_group">
-                        <textarea name="message" id="message" placeholder="Message..." required></textarea>
-                        
-                        </div>
-                        <span id="msg_error" style="font-size:12px"></span>
-                        <input type="submit" value="Send message" name="send" onclick="sendRequest()">
-                        <div class="response" id="respond">this is the message</div>
-                    </form>
-
+                    <i class='bx bx-x' ></i>
                 </div>
-        </div>   
+                
+                <form id="mail_msg" method="POST" action="inc/manage_mail" name="sendForm">
+                    <p id="intro">Welcome to lynxlaboratories, how may we help you?..</p>
+                    <div class="form_group">
+                        <input type="email" name="email" id="email" class="email_1" placeholder="Your email" onkeyup="checkfield()">
+                        
+                    </div>
+                    <span id="ct_err" class="mail_er"></span>
+                    
+                    <div class="form_group">
+                        <input type="number" name="phone" id="phone" class="phone_1" placeholder="Your phone number" onkeyup="checkfield()">
+                        
+                    </div>
+                    <span id="ct_err" class="phone_er"></span>
+
+                    
+                    <div class="form_group">
+                    <textarea name="message" style="height: 150px;" class="message_1" id="message" placeholder="Message..." onkeyup="checkfield()"></textarea>
+                    
+                    </div>
+                    <span id="ct_err" class="msg_er"></span>
+
+                    
+                    <input type="submit" value="Send message" name="send" disabled="disabled" style="padding:0px" id="pick" >
+                </form>
+
+            </div>
+        </div> 
+
+
         <!-- END OF MODALS SECTIONS -->
         <div class="modals_btn">
             <a href="#" class="whtsap"><i class="icofont-brand-whatsapp"></i> </a>
