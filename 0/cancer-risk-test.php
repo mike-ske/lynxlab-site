@@ -43,9 +43,10 @@
             <b class="sub_hd">CANCER RISK TEST</b>
             
             <p>
-                The socio-economic effect of Cancer on our society cannot be overemphasized.
-                The need for early diagnosis is therefore of immense importance in the cost of treatment and overall outcome of cancer management.
-                Genetic Cancer Risk Test is all about assessing the risk of individuals who is likely to have hereditary cancer. It is particularly advised that the relatives of cancer patients be encouraged to benefit from this test. Other interested patients, especially those on comprehensive medical examination, can also benefit.
+            Living with cancer is a nightmare! Every day is a battle to stay alive.
+            The Union for International Cancer Control has made us understand that in every 3 minutes, 1 person dies from cancer. Not all cancers form tumors (visible growths) on the body and cancers can be present for months or years without been detected.
+            <br>Cancerous cells do not just form, they form over time and this is why individuals should take the cancer risk test. Cancer risk test is a “predictive test” because it determines if an individual has an increased risk of developing cancer even in years to come. 
+
             </p>
             <br><br>
 
@@ -113,6 +114,28 @@
 
 
 
-<?php require 'modal-section.php' ?>
+
+<!-- ==================== CONNECT SECTION ======================== -->
+<section class="bg_main" id="connect">
+    <div class="fg_center conn">
+        
+        <div class="connect__1" data-aos="fade-up" data-aos-duration="3400">
+            <div class="title">
+                <h2 class="sub__title con__title ">Take control of your health</h2>
+            </div>
+        </div>
+
+        <div class="connect_btn" data-aos="fade-up" data-aos-duration="3400">
+            <a href="contact" class="cnt_btn ctb_1">Book Appointment</a>
+            <a href="bookings" class="cnt_btn ctb_2">Become a Collection Agent</a>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- ==================== END CONNECT SECTION ======================== -->
+
 
 <?php require 'footer.php' ?>

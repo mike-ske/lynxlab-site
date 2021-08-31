@@ -72,6 +72,30 @@
 <iframe  class="bg_main" id="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.243737256612!2d3.3454325147291115!3d6.616611723909644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93d05507f23b%3A0xb2a07808c7b83a15!2sLynx%20DNA%20Laboratory%20%7C%20Private%20Paternity%20DNA%20Testing%20Centre%20in%20Nigeria!5e0!3m2!1sen!2sng!4v1627416288662!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 
-<?php require 'modal-section.php' ?>
+
+
+
+<!-- ==================== CONNECT SECTION ======================== -->
+<section class="bg_main" id="connect">
+    <div class="fg_center conn">
+        
+        <div class="connect__1" data-aos="fade-up" data-aos-duration="3400">
+            <div class="title">
+                <h2 class="sub__title con__title ">Be sure and stay sure</h2>
+            </div>
+        </div>
+
+        <div class="connect_btn" data-aos="fade-up" data-aos-duration="3400">
+            <a href="contact" class="cnt_btn ctb_1">Book Appointment</a>
+            <a href="bookings" class="cnt_btn ctb_2">Become a Collection Agent</a>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- ==================== END CONNECT SECTION ======================== -->
+
 
 <?php require 'footer.php' ?>

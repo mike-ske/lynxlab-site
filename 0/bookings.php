@@ -30,9 +30,14 @@
         <div class="frm_txt" data-aos="fade-up" data-aos-duration="3200">
             <h3 class="abt_h1">Join Lynx Agents and get extra revenue</h3>
             <p class="frm_body">
-                By joining Lynx agents, you will get first 
-                hand information on DNA while
-                you make extra revenue for yourself
+                Do you own or manage a private clinic/ Laboratory and would like to work with us?
+                <br> Do you own a clinic / Laboratory or are you a private doctor / nurse?
+
+                <br> <b>Why not Join Lynx sample collection network?</b> 
+
+                <br> With full training and some of the best rates for sample collection, we are sure to guarantee satisfactory relationship.
+                Be sure to get first-hand information on DNA while making extra income for yourself.
+
             </p>
         </div>
         
@@ -78,6 +83,27 @@
 <!-- END OF FORM SECTION -->
 
 
-<?php require 'modal-section.php' ?>
+<!-- ==================== CONNECT SECTION ======================== -->
+<section class="bg_main" id="connect">
+    <div class="fg_center conn">
+        
+        <div class="connect__1" data-aos="fade-up" data-aos-duration="3400">
+            <div class="title">
+                <h2 class="sub__title con__title ">Unveil the real you!</h2>
+            </div>
+        </div>
+
+        <div class="connect_btn" data-aos="fade-up" data-aos-duration="3400">
+            <a href="contact" class="cnt_btn ctb_1">Book Appointment</a>
+            <a href="bookings" class="cnt_btn ctb_2">Become a Collection Agent</a>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- ==================== END CONNECT SECTION ======================== -->
+
 
 <?php require 'footer.php' ?>

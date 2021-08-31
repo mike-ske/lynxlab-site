@@ -27,30 +27,26 @@
             <h3 class="txt_1">Paternity DNA Test</h3>
             <p class="txt_bdy">
             DNA Paternity test is a painless method used to confirm biological relationship between a presupposed father and the child by using buccal swab samples. The lab runs series of tests known as ‘DNA SEQUENCING’ for genetic match between the alleged father and the child.
-            We offer 3 types of PATERNITY DNA TEST 
-
-
             </p>
 
             
             <h3 class="txt_1">Peace of Mind Test</h3>
-            <p class="txt_bdy">
+            
+            <input type="checkbox" id="chk">
+            <label for="chk" class="tag sp_link">Read more<i class="icofont-long-arrow-right" style="font-size: 26px;"></i></label>
+            
+            <p class="txt_bdy tag_body">
                 A peace of mind test is used basically for one’s personal interest to ascertain the paternity of a child. Results are not court-admissible. The samples can be collected from the comfort of your home. Once your kit arrives, you swab all test participants in the comfort of your home—no visit to a Lab required. Then seal the sample envelopes and send them off to our lab. It’s that simple! The report can be picked from the Lab or send to your mail as directed by the tested
-            </p>    
-
+            </p> 
+               
             <h3 class="txt_1">Legal DNA Test</h3>
-            <p class="txt_bdy">
-            A legal paternity test is required when one wants to back all claims legally. It is used as proof of relationship for immigration, custody, birth certificate, inheritance rights, adoption, child support and or other legal reasons.  A strict chain-of-custody is duly followed for a legal test to be accepted. 
+
+            <input type="checkbox" id="chk2">
+            <label for="chk2" class="tag sp_link">Read more<i class="icofont-long-arrow-right" style="font-size: 26px;"></i></label>
+            
+            <p class="txt_bdy tag_body2">
+                A legal paternity test is required when one wants to back all claims legally. It is used as proof of relationship for immigration, custody, birth certificate, inheritance rights, adoption, child support and or other legal reasons.  A strict chain-of-custody is duly followed for a legal test to be accepted. 
             </p>
-
-            <h3 class="txt_1" id="parental_test">Non-invasive prenatal paternity DNA test</h3>
-            <p class="txt_bdy">
-            This test focuses more on the baby DNA. It can be used to detect some chromosomal abnormalities and some genetic conditions like Down syndrome (Trisomy 21), Klinefelter’s syndrome (XXY) and about 16 other abnormalities.  NIPP test is performed as early as 10 weeks of conception and is very safe for the mother and the fetus.  Blood sample from the mother containing cell-free DNA (cells from the fetus floating freely in the mother’s bloodstream) and cheek swab from the father is collected. The fetal DNA is isolated and analyzed; and then compared to the alleged father. 
-            <br>
-            NIPP is a screening test and not a diagnostic test. 
-
-            </p>
-
 
         </div>
 
@@ -85,6 +81,82 @@
 </section>
 <!-- END OF MARTERNITY SECTION -->
 
+
+
+<!-- prenatal paternity DNA test SECTION -->
+<section class="bg_main" id="mart_centres">
+    <div class="fg_center maternity" id="parent">
+      
+        <div class="mart_text_1" style="text-align: left;">
+            
+            <h3 class="txt_1" id="parental_test">Non-invasive prenatal paternity DNA test</h3>
+            <p class="txt_bdy">
+                A prenatal paternity test is the most accurate way to establish paternity in unborn babies. The test analyses the babies cell free floating DNA in the mother’s bloodstream; this is isolated from the mother’s blood and compared to the alleged father’s DNA. Paternity testing can be done as performed as early as 10 weeks of conception and is completely safe for both mother and unborn child. A prenatal paternity test provides answers to questions about paternity dispute of a fetus.          
+            </p>
+
+        </div>
+
+        <div class="mart_img">
+            <img src="img/t2.png" alt="Pregnancy">
+        </div>
+
+    </div>
+</section>
+<!-- END OF prenatal paternity DNA test SECTION -->
+
+<!-- Non-invasive prenatal screening test SECTION -->
+<section class="bg_main" id="mart_centres">
+    <div class="fg_center maternity" id="pt_test">
+      
+        <div class="mart_img">
+            <img src="img/non-invasive test.jpeg" alt="Pregnancy">
+        </div>
+
+        <div class="mart_text_1">
+            <h3 class="mt_h1">Non-invasive prenatal screening test</h3>
+            <p class="nt_bdy">
+                Did you know that fragments of your baby’s DNA circulate in your bloodstream? 
+                Do you also know that the DNA cells of the fetus can help determine the risk of being born with genetic abnormalities?
+                <br><br>
+                Noninvasive prenatal screening test (NIPS) involves a simple blood screening that analyzes that DNA (it’s called cell-free DNA, or cf DNA) to pinpoint baby’s risk for a number of genetic disorders.
+
+           
+            </p>
+
+                <h5 class="mt_h1" style="color:#4097D4;font-weight:400">TRISOMY</h5><br><br>
+            <p class="nt_bdy">
+                These conditions are caused by the presence of an extra copy of a chromosome, 
+                instead of the usual pair. This additional genetic material can cause dysmorphic features, 
+                congenital malformation and different degrees of intellectual disability. Downs Syndrome (Trisomy 21), 
+                Edwards Syndrome (Trisomy 18), Patau syndrome (Trisomy 13), Trisomy 9, Trisomy 16 & Trisomy 22
+                <br><br>
+            </p>
+                <strong style="color:#4097D4;font-weight:400">SEX CHROMOSOMAL ABNORMALITIES</strong> <br><br>
+            <p class="nt_bdy">
+                Sex chromosome aneuploidy is abnormality of an X or Y chromosome, with the addition or loss
+                of an entire X or 
+                Y chromosome. Affected individuals have a well-established phenotype that 
+                can include physical abnormalities, learning delays and infertility. 
+                Sex Chromosome abnormalities include Turner syndrome (Monosomy X), 
+                Klinefelter syndrome (XXY), Triple X syndrome (XXX) & Jacobs syndrome (XYY)
+            </p>
+                <br><br>
+                <h5 class="mt_h1" style="color:#4097D4;font-weight:400">MICRODELETION AND DUPLICATION SYNDROMES</h5><br><br>
+            <p class="nt_bdy">
+                Deletion and duplication syndromes are disorders characterised by
+                small deletions or duplications of a chromosomal segment. This  
+                determines which clinical features are manifested and how severe they are.
+                Clinical features may include developmental delays and intellectual disability, 
+                growth differences, behavioural problems, feeding difficulties, low muscle tone,
+                seizures, dysmorphic features. They include Cri du Chat (5p deletion) Syndrome, 
+                DiGeorge Type 1 and 2 Syndrome, Cat-eye Syndrome, Angelman Syndrome and Prader-Willi 
+                Syndrome and Jacobsen Syndrome.
+            </p>
+        </div>
+
+    </div>
+</section>
+<!-- END OF Non-invasive prenatal screening test SECTION -->
 
 <!-- MARTERNITY SECTION -->
 <section class="bg_main" id="mart_centres">
@@ -308,62 +380,6 @@
 </section>
 <!-- END OF FORENSIC SERVICE SECTION -->
 
-<!-- TWIN Grand-PA TEST SECTION -->
-<section class="bg_main" id="mart_centres">
-    <div class="fg_center maternity" id="pt_test">
-      
-        <div class="mart_text_1">
-            <h3 class="mt_h1">Non-invasive prenatal screening test</h3>
-            <p class="nt_bdy">
-                Non-invasive prenatal is a screening test that analyses the feto-placental 
-                DNA that is present in the blood for abnormalities of specific
-                chromosomes such as Down syndrome (Trisomy 21), Edwards syndrome 
-                (Trisomy 18), and Patau syndrome (Trisomy 13) as well as conditions caused
-                by missing or extra X and Y chromosome (sex chromosome aneuploidy). 
-                NIPT looks for chromosomal abnormalities/ disorders that are caused by the presence
-                of an extra or missing copy of a chromosome by analyzing the cell free DNA from the 
-                placenta without harming the fetus
-                <br><br>
-            </p>
-
-                <h5 class="mt_h1" style="color:#4097D4;font-weight:400">TRISOMY</h5><br><br>
-            <p class="nt_bdy">
-                These conditions are caused by the presence of an extra copy of a chromosome, 
-                instead of the usual pair. This additional genetic material can cause dysmorphic features, 
-                congenital malformation and different degrees of intellectual disability. Downs Syndrome (Trisomy 21), 
-                Edwards Syndrome (Trisomy 18), Patau syndrome (Trisomy 13), Trisomy 9, Trisomy 16 & Trisomy 22
-                <br><br>
-            </p>
-                <strong style="color:#4097D4;font-weight:400">SEX CHROMOSOMAL ABNORMALITIES</strong> <br><br>
-            <p class="nt_bdy">
-                Sex chromosome aneuploidy is abnormality of an X or Y chromosome, with the addition or loss
-                of an entire X or 
-                Y chromosome. Affected individuals have a well-established phenotype that 
-                can include physical abnormalities, learning delays and infertility. 
-                Sex Chromosome abnormalities include Turner syndrome (Monosomy X), 
-                Klinefelter syndrome (XXY), Triple X syndrome (XXX) & Jacobs syndrome (XYY)
-            </p>
-                <br><br>
-                <h5 class="mt_h1" style="color:#4097D4;font-weight:400">MICRODELETION AND DUPLICATION SYNDROMES</h5><br><br>
-            <p class="nt_bdy">
-                Deletion and duplication syndromes are disorders characterised by
-                small deletions or duplications of a chromosomal segment. This  
-                determines which clinical features are manifested and how severe they are.
-                Clinical features may include developmental delays and intellectual disability, 
-                growth differences, behavioural problems, feeding difficulties, low muscle tone,
-                seizures, dysmorphic features. They include Cri du Chat (5p deletion) Syndrome, 
-                DiGeorge Type 1 and 2 Syndrome, Cat-eye Syndrome, Angelman Syndrome and Prader-Willi 
-                Syndrome and Jacobsen Syndrome.
-            </p>
-        </div>
-
-        <div class="mart_img">
-            <img src="img/non-invasive test.jpeg" alt="Pregnancy">
-        </div>
-
-    </div>
-</section>
-<!-- END OF TWIN Grand-PA TEST SECTION -->
 
 
 <!-- modal section -->

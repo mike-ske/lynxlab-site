@@ -20,6 +20,31 @@
     box-shadow: none !important;
 }
 
+.tag_body2,
+.tag_body {
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s ease all;
+}
+
+.tag {
+    display: inline-flex;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+
+#chk2,
+#chk {
+  display: none;
+}
+
+#chk:checked ~ .tag_body{
+    max-height: 40em;
+}
+
+#chk2:checked ~ .tag_body2{
+    max-height: 40em;
+}
 
  @media only screen and  (max-width: 768px){ */
 
