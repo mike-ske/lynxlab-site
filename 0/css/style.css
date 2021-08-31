@@ -186,10 +186,10 @@ p {
     margin: 20px 0px;
 
 }
-.list_menu .mega_list > .list_2 .l_2:nth-child(9),
-.list_menu .mega_list > .list_2 .l_2:nth-child(10),
-.list_menu .mega_list > .list_2 .l_2:nth-child(11),
-.list_menu .mega_list > .list_2 .l_2:nth-child(12){
+.list_menu .mega_list > .list_2 .l_2:nth-child(13),
+.list_menu .mega_list > .list_2 .l_2:nth-child(14),
+.list_menu .mega_list > .list_2 .l_2:nth-child(15),
+.list_menu .mega_list > .list_2 .l_2:nth-child(16){
     border-bottom: none;
 }
 
@@ -855,8 +855,9 @@ p {
     margin-bottom: 50px;
 }
 .j_txt {
-    line-height: 50px;
+    line-height: 22px;
     color: #333 !important;
+    margin-top: 20px;
 }
 
 .blog_grid {

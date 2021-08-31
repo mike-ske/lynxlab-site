@@ -24,7 +24,7 @@
                         <a href="dna-service#parental_test" class="link__2">Non-Invasive Prenatal DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="dna-service#parent" class="link__2">Maternity DNA Test</a>
+                        <a href="dna-service#d_test" class="link__2">Maternity DNA Test</a>
                     </li>
                     <li class="l_2">
                         <a href="dna-service#immigration" class="link__2">Immigration Test</a>
@@ -56,12 +56,15 @@
                     <li class="l_2">
                         <a href="dna-service#pt_test" class="link__2">Non-invasive Prenatal Screen Test</a>
                     </li>
-                    <!-- <li class="l_2">
-                        <a href="dna-service#trisomy_test" class="link__2">TRISOMY</a>
+                    <li class="l_2">
+                        <a href="dna-service#p_test" class="link__2">Non-invasive pre-paternity DNA test</a>
                     </li>
                     <li class="l_2">
-                        <a href="dna-service#micro_test" class="link__2">MICRODELETION AND DUPLICATION SYNDROMES</a>
-                    </li> -->
+                        <a href="dna-service#micro_test" class="link__2">Microdeletion and Duplication Syndromes</a>
+                    </li> 
+                    <li class="l_2">
+                        <a href="dna-service#c_test" class="link__2">Cancer Risk Test</a>
+                    </li> 
                 </ul>
             </li>
             <li class="list_1">

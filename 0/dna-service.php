@@ -62,7 +62,7 @@
 
 <!-- MARTERNITY SECTION -->
 <section class="bg_main" id="mart_centres">
-    <div class="fg_center maternity" id="parent">
+    <div class="fg_center maternity" id="d_test">
       
         <div class="mart_img">
             <img src="img/t2.png" alt="Pregnancy">
@@ -82,22 +82,45 @@
 <!-- END OF MARTERNITY SECTION -->
 
 
+<!-- MARTERNITY SECTION -->
+<section class="bg_main" id="mart_centres">
+    <div class="fg_center maternity" id="immigration">
+      
+        <div class="mart_text_1">
+            <h3 class="mt_h1">Immigration DNA Test</h3>
+            <p class="nt_bdy">
+                Immigration DNA test is a DNA test done to provide supplementary evidence of relationship in cases where other documents such as birth certificate and other registered records are not available or do not meet the standard requirement of the immigration department. 
+
+                <br>
+                Once testing is completed, we send a strict chain of custody test results and a clear explanation of the results to the immigration authorities and petitioners. Our legal results is accredited by the American Association of Blood Banks (AABB) and National Association of Testing Authorities (NATA) which meets the requirements of United States Citizenship and Immigration Services (USCIS) and other immigration agencies. 
+                <br>
+                In the absence of the father or mother, there are other DNA tests that can be done to prove biological relationship with the other individual or family. They include 
+            </p>
+        </div>
+
+        <div class="mart_img">
+            <img src="img/t_8.png" alt="Pregnancy">
+        </div>
+
+    </div>
+</section>
+<!-- END OF MARTERNITY SECTION -->
 
 <!-- prenatal paternity DNA test SECTION -->
 <section class="bg_main" id="mart_centres">
-    <div class="fg_center maternity" id="parent">
+    <div class="fg_center maternity" id="p_test">
+        
+        <div class="mart_img">
+            <img src="img/t2.png" alt="Pregnancy">
+        </div>
       
-        <div class="mart_text_1" style="text-align: left;">
+        <div class="mart_text_1" style="text-align: right;">
             
             <h3 class="txt_1" id="parental_test">Non-invasive prenatal paternity DNA test</h3>
             <p class="txt_bdy">
                 A prenatal paternity test is the most accurate way to establish paternity in unborn babies. The test analyses the babies cell free floating DNA in the mother’s bloodstream; this is isolated from the mother’s blood and compared to the alleged father’s DNA. Paternity testing can be done as performed as early as 10 weeks of conception and is completely safe for both mother and unborn child. A prenatal paternity test provides answers to questions about paternity dispute of a fetus.          
             </p>
 
-        </div>
-
-        <div class="mart_img">
-            <img src="img/t2.png" alt="Pregnancy">
         </div>
 
     </div>
@@ -107,11 +130,7 @@
 <!-- Non-invasive prenatal screening test SECTION -->
 <section class="bg_main" id="mart_centres">
     <div class="fg_center maternity" id="pt_test">
-      
-        <div class="mart_img">
-            <img src="img/non-invasive test.jpeg" alt="Pregnancy">
-        </div>
-
+    
         <div class="mart_text_1">
             <h3 class="mt_h1">Non-invasive prenatal screening test</h3>
             <p class="nt_bdy">
@@ -141,7 +160,7 @@
                 Klinefelter syndrome (XXY), Triple X syndrome (XXX) & Jacobs syndrome (XYY)
             </p>
                 <br><br>
-                <h5 class="mt_h1" style="color:#4097D4;font-weight:400">MICRODELETION AND DUPLICATION SYNDROMES</h5><br><br>
+                <h5 class="mt_h1" id="micro_test" style="color:#4097D4;font-weight:400">MICRODELETION AND DUPLICATION SYNDROMES</h5><br><br>
             <p class="nt_bdy">
                 Deletion and duplication syndromes are disorders characterised by
                 small deletions or duplications of a chromosomal segment. This  
@@ -154,34 +173,41 @@
             </p>
         </div>
 
+          
+        <div class="mart_img">
+            <img src="img/non-invasive test.jpeg" alt="Pregnancy">
+        </div>
+
     </div>
 </section>
 <!-- END OF Non-invasive prenatal screening test SECTION -->
 
-<!-- MARTERNITY SECTION -->
-<section class="bg_main" id="mart_centres">
-    <div class="fg_center maternity" id="immigration">
-      
-        <div class="mart_text_1">
-            <h3 class="mt_h1">Immigration DNA Test</h3>
-            <p class="nt_bdy">
-                Immigration DNA test is a DNA test done to provide supplementary evidence of relationship in cases where other documents such as birth certificate and other registered records are not available or do not meet the standard requirement of the immigration department. 
 
-                <br>
-                Once testing is completed, we send a strict chain of custody test results and a clear explanation of the results to the immigration authorities and petitioners. Our legal results is accredited by the American Association of Blood Banks (AABB) and National Association of Testing Authorities (NATA) which meets the requirements of United States Citizenship and Immigration Services (USCIS) and other immigration agencies. 
-                <br>
-                In the absence of the father or mother, there are other DNA tests that can be done to prove biological relationship with the other individual or family. They include 
+
+
+<!-- prenatal paternity DNA test SECTION -->
+<section class="bg_main" id="mart_centres">
+    <div class="fg_center maternity" id="c_test">
+        
+        <div class="mart_text_1" style="text-align: left;">
+            
+            <h3 class="txt_1" id="parental_test">CANCER RISK TEST</h3>
+            <p class="txt_bdy">
+                Living with cancer is a nightmare! Every day is a battle to stay alive.
+                The Union for International Cancer Control has made us understand that in every 3 minutes, 1 person dies from cancer. Not all cancers form tumors (visible growths) on the body and cancers can be present for months or years without been detected.
+              <br><br>  Cancerous cells do not just form, they form over time and this is why individuals should take the cancer risk test. Cancer risk test is a “predictive test” because it determines if an individual has an increased risk of developing cancer even in years to come. 
+
             </p>
+
         </div>
 
         <div class="mart_img">
-            <img src="img/t_8.png" alt="Pregnancy">
+            <img src="img/t2.png" alt="Pregnancy">
         </div>
-
+      
     </div>
 </section>
-<!-- END OF MARTERNITY SECTION -->
-
+<!-- END OF prenatal paternity DNA test SECTION -->
 
 <!-- SIBLINGS SECTION -->
 <section class="bg_main" id="siblings">

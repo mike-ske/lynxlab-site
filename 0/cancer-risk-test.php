@@ -43,9 +43,9 @@
             <b class="sub_hd">CANCER RISK TEST</b>
             
             <p>
-            Living with cancer is a nightmare! Every day is a battle to stay alive.
-            The Union for International Cancer Control has made us understand that in every 3 minutes, 1 person dies from cancer. Not all cancers form tumors (visible growths) on the body and cancers can be present for months or years without been detected.
-            <br>Cancerous cells do not just form, they form over time and this is why individuals should take the cancer risk test. Cancer risk test is a “predictive test” because it determines if an individual has an increased risk of developing cancer even in years to come. 
+                The socio-economic effect of Cancer on our society cannot be overemphasized. The need for early diagnosis is therefore of immense importance in the cost of treatment and overall outcome of cancer management.
+                <br>
+                Genetic Cancer Risk Test is all about assessing the risk of individuals who is likely to have hereditary cancer. It is particularly advised that the relatives of cancer patients be encouraged to benefit from this test. Other interested patients, especially those on comprehensive medical examination, can also benefit. Genetic cancer risk testing helps determine your chance of developing cancer in your lifetime by searching for specific changes (mutations) in your genes, chromosome, or protein. 
 
             </p>
             <br><br>

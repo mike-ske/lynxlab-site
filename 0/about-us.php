@@ -34,7 +34,7 @@
                 recognized and identified genetic-testing laboratory.
                 <br><br>
                 We were established in 2006, as an affiliate of DNA 
-                diagnostic center (DDC), GENETICA. Both laboratories are based 
+                diagnostic center (DDC). The laboratory is based 
                 in Ohio, United States and
                 are one of the largest and most experienced.
             </p>
@@ -65,7 +65,7 @@
 
             <p class="what_p">
                 We are an accredited Private DNA Testing Centre in 
-                Nigeria; an affiliate of GENETICA and DNA Diagnostic 
+                Nigeria; an affiliate of DNA Diagnostic 
                 Centre (DDC) Incorporated since 2006.
                 <br><br>
                 We offer you simplified, private and secure 

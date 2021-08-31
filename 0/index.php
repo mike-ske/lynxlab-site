@@ -470,9 +470,10 @@
                 <h2 class="sub__title">Blogposts & Health Tips</h2>
             </div>
             <p class="j_txt">
-                Join thousands of agents around the 
-                world generating revenue 
-                by becoming a collection agent.
+                Discover how great our organization everywhere increase standards of 
+                testing quality, maximize productivity and other health tips on our blog post.
+                We'll keep you in the loop with everything good going on in Lynx DNA diagnostic centers
+                all over the world.
             </p>
         </div>
 
