@@ -31,7 +31,7 @@
             
             <!-- 1 center -->
             <div class="ctr_1">
-                <div class="set_1_ctr">
+                <div class="set_1_ctr" style="justify-content: center;">
                     <i class='bx bxs-location-plus' ></i>
                     <h3>Lagos Office</h3>
                 </div>
