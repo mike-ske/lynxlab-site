@@ -85,7 +85,7 @@
                             <br>
                             Once we receive a quest to initiate a legal DNA test, we assign a case manager 
                             and a professional to oversee all aspect of sample collections and testing.
-                             When the notarized, guaranty DNA Diagnostic Centre (DDC) and GENETICA DNA 
+                             When the notarized, guaranty DNA Diagnostic Centre (DDC) 
                              test are released, they are accompanied by detailed client data, an affidavit
                               for genetic 
                             testing report and documentation of strict chain of custody procedures.

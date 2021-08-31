@@ -140,8 +140,7 @@
                 LYNX DNA Laboratory is one of the leading and highly recognized and 
                 identified genetic-testing laboratory.
 
-                We were established in 2006, as an affiliate of DNA diagnostic center (DDC), 
-                GENETICA. Both laboratories are based in Ohio, 
+                We were established in 2006, as an affiliate of DNA diagnostic center (DDC). Both laboratories are based in Ohio, 
                 United States and are one of the largest and most experienced...
             </p>
 
