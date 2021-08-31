@@ -2,7 +2,7 @@
 
 
 <!-- ==================== CONNECT SECTION ======================== -->
-<section class="bg_main" id="connect">
+<!-- <section class="bg_main" id="connect">
     <div class="fg_center conn">
         
         <div class="connect__1" data-aos="fade-up" data-aos-duration="3400">
@@ -19,6 +19,6 @@
 
     </div>
 
-</section>
+</section> -->
 
 <!-- ==================== END CONNECT SECTION ======================== -->
