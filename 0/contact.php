@@ -38,7 +38,7 @@
         
         <div class="main_from">
             
-            <form id="form" method="POST" action="inc/manage_contact" name="form">
+            <form id="form" method="POST" action="inc/manage_contact.php" name="form">
                 
                 <label for="fullname"  data-aos="fade-up" data-aos-duration="3200">Name</label>
                 <div class="form_group"  data-aos="fade-up" data-aos-duration="3200">

@@ -42,7 +42,7 @@
         </div>
         
         <div class="main_from">
-            <form id="agency" method="POST" action="inc/manage_booking" name="form">
+            <form id="agency" method="POST" action="inc/manage_booking.php" name="form">
                 <label for="fullname" data-aos="fade-up" data-aos-duration="3200">Name</label>
                 <div class="form_group" >
                     <input type="text" name="fullname" id="fullname" class="fullname" onkeyup="checkform()">
