@@ -111,7 +111,7 @@
     <div class="fg_center maternity" id="p_test">
         
         <div class="mart_img">
-            <img src="img/t2.png" alt="Pregnancy">
+            <img src="img/parternity_test.jpg" alt="Pregnancy">
         </div>
       
         <div class="mart_text_1" style="text-align: right;">
@@ -202,7 +202,7 @@
         </div>
 
         <div class="mart_img">
-            <img src="img/t2.png" alt="Pregnancy">
+            <img src="img/cancer_risk.png" style="height: 370px;" alt="Pregnancy">
         </div>
       
     </div>
@@ -347,7 +347,7 @@
     <div class="fg_center maternity" id="foren_test">
       
         <div class="mart_img">
-            <img src="img/t_7.png" alt="Pregnancy">
+            <img src="img/forensic_image.jpg" alt="Pregnancy">
         </div>
 
         <div class="mart_text_1 sib_1">

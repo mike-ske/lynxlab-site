@@ -310,6 +310,11 @@ function convertDate($date = '')
     $convert_date = strtotime($date);
    return date('j F Y H:i:sa', $convert_date);
 }
+function convertYear($date = '')
+{
+    $convert_date = strtotime($date);
+   return date('j F Y', $convert_date);
+}
 
 
 

@@ -10,7 +10,7 @@
     </div>
             
 </section>
-<!-- END OF BLOG HEROE SECTION -->
+<!-- END OF BLOG HEROE SECTION --->
 
 
 <!-- BLOG HEROE SECTION -->

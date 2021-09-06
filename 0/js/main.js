@@ -1,4 +1,4 @@
-// import Typed from 'typed.js';
+
 "restrict";
 
 /* 
@@ -9,14 +9,58 @@ let nav__link = document.getElementsByClassName("list_1");
 let main_menu = document.getElementsByClassName("list_menu")[0];
 let close_menu = document.getElementById("close_menu");
 
-for (let i = 0; i < nav__link.length; i++) {
-    const list__item = nav__link[i];
 
-    list__item.addEventListener("click", function () {
-        document.getElementsByClassName("active")[0].classList.remove("active");
-        nav__link[i].classList.add("active");
-    })
-}
+let path = window.location.pathname.split('/').pop()
+     
+console.log(path);
+
+    switch (path) {
+        case 'about-us':
+            document.getElementById('about').style.color = "#4097d4";
+            break;
+            
+        case 'contact':
+            document.getElementById('contact').style.color = "#4097d4";
+            break;
+            
+        case 'dna-service':
+            document.getElementById('ach').style.color = "#4097d4";
+            break;
+            
+        case 'cancer-risk-test':
+            document.getElementById('cancer').style.color = "#4097d4";
+            break;
+            
+        case 'collection-centers':
+            document.getElementById('col_ct').style.color = "#4097d4";
+            break;
+            
+        case 'post-details':
+            document.getElementById('blg').style.color = "#4097d4";
+            break;
+            
+        case 'posts':
+            document.getElementById('blg').style.color = "#4097d4";
+            break;
+            
+        case 'category-post':
+            document.getElementById('blg').style.color = "#4097d4";
+            break;
+    
+        default:
+            // document.getElementById('blg').style.color = "#4097d4";
+            break;
+    }
+
+
+// for (let i = 0; i < nav__link.length; i++) {
+//     const list__item = nav__link[i];
+
+//     list__item.addEventListener("click", function () {
+//         document.getElementsByClassName("active")[0].classList.remove("active");
+//         nav__link[i].classList.add("active");
+//     })
+// }
 
  // ==== CODE TO HIDE THE MENU WHEN TABS ARE CLICKED
     close_menu.addEventListener("click", function () {

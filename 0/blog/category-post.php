@@ -71,8 +71,10 @@
                           </ul>
 
                           <?php
-                          echo "<br><br>";
-                          echo cutString(strip_tags($value['content']));
+                            echo "<br><br>";
+                            $tags =  "<th><tr><td><table><tbody><thead><em><i><blockquote><br><ul><cite><q><address><li><a><b><h1><h2><h3><h4><h5><h6><strong><u>";
+                            $message = strip_tags(html_entity_decode($value['content']), $tags);
+                            echo cutString($message);
                           ?>
                           
                         </div>
@@ -145,7 +147,7 @@
 
                         <li>
                           <a href="post-details?id=<?php echo $value['id']?>">
-                            <h5><?php echo substr(strip_tags($value['content']), 0, 40) ?></h5>
+                            <h5><?php echo substr(strip_tags(html_entity_decode($value['content'])), 0, 40) ?></h5>
                             <span><?php echo convertDate($value['created_date']) ?></span>
                           </a>
                         </li>

@@ -11,7 +11,7 @@
 
         <ul class="list_menu">
         <div class="close_menu" id='close_menu'><i class='bx bx-x' ></i></div>
-            <li class="list_1 active">
+            <li class="list_1">
                 <a href="../about-us" class="link__1">About Us</a>
             </li>
             <li class="list_1 mega_list">
@@ -53,6 +53,18 @@
                     <li class="l_2">
                         <a href="../dna-service#twin_test" class="link__2">Twin Zygosity Test</a>
                     </li>
+                    <li class="l_2">
+                        <a href="../dna-service#pt_test"  class="link__2">Non-invasive Prenatal Screen Test</a>
+                    </li>
+                    <li class="l_2">
+                        <a href="../dna-service#p_test"  class="link__2">Non-invasive pre-paternity DNA test</a>
+                    </li>
+                    <li class="l_2">
+                        <a href="../dna-service#micro_test"  class="link__2">Microdeletion and Duplication Syndromes</a>
+                    </li> 
+                    <li class="l_2">
+                        <a href="../dna-service#c_test"  class="link__2">Cancer Risk Test</a>
+                    </li> 
                 </ul>
             </li>
             <li class="list_1">
@@ -62,7 +74,7 @@
                 <a href="../collection-centers" class="link__1">Collection Centers</a>
             </li>
             <li class="list_1">
-                <a href="../blog/" class="link__1">Blog</a>
+                <a href="../blog/" id="blg" class="link__1">Blog</a>
             </li>
             <li class="list_1">
                 <a href="../contact" class="link__1">Contact Us</a>

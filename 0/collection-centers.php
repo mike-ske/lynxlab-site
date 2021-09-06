@@ -414,15 +414,18 @@
                 </div>
                 <div class="blg_set">
                     <h3 class="blg_h3" id="blg_h3" style="display: flex;align-items:center;justify-content:space-between">
-                        <a href="post-details?id=<?php echo $value['id']?>" style="color: #4097d4;">
+                        <a href="blog/post-details?id=<?php echo $value['id']?>" style="color: #4097d4;">
                             <?php echo $value['title']?>
                         </a>
-                        <div class="small" style="font-size: 55%;font-weight: 400;color: #b7b9cc"><?php echo convertDate($value['created_date'])?></div>
+                        <div class="small" style="font-size: 55%;font-weight: 400;color: #b7b9cc"><?php echo convertYear($value['created_date'])?></div>
                     </h3>
 
-                    <p class="blg_txt">
-                        <?php echo substr(strip_tags($value['content']), 0, 250). "..."?>
-                    </p>
+                    <div class="blg_txt">
+                        <?php
+                            $tags =  "<th><tr><td><table><tbody><thead><em><i><blockquote><br><ul><cite><q><address><li><a><b><h1><h2><h3><h4><h5><h6><strong><u>";
+                        ?>
+                        <?php echo substr(strip_tags(html_entity_decode($value['content']), $tags), 0, 250). "..."?>
+                    </div>
                 </div>
             </div>
 
