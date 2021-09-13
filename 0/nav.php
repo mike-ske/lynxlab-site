@@ -51,14 +51,12 @@
                         <a href="dna-service#twin_test"  class="link__2">Twin Zygosity Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="dna-service#pt_test"  class="link__2">Non-invasive Prenatal Screen Test</a>
+                        <a href="dna-service#pt_test"  class="link__2">Non-invasive Prenatal Screeninig Test</a>
                     </li>
                     <li class="l_2">
                         <a href="dna-service#p_test"  class="link__2">Non-invasive pre-paternity DNA test</a>
                     </li>
-                    <li class="l_2">
-                        <a href="dna-service#micro_test"  class="link__2">Microdeletion and Duplication Syndromes</a>
-                    </li> 
+                  
                     <li class="l_2">
                         <a href="dna-service#c_test"  class="link__2">Cancer Risk Test</a>
                     </li> 
