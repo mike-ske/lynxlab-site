@@ -21,9 +21,6 @@
                         <a href="../dna-service#paternity" class="link__2">DNA Paternity Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="../dna-service#parental_test" class="link__2">Non-Invasive Prenatal DNA Test</a>
-                    </li>
-                    <li class="l_2">
                         <a href="../dna-service#parent" class="link__2">Maternity DNA Test</a>
                     </li>
                     <li class="l_2">
