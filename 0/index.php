@@ -17,13 +17,13 @@
 <!-- ==================== HEROE SECTION ======================== -->
 <!-- hr__main -->
 <section class="heroe bg_main">
-    <div class="fg_center ">
+    <div class="fg_center pad">
 
         <div class="splide">
-                <div class="splide__track container">
+                <div class="splide__track container" >
                     <ul class="splide__list">
                         <!--===== first slide ======== -->
-                        <li class="splide__slide" style="width:1540px">
+                        <li class="splide__slide slide_1 spld_width" style="width:1540px">
                             <div class="slide_container">
                                 <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
                                     <h1 class="h1_hd">We are specialists in DNA and Forensic services</h1>
@@ -35,32 +35,28 @@
                                     <a href="contact" class="hd_btn">Bookings</a>
                                 </div>
 
-                                <div class="img_head" data-aos="fade-up" data-aos-duration="3200">
-                                    <img src="img/bg/g3.png" alt="Doctor on suit">
-                                </div>
+                                 
                             </div>
                         </li>
 
                         <!--===== second slide ======== -->
-                        <li class="splide__slide">
+                        <li class="splide__slide slide_2 spld_width">
                             <div class="slide_container">
-                                <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
+                                <div class="text_head w_no_1" data-aos="fade-up" data-aos-duration="3200">
                                     <h1 class="h1_hd">Cancer Risk DNA Testing</h1>
-                                    <p class="p_hd">
+                                    <p class="p_hd w_no">
                                         Knowing your cancer risk can help you and your doctor make life saving 
                                         medical decisions. Take the gift of prevention today.
                                     </p>
                                 
                                 </div>
 
-                                <div class="img_head" data-aos="fade-up" data-aos-duration="3200">
-                                    <img src="img/bg/g5.png" alt="Doctor on suit">
-                                </div>
+                              
                             </div>
                         </li>
 
                         <!--===== third slide ======== -->
-                        <li class="splide__slide">
+                        <li class="splide__slide slide_3 spld_width">
                             <div class="slide_container">
                                 <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
                                     <h1 class="h1_hd">Paternity & Maternity Test</h1>
@@ -72,36 +68,30 @@
                                 
                                 </div>
 
-                                <div class="img_head" data-aos="fade-up" data-aos-duration="3200">
-                                    <img src="img/bg/g4.png" alt="Doctor on suit">
-                                </div>
                             </div>
                         </li>
 
                         <!--===== fourth slide ======== -->
-                        <li class="splide__slide">
+                        <li class="splide__slide slide_4 spld_width">
                             <div class="slide_container">
                                 <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
-                                    <h1 class="h1_hd">Pre-natal DNA Test</h1>
-                                    <p class="p_hd">
+                                    <h1 class="h1_hd w_1">Pre-natal DNA Test</h1>
+                                    <p class="p_hd w_2">
                                         Want to establish biological paternity of an 
                                         unborn child? Pre- Natal DNA Testing makes it possible.
                                     </p>
                                 
                                 </div>
 
-                                <div class="img_head" data-aos="fade-up" data-aos-duration="3200">
-                                    <img src="img/bg/g1.png" alt="Doctor on suit">
-                                </div>
                             </div>
                         </li>
 
                         <!--===== fifth slide ======== -->
-                        <li class="splide__slide">
+                        <li class="splide__slide slide_5 spld_width">
                             <div class="slide_container">
                                 <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
                                     <h1 class="h1_hd">Speak to a counselor</h1>
-                                    <p class="p_hd">
+                                    <p class="p_hd" id="spk_can">
                                         We understand the sensitivity of most of our test, the reason we take our 
                                         clients through pre-test and post-test counseling. 
                                         Speaking to our professional counselor is absolutely 
@@ -110,9 +100,7 @@
                                 
                                 </div>
 
-                                <div class="img_head" data-aos="fade-up" data-aos-duration="3200">
-                                    <img src="img/bg/g2.png" alt="Doctor on suit">
-                                </div>
+                                
                             </div>
                         </li>
                     </ul>

@@ -56,7 +56,6 @@
                     <li class="l_2">
                         <a href="dna-service#p_test"  class="link__2">Non-invasive pre-paternity DNA test</a>
                     </li>
-                  
                     <li class="l_2">
                         <a href="dna-service#c_test"  class="link__2">Cancer Risk Test</a>
                     </li> 

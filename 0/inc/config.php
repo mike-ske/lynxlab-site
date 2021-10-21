@@ -6,7 +6,7 @@ define('DB_PASS', 'defdgbjmqkpuixrk');
 define('DB_NAME', 'r8qw8oyoc0awxtvs');
 define('DB_USER', 'hx1qv76lul5chjhv');
 
-// ========== LOCAL DATABASE CONNECTION =======
+//========== LOCAL DATABASE CONNECTION =======
 // define('DB_HOST', 'localhost');
 // define('DB_PASS', '');
 // define('DB_NAME', 'lynx_db');

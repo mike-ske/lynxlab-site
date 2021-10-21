@@ -49,7 +49,6 @@ function checkfield()
 }
 
 
-document.getElementsByClassName()
 
 
 // // =========MAIL ICON MESSAGE
