@@ -26,7 +26,7 @@
                         <li class="splide__slide slide_1 spld_width" style="width:1540px">
                             <div class="slide_container">
                                 <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
-                                    <h1 class="h1_hd">We are specialists in DNA and Forensic services</h1>
+                                    <h1 class="h1_hd">We are specialists in <br> DNA and Forensic services</h1>
                                     <p class="p_hd">
                                         Costumers have trusted us with innumerable DNA test cases. 
                                         We have built credible and sustainable partnerships that gives us an edge
@@ -34,8 +34,6 @@
                                     </p>
                                     <a href="contact" class="hd_btn">Bookings</a>
                                 </div>
-
-                                 
                             </div>
                         </li>
 
@@ -250,7 +248,7 @@
     <div class="fg_center comm">
         <div class="comm__1">
             <div class="title" data-aos="fade-up" data-aos-duration="2000">
-                <h2 class="sub__title wht__title">Welcome to our DNA centres in Nigeria</h2>
+                <h2 class="sub__title wht__title">Welcome to our DNA <br> centres in Nigeria</h2>
             </div>
 
             <p class="comm__txt" data-aos="fade-up" data-aos-duration="2000">
