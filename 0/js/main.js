@@ -168,7 +168,7 @@ for ( var i = 0, len = elms.length; i < len; i++ ) {
         trimSpace: false,
         perPage : 1,
         width: '100%',
-        interval: 2000,
+        interval: 4000,
         speed: 1000,
         autoplay: true,
         autoWidth: true,
