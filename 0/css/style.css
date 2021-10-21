@@ -123,7 +123,7 @@ ul {
     top: 0px;
     left: 0px;
     box-shadow: 0px 4px 100px rgb(0 0 0 / 20%);
-    background: rgba(255 255 255 / 90%);
+    background: #fff;
     /* transition: .8s ease all; */
 }
 .sticky .list_menu .list_1 a {
