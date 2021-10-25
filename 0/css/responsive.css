@@ -62,6 +62,10 @@
         max-width: 100%;
         padding: 0px 10px;
     }
+     #connect {
+        background-position: left;
+        background-size: auto;
+     }
     /* Heroe section */
     .splide, .splide__slide{
         width: auto !important;
