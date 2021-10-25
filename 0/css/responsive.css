@@ -313,9 +313,14 @@
     }
     .abt_sec_2  img {
         margin: auto;
+        width: 100%;
     }
-
-   
+    .abt_sec_1 {
+        padding-left: 0px;
+    }
+    .what_1 {
+        padding-left: 0px;
+    }
     .what_p{
         font-size: 14px;
     }
