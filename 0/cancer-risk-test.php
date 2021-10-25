@@ -27,7 +27,7 @@
 <section class="bg_main" id="risk_centres">
     <div class="fg_center ca_ctre">
 
-       <h3 class="can_head">Cancer risk genetic test</h3>
+       <h3 class="can_head">Cancer Risk Genetic Test</h3>
        
        <p class="can_1">
             Genetic cancer risk testing helps determine 
