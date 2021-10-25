@@ -15,8 +15,7 @@
 
                 <div class="ft_involved">
                     <h3 class="in_text">
-                        9b , James Oluleye Street, off Adeniyi Jones Avenue, 
-                        Harmony Enclave Estate, Koko bus stop, Ikeja, Lagos
+                        9b, James Oluleye Crescent, Harmony Enclave Estate, off Adeniyi Jones Avenue, Ikeja, Lagos.
                     </h3>
 
                     <ul class="ft__01">
