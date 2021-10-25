@@ -28,7 +28,7 @@
                                 <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
                                     <h1 class="h1_hd">We are specialists in <br> DNA and Forensic services</h1>
                                     <p class="p_hd">
-                                        Costumers have trusted us with innumerable DNA test cases. 
+                                        Customers have trusted us with innumerable DNA test cases. 
                                         We have built credible and sustainable partnerships that gives us an edge
                                         over our competitors in the industry.
                                     </p>
@@ -44,7 +44,7 @@
                                     <h1 class="h1_hd">Cancer Risk DNA Testing</h1>
                                     <p class="p_hd w_no">
                                         Knowing your cancer risk can help you and your doctor make life saving 
-                                        medical decisions. Take the gift of prevention today.
+                                        medical decisions. Take the step of prevention today.
                                     </p>
                                 
                                 </div>
@@ -61,7 +61,7 @@
                                     <p class="p_hd">
                                         Who is your daddy or who is the mother has remained a 
                                         prominent question in relationship testing. 
-                                        Lynx DNA Lab can resolve the doubt fast and reliable response to 99.9%
+                                        Lynx DNA Lab can resolve the doubt fast and give reliable response to 99.9%
                                     </p>
                                 
                                 </div>
