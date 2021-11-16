@@ -39,12 +39,12 @@ if (isset($_POST['send']))
          $mail = new PHPMailer();
 
          //Server settings
-         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+         //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
          $mail->isSMTP();                                            // Send using SMTP
          $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
          $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-         $mail->Username   = "thinksoftcreative@gmail.com";                     // SMTP username
-         $mail->Password   = "thinksoft2021";                               // SMTP password
+         $mail->Username   = "Lynxdna1@gmail.com";                     // SMTP username
+         $mail->Password   = "lynxdna2017";                          // SMTP password
          $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
          $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
   
@@ -52,7 +52,7 @@ if (isset($_POST['send']))
          $mail->setFrom('info@lynxlaboratories.com.ng', 'Lynx Support Service');
          $mail->addAddress($email, $phone);     // Add a recipient
          $mail->addAddress($email);               // Name is optional
-         $mail->addCC('info@lynxlaboratories.com.ng');
+         $mail->addCC('Lynxdna1@gmail.com');
          $mail->addBCC('info@lynxlaboratories.com.ng');
  
          // Content
