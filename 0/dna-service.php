@@ -1,15 +1,6 @@
 <?php require 'header.php' ?>
 <?php require 'nav.php' ?>
 
-<!-- ***** Preloader Start ***** -->
-<div id="preloader">
-    <div class="jumper">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</div>  
-<!-- ***** Preloader End ***** -->
 
 <!-- DNA Test HEROE SECTION -->
 <section class="bg_main" id="dna_serve">
