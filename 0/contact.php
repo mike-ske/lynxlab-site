@@ -1,18 +1,6 @@
 <?php require 'header.php' ?>
 <?php require 'nav.php' ?>
 
-
-<!-- ***** Preloader Start ***** -->
-<div id="preloader">
-    <div class="jumper">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</div>  
-<!-- ***** Preloader End ***** -->
-
-
 <!-- CONTACT SECTION -->
 <section class="bg_main" id="con_centres">
     <div class="fg_center co_ctre" data-aos="fade-up" data-aos-duration="3000">
