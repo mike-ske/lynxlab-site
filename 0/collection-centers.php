@@ -3,17 +3,6 @@
 <?php require 'inc/function.php' ?>
 <?php require 'inc/dbconn.php' ?>
 
-<!-- ***** Preloader Start ***** -->
-<div id="preloader">
-    <div class="jumper">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</div>  
-<!-- ***** Preloader End ***** -->
-
-
 <!-- COLLECTION CENTRES SECTION -->
 <section class="bg_main" id="centres">
     <div class="fg_center co_ctre">
