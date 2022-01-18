@@ -1,17 +1,6 @@
 <?php require 'header.php' ?>
 <?php require 'nav.php' ?>
 
-<!-- ***** Preloader Start ***** -->
-<div id="preloader">
-    <div class="jumper">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</div>  
-<!-- ***** Preloader End ***** -->
-
-
 <!-- ABOUT US HEROE SECTION -->
 <section class="bg_main" id="about_us">
     <div class="fg_center about_us" data-aos="fade-up" data-aos-duration="3000">
