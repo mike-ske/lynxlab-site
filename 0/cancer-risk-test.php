@@ -1,18 +1,6 @@
 <?php require 'header.php' ?>
 <?php require 'nav.php' ?>
 
-
-<!-- ***** Preloader Start ***** -->
-<div id="preloader">
-    <div class="jumper">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</div>  
-<!-- ***** Preloader End ***** -->
-
-
 <!-- CANCER RISK SECTION -->
 <section class="bg_main" id="can_centres">
     <div class="fg_center co_ctre">
