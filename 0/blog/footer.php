@@ -163,8 +163,11 @@
 
 <script src="../js/main.js"></script>
 
-
+<!-- Global site tag (gtag.js) - Google Ads: 860084010 --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-860084010"></script> 
+<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-860084010'); </script>
 <script src="../splide/dist/js/splide.min.js"></script>
+
 <!-- ==================== JS Slider (Courosel) SECTION ======================== -->
 
 <!-- ======== MAIN ICON SCRIPT ========= -->
