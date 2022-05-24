@@ -172,7 +172,9 @@
     </div>
 </section>
 <!-- ==================== END FOOTER SECTION ======================== -->
-
+<!-- Global site tag (gtag.js) - Google Ads: 860084010 --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-860084010"></script> 
+<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-860084010'); </script>
 <script src="../js/main.js"></script>
 
 
