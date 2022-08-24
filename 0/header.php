@@ -36,5 +36,23 @@
     <link rel="stylesheet" href="icofont/icofont.min.css">
     <link rel="stylesheet" href="Helvetica-Neue-Font/stylesheet.css">
 
+    <meta name="google-site-verification" content="AsLZzxZQ3yTStANV_XDA8TeO4EpyJasU3Hhg9D0EskM" />
+
+    <!-- Google tag (gtag.js) -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3NYZT0653V"></script>
+
+    <script>
+
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag(){dataLayer.push(arguments);}
+
+      gtag('js', new Date());
+
+      gtag('config', 'G-3NYZT0653V');
+
+    </script>
+
 </head>
 <body>
