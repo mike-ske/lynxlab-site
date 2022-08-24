@@ -214,9 +214,8 @@
 
 $(function(){
 
-    $('body').on('load', function(){
+    $('.link__2').on('click', function(){
 
-        alert('worked')
         // set a short timeout before taking action
         // so as to allow hash to be set
         setTimeout(()=>{
@@ -225,7 +224,7 @@ $(function(){
         }, 5); // 5 millisecond timeout in this case
         
     })
-    
+
 })
 </script>
 
