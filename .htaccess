@@ -1,0 +1,8 @@
+# Redirect the user to home pag. Removes the 0/ directory from the URL
+RewriteEngine On
+RewriteBase /lynxlab-site/
+
+RewriteCond %{THE_REQUEST} /0/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+
+RewriteRule ^((?!0/).*)$ 0/$1 [L,NC]
