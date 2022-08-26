@@ -1,8 +1,41 @@
-# Redirect the user to home pag. Removes the 0/ directory from the URL
-RewriteEngine On
-RewriteBase /lynxlab-site/
+RewriteEngine on
 
-RewriteCond %{THE_REQUEST} /0/([^\s?]*) [NC]
-RewriteRule ^ %1 [L,NE,R=302]
+# This code settings removes any file with .php extension i.e www.example.com/index.php becomes
+# www.example.com/index
 
-RewriteRule ^((?!0/).*)$ 0/$1 [L,NC]
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [NC,L]
+
+
+# This code settings removes the index.php name in the URL When the site first loads
+
+Options +FollowSymLinks -MultiViews
+RewriteBase  /
+
+RewriteRule ^index.\.php/?$ / [L,R=301,NC]
+
+
+
+
+
+
+# RewriteEngine on
+# RewriteBase /
+
+# Redirect the user to 404 error page when the URI is invalid
+ErrorDocument 404 https://lynxlaboratories.com/errors/404.php
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ https://lynxlaboratories.com/errors/404.php [L]
+
+ErrorDocument 400 https://lynxlaboratories.com/errors/400.php
+
+# Redirect the user to 400 error page when the URI is invalid
+
+RewriteCond %{REQUEST_URI} ^/400/$
+RewriteRule ^(.*)$ https://lynxlaboratories.com [L]
+
+# Redirect the user to home page. Removes the 0/ directory from the URL

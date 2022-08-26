@@ -270,7 +270,7 @@
         setTimeout(()=>{
             // uses HTML5 history API to manipulate the location bar
             history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search);
-        }, 5); // 5 millisecond timeout in this case
+        }, 8); // 5 millisecond timeout in this case
 
         })
 
