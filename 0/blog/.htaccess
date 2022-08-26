@@ -16,3 +16,4 @@ RewriteBase  /
 
 RewriteRule ^index.\.php/?$ / [L,R=301,NC]
 
+
