@@ -15,13 +15,14 @@
                         <li class="splide__slide slide_1 spld_width" style="width:1540px">
                             <div class="slide_container">
                                 <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
-                                    <h1 class="h1_hd">We are specialists in <br> DNA and Forensic services</h1>
+                                    <h1 class="h1_hd">We Are the Best<br> DNA Test Center in Nigeria</h1>
                                     <p class="p_hd">
-                                        Customers have trusted us with innumerable DNA test cases. 
+                                        Established in 2006 as an affiliate of GENETICA DNA and DNA Diagnostic Center in the United States, Visit any of our DNA test centers for fast, affordable DNA testing across Nigeria today.
+                                        <!-- Customers have trusted us with innumerable DNA test cases. 
                                         We have built credible and sustainable partnerships that gives us an edge
-                                        over our competitors in the industry.
+                                        over our competitors in the industry. -->
                                     </p>
-                                    <a href="contact" class="hd_btn">Bookings</a>
+                                    <a href="contact" class="hd_btn">Book a Test..Let’s Talk</a>
                                 </div>
                             </div>
                         </li>
@@ -30,10 +31,11 @@
                         <li class="splide__slide slide_2 spld_width">
                             <div class="slide_container">
                                 <div class="text_head w_no_1" data-aos="fade-up" data-aos-duration="3200">
-                                    <h1 class="h1_hd">Cancer Risk DNA Testing</h1>
+                                    <h1 class="h1_hd">We Are Specialists in <br>Forensic DNA Testing </h1>
                                     <p class="p_hd w_no">
-                                        Knowing your cancer risk can help you and your doctor make life saving 
-                                        medical decisions. Take the step of prevention today.
+                                        Our Forensic DNA tests support resolution of criminal, immigration and paternity investigations with utmost professionalism and confidentiality. Visit the nearest DNA test center to you now.
+                                        <!-- Knowing your cancer risk can help you and your doctor make life saving 
+                                        medical decisions. Take the step of prevention today. -->
                                     </p>
                                 
                                 </div>
@@ -46,11 +48,12 @@
                         <li class="splide__slide slide_3 spld_width">
                             <div class="slide_container">
                                 <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
-                                    <h1 class="h1_hd">Paternity & Maternity Test</h1>
+                                    <h1 class="h1_hd">Know Cancer Status with <br> Affordable DNA Test</h1>
                                     <p class="p_hd">
-                                        Who is your daddy or who is the mother has remained a 
+                                        Our DNA test helps You estimate chances of developing cancer in your lifetime, by searching for specific mutations in your genes. Would you rather live a cancer-free life? Start now.
+                                        <!-- Who is your daddy or who is the mother has remained a 
                                         prominent question in relationship testing. 
-                                        Lynx DNA Lab can resolve the doubt fast and give reliable response to 99.9%
+                                        Lynx DNA Lab can resolve the doubt fast and give reliable response to 99.9% -->
                                     </p>
                                 
                                 </div>
@@ -62,10 +65,12 @@
                         <li class="splide__slide slide_4 spld_width">
                             <div class="slide_container">
                                 <div class="text_head" data-aos="fade-up" data-aos-duration="3200">
-                                    <h1 class="h1_hd w_1">Pre-natal DNA Test</h1>
+                                    <h1 class="h1_hd w_1">Resolve Paternity & Maternity <br> Issues with DNA</h1>
                                     <p class="p_hd w_2">
-                                        Want to establish biological paternity of an 
-                                        unborn child? Pre- Natal DNA Testing makes it possible.
+                                        Our DNA test helps determine if you are the true biological father or mother of a child with almost 99.9% accuracy. Visit our paternity DNA test center near you across Nigeria today.
+
+                                        <!-- Want to establish biological paternity of an 
+                                        unborn child? Pre- Natal DNA Testing makes it possible. -->
                                     </p>
                                 
                                 </div>
@@ -112,11 +117,13 @@
             </div>
 
             <p class="abt__par">
-                LYNX DNA Laboratory is one of the leading and highly recognized and 
+                Lynx DNA Laboratory is the leading DNA test center based in Lagos, Nigeria. Through a growing network of globally recognized partnerships that we have built over the years, we are accredited by the United States-based GENETICA DNA Laboratories and DNA Diagnostic Center (DDC) to deliver fast, accurate and affordable DNA testing through our offices in major cities across the country.
+                
+                <!-- LYNX DNA Laboratory is one of the leading and highly recognized and 
                 identified genetic-testing laboratory.
 
                 We were established in 2006, as an affiliate of DNA diagnostic center (DDC). Both laboratories are based in Ohio, 
-                United States and are one of the largest and most experienced...
+                United States and are one of the largest and most experienced... -->
             </p>
 
             <!-- Design vision section -->
@@ -146,9 +153,10 @@
                     <div class="set_bt">
                         <h3 class="set_1">Confidentiality</h3>
                         <p class="set_2">
-                            We guard every Client's genetic 
+                            We guard every client's genetic information committed into our care in the most sacred ways, mindful of the sanctity of each case. As such your DNA test results are secure with us. 
+                            <!-- We guard every Client's genetic 
                             information committed into our 
-                            care in most sacred ways, mindful of the sanctity of each case.
+                            care in most sacred ways, mindful of the sanctity of each case. -->
                         </p>
 
                     </div>
@@ -161,9 +169,10 @@
                     <div class="set_bt">
                         <h3 class="set_1">Professionalism</h3>
                         <p class="set_2">
-                            We treat every client with special care, respect, and confidentiality, 
+                            We treat every client with special care, respect, and confidentiality, because we know that every DNA testing situation is private, unique and important to you.
+                            <!-- We treat every client with special care, respect, and confidentiality, 
                             because we know that every testing situation is 
-                            private, unique and important to you.
+                            private, unique and important to you. -->
                         </p>
     
                     </div>
@@ -175,9 +184,11 @@
                     <div class="set_bt">
                         <h3 class="set_1">Excellence</h3>
                         <p class="set_2">
-                            As a thought leader in DNA testing and other testing 
+                            As an industry leader in DNA testing and other testing services in Nigeria, we are committed to providing accurate results you can trust. Your peace of mind is important to us.
+
+                            <!-- As a thought leader in DNA testing and other testing 
                             services, we are committed to providing 
-                            accurate results you can trust. Contact us today!
+                            accurate results you can trust. Contact us today! -->
                         </p>
                     
                     </div>
@@ -187,14 +198,15 @@
                     <div class="in_bx"><img src="img/ico3.png" alt=""> </div>
                 
                     <div class="set_bt">
-                        <h3 class="set_1">Pre-Test & Post Counseling</h3>
+                        <h3 class="set_1">Free Counseling</h3>
                         <p class="set_2">
-                            Our clients are taken through pre-test counseling, informing 
+                            To promote harmony in the family, we provide free pre-test counseling to educate our clients DNA test results could be positive or negative, especially in paternity or maternity issues. Also, after the result is out, we counsel family members at no cost.
+                            <!-- Our clients are taken through pre-test counseling, informing 
                             them the result could be one of two options (positive or negative) 
                             especially in paternity or maternity issue. 
                             The objective is to promote harmony in the family.
                             Once the result is out, we also offer counselling in the family many 
-                            times at no cost.
+                            times at no cost. -->
                         </p>
                     
                     </div>
