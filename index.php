@@ -146,7 +146,7 @@
 
             <!-- Design vision section -->
             <div class="abt__list__par">
-                <a href="http://www.lynxlaboratories.com.ng/about-us/" class="sp_link">Read more <i class="icofont-long-arrow-right"></i></a>
+                <a href="about-us/" class="sp_link">Read more <i class="icofont-long-arrow-right"></i></a>
             </div>
         </div>
 </section>
