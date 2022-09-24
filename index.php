@@ -19,10 +19,15 @@
                                     <p class="p_hd">
                                         Established in 2006 as an affiliate of GENETICA DNA and DNA Diagnostic Center in the United States, Visit any of our DNA test centers for fast, affordable DNA testing across Nigeria today.
                                         <!-- Customers have trusted us with innumerable DNA test cases. 
-                                        We have built credible and sustainable partnerships that gives us an edge
+                                        We have built credible nd sustainable partnerships that gives us an edge
                                         over our competitors in the industry. -->
                                     </p>
-                                    <a href="contact" class="hd_btn">Book a Test..Let’s Talk</a>
+                                    <div class="btn2" style="display:flex;gap:20px;align-items:center">
+                                        <div  class="mrg_auto" style="margin:auto">
+                                            <a href="contact" class="hd_btn">Book a Test</a>
+                                            <a target="_blank" style="margin-left:40px" href="https://api.whatsapp.com/send?phone=2349010001992" class="hd_btn">Let’s Talk</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -37,7 +42,12 @@
                                         <!-- Knowing your cancer risk can help you and your doctor make life saving 
                                         medical decisions. Take the step of prevention today. -->
                                     </p>
-                                
+                                    <div class="btn2" style="display:flex;gap:20px;align-items:center">
+                                        <div  class="mrg_auto" style="margin:auto">
+                                            <a href="contact" class="hd_btn">Book a Test</a>
+                                            <a style="margin-left:40px" href="https://api.whatsapp.com/send?phone=2349010001992" class="hd_btn">Let’s Talk</a>
+                                        </div>
+                                    </div>
                                 </div>
 
                               
@@ -51,11 +61,14 @@
                                     <h1 class="h1_hd">Know Cancer Status with <br> Affordable DNA Test</h1>
                                     <p class="p_hd">
                                         Our DNA test helps You estimate chances of developing cancer in your lifetime, by searching for specific mutations in your genes. Would you rather live a cancer-free life? Start now.
-                                        <!-- Who is your daddy or who is the mother has remained a 
-                                        prominent question in relationship testing. 
-                                        Lynx DNA Lab can resolve the doubt fast and give reliable response to 99.9% -->
+                                       
                                     </p>
-                                
+                                    <div class="btn2" style="display:flex;gap:20px;align-items:center">
+                                        <div  class="mrg_auto" style="margin:auto">
+                                            <a href="contact" class="hd_btn">Book a Test</a>
+                                            <a target="_blank" style="margin-left:40px" href="https://api.whatsapp.com/send?phone=2349010001992" class="hd_btn">Let’s Talk</a>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -68,11 +81,13 @@
                                     <h1 class="h1_hd w_1">Resolve Paternity & Maternity <br> Issues with DNA</h1>
                                     <p class="p_hd w_2">
                                         Our DNA test helps determine if you are the true biological father or mother of a child with almost 99.9% accuracy. Visit our paternity DNA test center near you across Nigeria today.
-
-                                        <!-- Want to establish biological paternity of an 
-                                        unborn child? Pre- Natal DNA Testing makes it possible. -->
                                     </p>
-                                
+                                    <div class="btn2" style="display:flex;gap:20px;align-items:center">
+                                        <div  class="mrg_auto" style="margin:auto">
+                                            <a href="contact" class="hd_btn">Book a Test</a>
+                                            <a target="_blank" style="margin-left:40px" href="https://api.whatsapp.com/send?phone=2349010001992" class="hd_btn">Let’s Talk</a>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -89,7 +104,12 @@
                                         Speaking to our professional counselor is absolutely 
                                         FREE. Request to speak to one now!
                                     </p>
-                                
+                                    <div class="btn2" style="display:flex;gap:20px;align-items:center">
+                                        <div  class="mrg_auto" style="margin:auto">
+                                            <a href="contact" class="hd_btn">Book a Test</a>
+                                            <a target="_blank" style="margin-left:40px" href="https://api.whatsapp.com/send?phone=2349010001992" class="hd_btn">Let’s Talk</a>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 
@@ -113,22 +133,20 @@
 
         <div class="abt__2" data-aos="fade-up" data-aos-duration="2000">
             <div class="title" id="bar" data-aos="fade-up" data-aos-duration="2000">
-                <h2 class="sub__title">About Us</h2>
+                <h2 class="sub__title">Who We Are?</h2>
             </div>
 
             <p class="abt__par">
-                Lynx DNA Laboratory is the leading DNA test center based in Lagos, Nigeria. Through a growing network of globally recognized partnerships that we have built over the years, we are accredited by the United States-based GENETICA DNA Laboratories and DNA Diagnostic Center (DDC) to deliver fast, accurate and affordable DNA testing through our offices in major cities across the country.
-                
-                <!-- LYNX DNA Laboratory is one of the leading and highly recognized and 
-                identified genetic-testing laboratory.
-
-                We were established in 2006, as an affiliate of DNA diagnostic center (DDC). Both laboratories are based in Ohio, 
-                United States and are one of the largest and most experienced... -->
+                Lynx DNA Laboratory is the leading DNA test center based in Lagos, Nigeria. Through a growing network of globally 
+                recognized partnerships that we have built over the years, we are accredited by the United States-based 
+                <a href="https://www.governmentcontracts.us/government-contractors/company-BSG1919475-genetica-dna-laboratories-Cincinnati-OH.htm">GENETICA DNA Laboratories</a> and <a href="https://dnacenter.com/">DNA Diagnostic Center (DDC)</a> 
+                to deliver fast, accurate and affordable DNA testing through our offices in major cities across the country.
+  
             </p>
 
             <!-- Design vision section -->
             <div class="abt__list__par">
-                <a href="about-us" class="sp_link">Read more <i class="icofont-long-arrow-right"></i></a>
+                <a href="http://www.lynxlaboratories.com.ng/about-us/" class="sp_link">Read more <i class="icofont-long-arrow-right"></i></a>
             </div>
         </div>
 </section>
@@ -148,15 +166,13 @@
             <!-- BOX 1 -->
                 <div class="grid__box bx_1">
                     
-                    <div class="in_bx"><img src="img/ico4.png" alt=""> </div>
+                    <div class="in_bx"><img src="img/ico4.png" alt="DNA Test Center in Nigeria "> </div>
                 
                     <div class="set_bt">
                         <h3 class="set_1">Confidentiality</h3>
                         <p class="set_2">
                             We guard every client's genetic information committed into our care in the most sacred ways, mindful of the sanctity of each case. As such your DNA test results are secure with us. 
-                            <!-- We guard every Client's genetic 
-                            information committed into our 
-                            care in most sacred ways, mindful of the sanctity of each case. -->
+                           
                         </p>
 
                     </div>
@@ -164,22 +180,20 @@
             <!-- BOX 2 -->
                 <div class="grid__box bx_2">
                     
-                    <div class="in_bx"><img src="img/ico1.png" alt=""> </div>
+                    <div class="in_bx"><img src="img/ico1.png" alt="DNA Test Center in Nigeria "> </div>
                 
                     <div class="set_bt">
                         <h3 class="set_1">Professionalism</h3>
                         <p class="set_2">
                             We treat every client with special care, respect, and confidentiality, because we know that every DNA testing situation is private, unique and important to you.
-                            <!-- We treat every client with special care, respect, and confidentiality, 
-                            because we know that every testing situation is 
-                            private, unique and important to you. -->
+  
                         </p>
     
                     </div>
                 </div>
                 <div class="grid__box bx_3">
                     
-                    <div class="in_bx"><img src="img/ico2.png" alt=""> </div>
+                    <div class="in_bx"><img src="img/ico2.png" alt="DNA Test Center in Nigeria "> </div>
                 
                     <div class="set_bt">
                         <h3 class="set_1">Excellence</h3>
@@ -195,18 +209,13 @@
                 </div>
                 <div class="grid__box bx_4">
                     
-                    <div class="in_bx"><img src="img/ico3.png" alt=""> </div>
+                    <div class="in_bx"><img src="img/ico3.png" alt="DNA Test Center in Nigeria "> </div>
                 
                     <div class="set_bt">
                         <h3 class="set_1">Free Counseling</h3>
                         <p class="set_2">
                             To promote harmony in the family, we provide free pre-test counseling to educate our clients DNA test results could be positive or negative, especially in paternity or maternity issues. Also, after the result is out, we counsel family members at no cost.
-                            <!-- Our clients are taken through pre-test counseling, informing 
-                            them the result could be one of two options (positive or negative) 
-                            especially in paternity or maternity issue. 
-                            The objective is to promote harmony in the family.
-                            Once the result is out, we also offer counselling in the family many 
-                            times at no cost. -->
+                
                         </p>
                     
                     </div>
@@ -215,7 +224,7 @@
             </div>
 
             <div class="grid_image" data-aos="fade-up" data-aos-duration="2000">
-                <img src="img/l_3.png" alt="Woman Takes Note">
+                <img src="img/l_3.png" alt="DNA Test Center in Nigeria ">
             </div>
         </div>
 
@@ -236,8 +245,8 @@
                 </p>
 
                 <div class="sp__btn" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="img/b_2.png">
-                    <img src="img/b_1.png">
+                    <img src="img/b_2.png" alt="DNA Test Center in Nigeria">
+                    <img src="img/b_1.png" alt="DNA Test Center in Nigeria">
                 </div>
             </div>
     </div>
@@ -268,22 +277,22 @@
 
                         <!--===== first slide ======== -->
                         <li class="splide__slide">
-                            <img src="img/v_1.png" alt="">
+                            <img src="img/v_1.png" alt="DNA Test Center in Nigeria ">
                         </li>
 
                         <!--===== second slide ======== -->
                         <li class="splide__slide">
-                            <img src="img/v_1.png" alt="">
+                            <img src="img/v_1.png" alt="DNA Test Center in Nigeria ">
                         </li>
 
                         <!--===== third slide ======== -->
                         <li class="splide__slide">
-                            <img src="img/v_1.png" alt="">  
+                            <img src="img/v_1.png" alt="DNA Test Center in Nigeria ">  
                         </li>
 
                         <!--===== fourth slide ======== -->
                         <li class="splide__slide">
-                            <img src="img/v_1.png" alt="">
+                            <img src="img/v_1.png" alt="DNA Test Center in Nigeria ">
                         </li>
                     </ul>
                 </div>
@@ -397,7 +406,7 @@
         <!-- BOX 1 -->
             <div class="grid__box">
                 
-                <div class="in_bx auto_center"><img src="img/W_3.png" alt=""> </div>
+                <div class="in_bx auto_center"><img src="img/W_3.png" alt="DNA Test Center in Nigeria "> </div>
                
                 <div class="set_bt bt_center">
                     <h3 class="set_1">Contact Our Office</h3>
@@ -412,7 +421,7 @@
         <!-- BOX 2 -->
             <div class="grid__box">
                 
-                <div class="in_bx auto_center"><img src="img/W_2.png" alt=""> </div>
+                <div class="in_bx auto_center"><img src="img/W_2.png" alt="DNA Test Center in Nigeria "> </div>
                
                 <div class="set_bt bt_center">
                     <h3 class="set_1">Mail Your Kit</h3>
@@ -426,7 +435,7 @@
             </div>
             <div class="grid__box">
                 
-                <div class="in_bx auto_center"><img src="img/W_1.png" alt=""> </div>
+                <div class="in_bx auto_center"><img src="img/W_1.png" alt="DNA Test Center in Nigeria "> </div>
                
                 <div class="set_bt bt_center">
                     <h3 class="set_1">Receive Result</h3>
