@@ -3,7 +3,7 @@
 
 <!-- ABOUT US HEROE SECTION -->
 <section class="bg_main" id="about_us">
-    <div class="fg_center about_us" data-aos="fade-up" data-aos-duration="3000">
+    <div class="fg_center abpout_us" data-aos="fade-up" data-aos-duration="3000">
         <h1 class="abt_h1">About Us</h1>
     </div>
             
@@ -15,7 +15,7 @@
     <div class="fg_center who_sec">
         <div class="abt_sec_1"   data-aos="fade-up" data-aos-duration="3200">
             <div class="title">
-                <h2 class="sub__title">Who We Are!</h2>
+                <h3 class="sub__title">Who We Are!</h3>
             </div>
 
             <p class="sec_txt">
@@ -45,7 +45,7 @@
 
         <div class="what_1"   data-aos="fade-up" data-aos-duration="3200">
             <div class="title">
-                <h2 class="sub__title title_right">What We Do!</h2>
+                <h3 class="sub__title title_right">What We Do!</h3>
             </div>
 
             <p class="what_p">
@@ -63,7 +63,7 @@
     <div class="fg_center who_sec">
         <div class="abt_sec_1"   data-aos="fade-up" data-aos-duration="3200">
             <div class="title">
-                <h2 class="sub__title">How DNA Testing Is Done?</h2>
+                <h3 class="sub__title">How DNA Testing Is Done?</h3>
             </div>
             <p class="sec_txt">
             We use two extremely accurate DNA sample collection techniques, blood and swab, depending
@@ -94,7 +94,7 @@
 
         <div class="what_1"   data-aos="fade-up" data-aos-duration="3200">
             <div class="title">
-                <h2 class="sub__title title_right">Why Choose Us?</h2>
+                <h3 class="sub__title title_right">Why Choose Us?</h3>
             </div>
 
             <p class="what_p">
@@ -115,7 +115,7 @@
     <div class="fg_center who_sec">
         <div class="abt_sec_1"   data-aos="fade-up" data-aos-duration="3200">
             <div class="title">
-                <h2 class="sub__title">Why Use Our DNA Test Center?</h2>
+                <h3 class="sub__title">Why Use Our DNA Test Center?</h3>
             </div>
           
             <p class="sec_txt">
@@ -147,7 +147,7 @@
 
         <div class="what_1"   data-aos="fade-up" data-aos-duration="3200">
             <div class="title">
-                <h2 class="sub__title title_right">How Accurate Is DNA Test in Nigeria?</h2>
+                <h3 class="sub__title title_right">How Accurate Is DNA Test in Nigeria?</h3>
             </div>
             
             <p class="what_p">
@@ -165,13 +165,63 @@
     <div class="fg_center who_sec">
         <div class="abt_sec_1"   data-aos="fade-up" data-aos-duration="3200">
             <div class="title">
-                <h2 class="sub__title">Where Can I Do a DNA Test in Nigeria?</h2>
+                <h3 class="sub__title">Where Can I Do a DNA Test in Nigeria?</h3>
             </div>
           
             <p class="sec_txt">
                 We have a growing network of accredited DNA test centers across Nigeria and there will always be one close to you, regardless of your location.  
                 <br><br>
                 We work round the clock to make DNA testing in Nigeria easy, fast and accessible to every Nigerian without having to travel to Lagos, Abuja or anywhere outside your state.
+            </p>
+        </div>
+
+        <div class="abt_sec_2"   data-aos="fade-up" data-aos-duration="3200">
+            <img src="img/m_2.png" alt="Affordable DNA Testing Center" class="img">
+        </div>
+       
+    </div>
+            
+</section>
+<!-- END OF HOW SECTION -->
+
+<!-- WHY SECTION -->
+<section class="bg_main" id="what">
+    <div class="fg_center wha_sect">
+        
+        <div class="what_2 wht_left"   data-aos="fade-up" data-aos-duration="3200">
+            <img src="img/l_2.png" alt="Affordable DNA Testing Center" class="img">
+        </div>
+
+        <div class="what_1"   data-aos="fade-up" data-aos-duration="3200">
+            <div class="title">
+                <h3 class="sub__title title_right">How Much Is a DNA Test?</h3>
+            </div>
+            
+            <p class="what_p">
+            The cost of DNA tests in Nigeria differs based on the DNA test service and where in the country the test will be taken. 
+            Choose the DNA test type that meets your requirements, current location and other preferences, to enjoy our fast, convenient and affordable DNA test services. <br><br>
+              
+            </p>
+        </div>
+    </div>
+</section>
+<!-- END OF WHY SECTION -->
+
+<!-- HOW SECTION -->
+<section class="bg_main" id="who">
+    <div class="fg_center who_sec">
+        <div class="abt_sec_1"   data-aos="fade-up" data-aos-duration="3200">
+            <div class="title">
+                <h3 class="sub__title">Can DNA Testing Be Wrong? </h3>
+            </div>
+          
+            <p class="sec_txt">
+            Yes, for a number of reasons, DNA test results can 
+            be wrong. That is why Lynx DNA Laboratories ensure our 
+            tools and techniques are regularly vetted and upgraded
+             to DNA testing international best practices. Absolute
+              adherence to chain of custody in legal cases is our 
+              watchword.
             </p>
         </div>
 

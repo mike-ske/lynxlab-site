@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <meta name="robots" content="noindex">
+    <!-- <meta name="robots" content="noindex"> -->
 
       <!-- HTML Meta Tags -->
       <meta name="description" content="Lynx DNA Lab Is the Best DNA Test Center with Offices across Nigeria. Get Affordable DNA Testing for Paternity, Maternity, Forensic and Cancer Treatment Today. ">
@@ -22,7 +22,7 @@
       <?php if(isset($_SERVER['REQUEST_URL'] ) && $_SERVER['REQUEST_URL'] === 'about-us'){ ?>
         <title>Affordable DNA Testing Center Near You | Lynx DNA Lab</title>
         <!-- HTML Meta Tags -->
-        <meta name="description" content=" We are Lynx DNA Laboratory, a Private DNA Testing Center with Accredited Test Centers in Major Cities in Nigeria. We Are Affiliated to GENETICA DNA and DDC in Ohio, United States.">
+        <meta name="description" content="We are Lynx DNA Laboratory, a Private DNA Testing Center with Accredited Test Centers in Major Cities in Nigeria. We Are Affiliated to GENETICA DNA and DDC in Ohio, United States.">
       
         <meta property="og:url" content="http://www.lynxlaboratories.com.ng/about-us/">
         <meta property="og:type" content="website">
@@ -77,10 +77,9 @@
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
 
       <?php  }else{?>
-        <title>Lynx Laboratories | The Leading DNA Test Center</title>
+        <title>Best DNA Test Center in Lagos, Nigeria | Lynx DNA Lab</title>
         <meta property="og:type" content="website">
-        <meta property="og:title" content="Best DNA Test Center in Lagos, Nigeria | Lynx DNA Lab">
-        <meta property="og:description" content="Lynx DNA Lab Is the Best DNA Test Center with Offices across Nigeria. Get Affordable DNA Testing for Paternity, Maternity, Forensic and Cancer Treatment Today. ">
+        <meta property="og:title" content="Lynx DNA Lab Is the Best DNA Test Center with Offices across Nigeria. Get Affordable DNA Testing for Paternity, Maternity, Forensic and Cancer Treatment Today.">
         <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
         <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
         <meta property="og:image:alt" content="Lynx DNA Lab" />

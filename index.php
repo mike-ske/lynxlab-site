@@ -133,7 +133,7 @@
 
         <div class="abt__2" data-aos="fade-up" data-aos-duration="2000">
             <div class="title" id="bar" data-aos="fade-up" data-aos-duration="2000">
-                <h2 class="sub__title">Who We Are?</h2>
+                <h3 class="sub__title">Who We Are?</h3>
             </div>
 
             <p class="abt__par">
@@ -146,7 +146,7 @@
 
             <!-- Design vision section -->
             <div class="abt__list__par">
-                <a href="/about-us" class="sp_link">Read more <i class="icofont-long-arrow-right"></i></a>
+                <a href="./about-us" class="sp_link">Read more <i class="icofont-long-arrow-right"></i></a>
             </div>
         </div>
 </section>
@@ -157,7 +157,7 @@
 <section class="bg_main ">
     <div class="fg_center team">
         <div class="title" data-aos="fade-up" data-aos-duration="2000">
-            <h2 class="sub__title tm__align">Our Core Values</h2>
+            <h3 class="sub__title tm__align">Our Core Values</h3>
         </div>
 
         <div class="team__grid">
@@ -236,7 +236,7 @@
 <section class="bg_main ">
     <div class="fg_center sponsor">
             <div class="title">
-                <h2 class="sub__title" data-aos="fade-up" data-aos-duration="2000">We Partner with the best Laboratories</h2>
+                <h3 class="sub__title" data-aos="fade-up" data-aos-duration="2000">We Partner with the best Laboratories</h3>
             </div>
 
             <div class="sp__par">
@@ -258,7 +258,7 @@
     <div class="fg_center comm">
         <div class="comm__1">
             <div class="title" data-aos="fade-up" data-aos-duration="2000">
-                <h2 class="sub__title wht__title">Welcome to our DNA <br> centres in Nigeria</h2>
+                <h3 class="sub__title wht__title">Welcome to our DNA <br> centres in Nigeria</h3>
             </div>
 
             <p class="comm__txt" data-aos="fade-up" data-aos-duration="2000">
@@ -307,7 +307,7 @@
 <section class="bg_main ">
     <div class="fg_center sponsor">
             <div class="title" data-aos="fade-up" data-aos-duration="2000">
-                <h2 class="sub__title">Testimonials</h2>
+                <h3 class="sub__title">Testimonials</h3>
             </div>
 
             <div class="sp__par">
@@ -396,7 +396,7 @@
 <section class="bg_main">
     <div class="fg_center team">
         <div class="title set_ht" data-aos="fade-up" data-aos-duration="2000">
-            <h2 class="sub__title tm__align change">How We Work!</h2>
+            <h3 class="sub__title tm__align change">How We Work!</h3>
             <p class="p_sp new_sp">
                 Kickstart your DNA Test with our three simple process
             </p>
@@ -462,7 +462,7 @@
     <div class="fg_center blog">
         <div class="join__1" data-aos="fade-up" data-aos-duration="2000">
             <div class="title">
-                <h2 class="sub__title">Blogposts & Health Tips</h2>
+                <h3 class="sub__title">Blogposts & Health Tips</h3>
             </div>
             <p class="j_txt">
                 Discover how great our organization everywhere increase standards of 
@@ -519,7 +519,7 @@
         
         <div class="connect__1" data-aos="fade-up" data-aos-duration="3400">
             <div class="title">
-                <h2 class="sub__title con__title ">Thinking of confidentiality and accuracy?</h2>
+                <h3 class="sub__title con__title ">Thinking of confidentiality and accuracy?</h3>
             </div>
         </div>
 
