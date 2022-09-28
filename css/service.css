@@ -1,0 +1,145 @@
+.btn_2 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.btn_2 .btn_auto {
+    padding: 16px 40px !important;
+    border-radius: 8px;
+    background: #4097d4;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.btn_2 .btn_auto a {
+    color: white;
+}
+
+.btn_2 .btn_auto:hover {
+    border: 2px solid #4097d4;
+    background: white;
+}
+#nav ul li:hover > a {
+    color: #000;
+}
+
+.btn_2 .btn_auto:hover a {
+    color: #4097d4;
+}
+.grid1 ul li .active_nav {
+    color: #000 !important;
+}
+.all_sec{
+    width: 100%;
+    height: auto;
+    margin: 50px 10px;
+}
+
+#srv_par {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+.talk_sect {
+    margin-top: 150px;
+}
+.srv_bg{
+    background: #4097d4;
+    border-radius: 8px;
+    height: auto;
+    margin:auto;
+    padding: 20px 40px
+}
+.srv_btn{
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+    gap: 8px;
+    width: 160px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.srv_btn:hover
+{
+    background: #3085d6;
+    color: white;
+}
+.srv_btn .img_dn
+{
+    width: 24px;
+    height: 24px;
+}
+.srv_btn .img_dn>img
+{
+   width: 100%;
+}
+
+@media only screen and (min-width:768px) {
+    .grid_main {
+        display: grid!important;
+        grid-template-columns: 1fr 25%!important;
+        gap: 150px!important;
+    }
+    .text_blk {
+        /* font-size: 32px!important; */
+        font-weight: 700 !important;
+        color: #000000!important;
+    }
+    .btn_2 .btn_auto {
+        width: 100px;
+    }
+    .grid1 {
+        width: 100%;
+    }
+    .grid1 ul {
+        margin: 20px;
+        padding: 50px 0 50px 0;
+        border-left: 0.8px solid #ccc;
+    }
+    /* indicators */
+    .grid1 ul li {
+        width: 100%;
+        padding: 15px 20px;
+        
+        transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */        
+    }
+    .grid1 ul li a{
+        text-decoration: none;
+        color: #ccc;
+        transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */        
+    }
+    .grid_main > #nav {
+        position: sticky;
+        top: 2rem;
+        align-self: start;
+    }
+    #nav ul li.active_nav > a {
+        color: #000 !important;
+        font-weight: 700;
+    }
+    #nav ul li.active_nav {
+        border-left: 3px solid #4097d4;
+    }
+    .srv_bg{
+        background: #4097d4;
+        border-radius: 8px;
+        width: 80%;
+        height: auto;
+        padding: 20px 40px
+    }
+    
+
+}
+

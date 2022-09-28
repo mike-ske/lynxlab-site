@@ -1687,8 +1687,9 @@ input[type=submit]:hover {
     width: 100%;
     height: 420px;
     background-position: center;
-    background-image: url(../img/bg_2.png);
+    background-image: url(../img/srv.svg);
     background-repeat: no-repeat;
+    filter: brightness(0.5);
     background-size: cover;
     box-sizing: border-box;
     display: flex;
@@ -2073,20 +2074,25 @@ form>label {
 
 /* <!-- ==================== END OF FAQ  SECTION ======================== --> */
 
-font-size: 15px;
+
+/* font-size: 15px;
 line-height: 28px;
 text-align: left;
 color: #1A1A1A;
 
-}
+} */
+
 #frame {
     width: 100%;
     height: 500px;
 }
 
+
 /* <!-- ==================== END OF CONTACT US SECTION ======================== --> */
 
+
 /* <!-- ==================== BOOKINGS SECTION ======================== --> */
+
 #books_centres {
     width: 100%;
     height: 420px;
@@ -2099,13 +2105,17 @@ color: #1A1A1A;
     justify-content: center;
     align-items: center;
 }
+
 #book_centres {
     padding: 100px 0px;
 }
 
+
 /* <!-- ==================== END OF BOOKINGS  SECTION ======================== --> */
 
+
 /* <!-- ==================== FAQ  SECTION ======================== --> */
+
 .fq_ctre {
     width: 100%;
     height: 420px;
@@ -2118,22 +2128,27 @@ color: #1A1A1A;
     justify-content: center;
     align-items: center;
 }
+
 .faqs {
     padding: 100px 0px;
 }
+
 .fq__center {
     text-align: center;
     width: 100%;
     font-weight: 400;
     margin: 100px auto;
 }
+
 .faqs__1 {
     width: 100%;
     height: auto;
 }
+
 .main__menu {
     margin: auto 100px;
 }
+
 .menu__1 {
     width: 100%;
     display: flex;
@@ -2149,6 +2164,7 @@ color: #1A1A1A;
     border-radius: 8px;
     cursor: pointer;
 }
+
 .menu__1 i {
     font-style: normal;
     font-weight: 500;
@@ -2156,6 +2172,7 @@ color: #1A1A1A;
     color: #000000;
     transition: .5s ease forwards;
 }
+
 .sub__menu__1 {
     font-weight: normal;
     font-size: 16px;
@@ -2166,27 +2183,38 @@ color: #1A1A1A;
     overflow: hidden;
     transition: .4s ease height;
 }
+
 .show_menu {
     max-height: 100% !important;
 }
+
 .menu__1 i:nth-child(2) {
     display: none;
 }
 
-/* <!-- ==================== END OF FAQ  SECTION ======================== --> */
 
 /* <!-- ==================== END OF FAQ  SECTION ======================== --> */
 
-/* <!-- ==================== END OF FAQ  SECTION ======================== --> */
 
 /* <!-- ==================== END OF FAQ  SECTION ======================== --> */
 
-/* <!-- ==================== END OF FAQ  SECTION ======================== --> */
 
 /* <!-- ==================== END OF FAQ  SECTION ======================== --> */
 
-/* <!-- ==================== END OF FAQ  SECTION ======================== --> */
 
 /* <!-- ==================== END OF FAQ  SECTION ======================== --> */
+
+
+/* <!-- ==================== END OF FAQ  SECTION ======================== --> */
+
+
+/* <!-- ==================== END OF FAQ  SECTION ======================== --> */
+
+
+/* <!-- ==================== END OF FAQ  SECTION ======================== --> */
+
+
+/* <!-- ==================== END OF FAQ  SECTION ======================== --> */
+
 
 /* <!-- ==================== END OF FAQ  SECTION ======================== --> */
