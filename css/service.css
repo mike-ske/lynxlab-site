@@ -65,8 +65,8 @@
     align-items: center;
     padding: 8px 15px;
     gap: 8px;
-    width: 160px;
-    height: 48px;
+    width: 120px;
+    height: 34px;
     background: #FFFFFF;
     border-radius: 6px;
     font-size: 16px;
@@ -84,6 +84,37 @@
 .srv_btn .img_dn>img
 {
    width: 100%;
+}
+
+   /* indicators */
+.grid1 ul li {
+    width: 100%;
+    padding: 15px 20px;
+    
+    transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */        
+}
+.grid1 ul li a{
+    text-decoration: none;
+    color: #ccc;
+    transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */        
+}
+/* .grid_main > #nav {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+} */
+#nav ul li.active_nav > a {
+    color: #000 !important;
+    font-weight: 700;
+}
+#nav ul li.active_nav {
+    border-left: 3px solid #4097d4;
+}
+
+.grid1 ul {
+    margin: 20px;
+    padding: 50px 0 50px 0;
+    border-left: 0.8px solid #ccc;
 }
 
 @media only screen and (min-width:768px) {
@@ -141,5 +172,11 @@
     }
     
 
+}
+
+@media only screen and (max-width: 768px) {
+    .grid_main {
+        flex-direction: column-reverse !important;
+    }
 }
 
