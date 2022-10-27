@@ -56,7 +56,7 @@
     <div class="fg_center maternity" id="d_test">
       
         <div class="mart_img">
-            <img src="img/t2.png" alt="Pregnancy">
+            <img src="img/t2.png" alt="DNA Test Services in Nigeria ">
         </div>
 
         <div class="mart_text_1" style="text-align: right;">
@@ -90,7 +90,7 @@
         </div>
 
         <div class="mart_img">
-            <img src="img/t_8.png" alt="Pregnancy">
+            <img src="img/t_8.png" alt="DNA Test Services in Nigeria ">
         </div>
 
     </div>
@@ -102,7 +102,7 @@
     <div class="fg_center maternity" id="p_test">
         
         <div class="mart_img">
-            <img src="img/parternity_test.jpg" alt="Pregnancy">
+            <img src="img/parternity_test.jpg" alt="DNA Test Services in Nigeria ">
         </div>
       
         <div class="mart_text_1" style="text-align: right;">
@@ -166,7 +166,7 @@
 
           
         <div class="mart_img">
-            <img src="img/non-invasive test.jpeg" alt="Pregnancy">
+            <img src="img/non-invasive test.jpeg" alt="DNA Test Services in Nigeria ">
         </div>
 
     </div>
@@ -193,7 +193,7 @@
         </div>
 
         <div class="mart_img">
-            <img src="img/cancer_risk.png" style="height: 370px;" alt="Pregnancy">
+            <img src="img/cancer_risk.png" style="height: 370px;" alt="DNA Test Services in Nigeria ">
         </div>
       
     </div>
@@ -237,7 +237,7 @@
         </div>
 
         <div class="mart_img">
-            <img src="img/t_4.png" alt="Pregnancy">
+            <img src="img/t_4.png" alt="DNA Test Services in Nigeria ">
         </div>
 
     </div>
@@ -250,7 +250,7 @@
     <div class="fg_center maternity" id="chrome_test">
       
         <div class="mart_img">
-            <img src="img/t_5.png" alt="Pregnancy">
+            <img src="img/t_5.png" alt="DNA Test Services in Nigeria ">
         </div>
 
         <div class="mart_text_1 sib_1">
@@ -280,7 +280,7 @@
         </div>
 
         <div class="mart_img">
-            <img src="img/t_6.png" alt="Pregnancy">
+            <img src="img/t_6.png" alt="DNA Test Services in Nigeria ">
         </div>
 
     </div>
@@ -293,7 +293,7 @@
     <div class="fg_center maternity" id="bank_test">
       
         <div class="mart_img">
-            <img src="img/t_7.png" alt="Pregnancy">
+            <img src="img/t_7.png" alt="DNA Test Services in Nigeria ">
         </div>
 
         <div class="mart_text_1 sib_1">
@@ -326,7 +326,7 @@
         </div>
 
         <div class="mart_img">
-            <img src="img/Twin zygosity.jpeg" alt="Pregnancy">
+            <img src="img/Twin zygosity.jpeg" alt="DNA Test Services in Nigeria ">
         </div>
 
     </div>
@@ -338,7 +338,7 @@
     <div class="fg_center maternity" id="foren_test">
       
         <div class="mart_img">
-            <img src="img/forensic_image.jpg" alt="Pregnancy">
+            <img src="img/forensic_image.jpg" alt="DNA Test Services in Nigeria ">
         </div>
 
         <div class="mart_text_1 sib_1">
@@ -369,7 +369,7 @@
         </div>
 
         <div class="mart_img">
-            <img src="img/Grandparent DNA.jpeg" alt="Pregnancy">
+            <img src="img/Grandparent DNA.jpeg" alt="DNA Test Services in Nigeria ">
         </div>
 
     </div>
@@ -382,7 +382,7 @@
     <div class="fg_center maternity" id="mt_test">
       
         <div class="mart_img">
-            <img src="img/Mt DAN test.jpeg" alt="Pregnancy">
+            <img src="img/Mt DAN test.jpeg" alt="DNA Test Services in Nigeria ">
         </div>
 
         <div class="mart_text_1 sib_1">

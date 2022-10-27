@@ -18,49 +18,49 @@
             </li>
             <li class="list_1 mega_list" id="disable">
                 
-                <a class="link__1 ach" id="ach">DNA Services we offer</a>
+                <a href="DNA-service" class="link__1 ach" id="ach">DNA Services</a>
                 <ul class="list_2" id="li">
                     <li class="l_2">
-                        <a href="dna-paternity-test"  class="link__2">DNA Paternity Test</a>
+                        <a href="services/dna-paternity-test"  class="link__2">DNA Paternity Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="maternity-dna-test"  class="link__2">Maternity DNA Test</a>
+                        <a href="services/maternity-dna-test"  class="link__2">Maternity DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="immigration-dna-test"  class="link__2">Immigration Test</a>
+                        <a href="services/immigration-dna-test"  class="link__2">Immigration Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="siblinship-dna-test"  class="link__2">Siblingship DNA Test</a>
+                        <a href="services/siblinship-dna-test"  class="link__2">Siblingship DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="reconstruction-dna-test"  class="link__2">Family Reconstruction DNA Test</a>
+                        <a href="services/reconstruction-dna-test"  class="link__2">Family Reconstruction DNA Test</a>
                     </li>
                     <!-- <li class="l_2">
                         <a href="services#chrome_test"  class="link__2">Y-Chromosome Test: Male Lineage Testing</a>
                     </li> -->
                     <li class="l_2">
-                        <a href="avuncular-dna-test"  class="link__2">Avuncular DNA Test: Aunt-Uncle Testing</a>
+                        <a href="services/avuncular-dna-test"  class="link__2">Avuncular DNA Test: Aunt-Uncle Testing</a>
                     </li>
                     <li class="l_2">
-                        <a href="grandparent-dna-test"  class="link__2">Grandparent DNA Test</a>
+                        <a href="services/grandparent-dna-test"  class="link__2">Grandparent DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="mt-dna-test"  class="link__2">MtDNA TEST: Female Lineage Testing</a>
+                        <a href="services/mt-dna-test"  class="link__2">MtDNA TEST: Female Lineage Testing</a>
                     </li>
                     <li class="l_2">
-                        <a href="dna-banking" class="link__2">DNA Banking</a>
+                        <a href="services/dna-banking" class="link__2">DNA Banking</a>
                     </li>
                     <li class="l_2">
-                        <a href="twin-zygosity-test"  class="link__2">Twin Zygosity Test</a>
+                        <a href="services/twin-zygosity-test"  class="link__2">Twin Zygosity Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="non-invasive-prenantal-screening-test"  class="link__2">Non-invasive Prenatal Screeninig Test</a>
+                        <a href="services/non-invasive-prenantal-screening-test"  class="link__2">Non-invasive Prenatal Screeninig Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="non-invasive-pre-paternity-dna-test"  class="link__2">Non-invasive pre-paternity DNA test</a>
+                        <a href="services/non-invasive-pre-paternity-dna-test"  class="link__2">Non-invasive pre-paternity DNA test</a>
                     </li>
                     <li class="l_2">
-                        <a href="cancer-risk-dna-test"  class="link__2">Cancer Risk Test</a>
+                        <a href="services/cancer-risk-dna-test"  class="link__2">Cancer Risk Test</a>
                     </li> 
                 </ul>
             </li>

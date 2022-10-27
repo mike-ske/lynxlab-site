@@ -232,6 +232,81 @@
 </section>
 <!-- ==================== END VALUES SECTION ======================== -->
 
+<!-- HOW SECTION -->
+<section class="bg_main" id="who">
+    <div class="fg_center who_sec">
+        <div class="abt_sec_1"   data-aos="fade-up" data-aos-duration="3200">
+            <div class="title">
+                <h3 class="sub__title">Why Use Our DNA Test Center?</h3>
+            </div>
+          
+            <p class="sec_txt">
+            Efficiency, affordability and peace of mind are our watchwords. 
+            <br><br>
+            GENETICA DNA Labs and DNA Diagnostic Center (DDC) who are backing our 
+            DNA test services in Nigeria have a glorious tradition of playing key roles in establishment of accreditation standards used by DNA testing laboratories throughout North America and beyond.
+            <br><br>
+            As such, global best practices are guaranteed in all Lynx DNA Laboratory testing centers.
+            </p>
+        </div>
+
+        <div class="abt_sec_2"   data-aos="fade-up" data-aos-duration="3200">
+            <img src="img/m_2.png" alt="Affordable DNA Testing Center" class="img">
+        </div>
+       
+    </div>
+            
+</section>
+<!-- END OF HOW SECTION -->
+
+<!-- WHY SECTION -->
+<section class="bg_main" id="what">
+    <div class="fg_center wha_sect">
+        
+        <div class="what_2 wht_left"   data-aos="fade-up" data-aos-duration="3200">
+            <img src="img/l_2.png" alt="Affordable DNA Testing Center" class="img">
+        </div>
+
+        <div class="what_1"   data-aos="fade-up" data-aos-duration="3200">
+            <div class="title">
+                <h3 class="sub__title title_right">How Accurate Is DNA Test in Nigeria?</h3>
+            </div>
+            
+            <p class="what_p">
+                DNA tests in Nigeria, at Lynx DNA Laboratories and our <a href="http://www.lynxlaboratories.com.ng/collection-centers/">DNA test centers</a> nationwide, are extremely accurate as we always follow best practices that are tenable globally. 
+                <br><br>
+                We use the best DNA testing tools that can guarantee up to 99% accuracy. 
+            </p>
+        </div>
+    </div>
+</section>
+<!-- END OF WHY SECTION -->
+
+<!-- HOW SECTION -->
+<section class="bg_main" id="who">
+    <div class="fg_center who_sec">
+        <div class="abt_sec_1"   data-aos="fade-up" data-aos-duration="3200">
+            <div class="title">
+                <h3 class="sub__title">Where Can I Do a DNA Test in Nigeria?</h3>
+            </div>
+          
+            <p class="sec_txt">
+                We have a growing network of accredited DNA test centers across Nigeria and there will always be one close to you, regardless of your location.  
+                <br><br>
+                We work round the clock to make DNA testing in Nigeria easy, fast and accessible to every Nigerian without having to travel to Lagos, Abuja or anywhere outside your state.
+            </p>
+        </div>
+
+        <div class="abt_sec_2"   data-aos="fade-up" data-aos-duration="3200">
+            <img src="img/m_2.png" alt="Affordable DNA Testing Center" class="img">
+        </div>
+       
+    </div>
+            
+</section>
+<!-- END OF HOW SECTION -->
+
+
 <!-- ==================== PARTNER SECTION ======================== -->
 <section class="bg_main ">
     <div class="fg_center sponsor">

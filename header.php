@@ -5,21 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <!-- <meta name="robots" content="noindex"> -->
 
-      <!-- HTML Meta Tags -->
-      <meta name="description" content="Lynx DNA Lab Is the Best DNA Test Center with Offices across Nigeria. Get Affordable DNA Testing for Paternity, Maternity, Forensic and Cancer Treatment Today. ">
-      
-      <!-- Google / Search Engine Tags -->
-      <meta itemprop="name" content="Laboratories">
-      <meta itemprop="description" content="Lynx DNA Lab Is the Best DNA Test Center with Offices across Nigeria. Get Affordable DNA Testing for Paternity, Maternity, Forensic and Cancer Treatment Today. ">
-      <meta itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
-      
-      <!-- Facebook Meta Tags -->
-      <meta property="og:url" content="http://www.lynxlaboratories.com.ng">
-      
-      <?php if(isset($_SERVER['REQUEST_URL'] ) && $_SERVER['REQUEST_URL'] === 'about-us'){ ?>
+      <?php if(isset($_SERVER['REQUEST_URL'] ) && $_SERVER['REQUEST_URL'] === '/lynxlab-site/about-us'){ ?>
         <title>Affordable DNA Testing Center Near You | Lynx DNA Lab</title>
         <!-- HTML Meta Tags -->
         <meta name="description" content="We are Lynx DNA Laboratory, a Private DNA Testing Center with Accredited Test Centers in Major Cities in Nigeria. We Are Affiliated to GENETICA DNA and DDC in Ohio, United States.">
@@ -53,12 +40,12 @@
         <meta property="fb:page_id" content="1077364553177489" />
         <meta property="fb:app_id" content="1077364553177489" />
 
-      <?php  }else if(isset($_SERVER['REQUEST_URL'] ) && $_SERVER['REQUEST_URL'] === 'service'){ ?>
-        <title>Affordable DNA Testing Center Near You | Lynx DNA Lab</title>
-        
+      <?php  }else if(isset($_SERVER['REQUEST_URL'] ) && $_SERVER['REQUEST_URL'] === '/DNA-service/'){ ?>
+        <title>DNA Test Services for Paternity & Maternity in Nigeria | Lynx DNA Lab </title>
+
         <meta property="og:type" content="website">
-        <meta property="og:title" content="DNA Test Services | Lynx DNA Lab">
-        <meta property="og:description" content="Lynx DNA Lab Is the Best DNA Test Center with Offices across Nigeria. Get Affordable DNA Testing for Paternity, Maternity, Forensic and Cancer Treatment Today. ">
+        <meta property="og:title" content="DNA Test Services for Paternity & Maternity in Nigeria | Lynx DNA Lab ">
+        <meta property="og:description" content="Get the Best DNA Test Services for Paternity, Maternity, Siblingship, Family Reconstruction, Forensic, Immigration, and Cancer with Collection Centers across Nigeria.">
         <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
         <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
         <meta property="og:image:alt" content="Lynx DNA Lab" />
@@ -76,9 +63,89 @@
         <meta name="twitter:description" content="We are Lynx DNA Laboratory, a Private DNA Testing Center with Accredited Test Centers in Major Cities in Nigeria. We Are Affiliated to GENETICA DNA and DDC in Ohio, United States.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
 
+      <?php  }else if(isset($_SERVER['REQUEST_URL'] ) && $_SERVER['REQUEST_URL'] === '/services/maternity-dna-testing/'){ ?>
+        <title>DNA Maternity Test in Nigeria with Centers Nationwide | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="DNA Maternity Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
+        <meta property="og:description" content="Do DNA Maternity Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your  Location.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+              <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="DNA Maternity Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
+        <meta name="twitter:description" content="Do DNA Maternity Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your  Location.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+
+      <?php  }else if(isset($_SERVER['REQUEST_URL'] ) && $_SERVER['REQUEST_URL'] === '/services/dna-paternity-test-nigeria/'){ ?>
+        <title>DNA Paternity Test in Nigeria with Centers Nationwide | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="DNA Paternity Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
+        <meta property="og:description" content="Do DNA Paternity Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Preferred Location.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+              <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content=" DNA Paternity Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
+        <meta name="twitter:description" content="Do DNA Paternity Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Preferred Location.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+      <?php  }else if(isset($_SERVER['REQUEST_URL'] ) && $_SERVER['REQUEST_URL'] === '/services/immigration-dna-test/'){ ?>
+        <title>Immigration DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Immigration DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
+        <meta property="og:description" content="Do Immigration DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+              <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Immigration DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
+        <meta name="twitter:description" content="Do Immigration DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+
       <?php  }else{?>
         <title>Best DNA Test Center in Lagos, Nigeria | Lynx DNA Lab</title>
         <meta property="og:type" content="website">
+
+        <!-- HTML Meta Tags -->
+        <meta name="description" content="Lynx DNA Lab Is the Best DNA Test Center with Offices across Nigeria. Get Affordable DNA Testing for Paternity, Maternity, Forensic and Cancer Treatment Today. ">
+        
+        <!-- Google / Search Engine Tags -->
+        <meta itemprop="name" content="Laboratories">
+        <meta itemprop="description" content="Lynx DNA Lab Is the Best DNA Test Center with Offices across Nigeria. Get Affordable DNA Testing for Paternity, Maternity, Forensic and Cancer Treatment Today. ">
+        <meta itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="http://www.lynxlaboratories.com.ng">
+        
         <meta property="og:title" content="Lynx DNA Lab Is the Best DNA Test Center with Offices across Nigeria. Get Affordable DNA Testing for Paternity, Maternity, Forensic and Cancer Treatment Today.">
         <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
         <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
@@ -150,3 +217,5 @@
 
 </head>
 <body>
+
+<?php echo $_SERVER['REQUEST_URL']?>
