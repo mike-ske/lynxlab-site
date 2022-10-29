@@ -112,9 +112,4 @@
 </section>
 <!-- ==================== END OF DNA-TEST SECTION ======================== -->
 
-
-<!-- modal section -->
-<?php require 'modal-section.php' ?>
-<!--  end modal -->
-
 <?php require 'footer.php' ?>

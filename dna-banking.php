@@ -52,13 +52,13 @@
                 <li class="active_nav">
                     <a href="#what-is-dna-banking">What is DNA Banking?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#why-dna-banking">​​Why DNA Banking? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#how-dna-banking-works">How DNA Banking Works?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#where-is-the-dna-banking-in-nigeria">Where Is the Best DNA Bank in Nigeria?</a>
                 </li>
             </ul>

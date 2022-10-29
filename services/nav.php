@@ -48,7 +48,7 @@
                         <a href="../mt-dna-test"  class="link__2">MtDNA TEST: Female Lineage Testing</a>
                     </li>
                     <li class="l_2">
-                        <a href="dna-banking" class="link__2">DNA Banking</a>
+                        <a href="../dna-banking" class="link__2">DNA Banking</a>
                     </li>
                     <li class="l_2">
                         <a href="../twin-zygosity-test"  class="link__2">Twin Zygosity Test</a>

@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <?php if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/about-us/'){ ?>
+    
+    <?php if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/about-us/'){ ?>
         <title>Affordable DNA Testing Center Near You | Lynx DNA Lab</title>
         <!-- HTML Meta Tags -->
         <meta name="description" content="We are Lynx DNA Laboratory, a Private DNA Testing Center with Accredited Test Centers in Major Cities in Nigeria. We Are Affiliated to GENETICA DNA and DDC in Ohio, United States.">
@@ -129,6 +130,211 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Immigration DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
         <meta name="twitter:description" content="Do Immigration DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/siblinship-dna-test/'){ ?>
+        <title>Siblingship DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Siblingship DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
+        <meta property="og:description" content="Do Siblingship DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Siblingship DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
+        <meta name="twitter:description" content="Do SIblingship DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/reconstruction-dna-test/'){ ?>
+        <title>Family Reconstruction DNA Test in Nigeria Near You | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Family Reconstruction DNA Test in Nigeria Near You | Lynx DNA Lab">
+        <meta property="og:description" content="Do Family Reconstruction DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Family Reconstruction DNA Test in Nigeria Near You | Lynx DNA Lab">
+        <meta name="twitter:description" content="Do Family Reconstruction DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+      
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/avuncular-dna-test/'){ ?>
+        <title>Avuncular DNA Test Center in Nigeria Near You | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Avuncular DNA Test Center in Nigeria Near You | Lynx DNA Lab">
+        <meta property="og:description" content="Do Avuncular DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Avuncular DNA Test Center in Nigeria Near You | Lynx DNA Lab">
+        <meta name="twitter:description" content="Do Avuncular DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+      
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/grandparent-dna-test/'){ ?>
+        <title>Grandparent DNA Test Center in Nigeria Near You | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Grandparent DNA Test Center in Nigeria Near You | Lynx DNA Lab">
+        <meta property="og:description" content="Do Grandparent DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Grandparent DNA Test Center in Nigeria Near You | Lynx DNA Lab">
+        <meta name="twitter:description" content="Do Grandparent DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+      
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/mt-dna-test/'){ ?>
+        <title>Mt (Female Lineage) DNA Test Center in Nigeria Near You | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Mt (Female Lineage) DNA Test Center in Nigeria Near You | Lynx DNA Lab">
+        <meta property="og:description" content="Do Mt (Female Lineage) DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mt (Female Lineage) DNA Test Center in Nigeria Near You | Lynx DNA Lab">
+        <meta name="twitter:description" content="Do Mt (Female Lineage) DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+      
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/twin-zygosity-test/'){ ?>
+        <title>Twin Zygosity DNA Test Center in Nigeria Near You | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Twin Zygosity DNA Test Center in Nigeria Near You | Lynx DNA Lab">
+        <meta property="og:description" content="Do Twin Zygosity DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Twin Zygosity DNA Test Center in Nigeria Near You | Lynx DNA Lab">
+        <meta name="twitter:description" content="Do Twin Zygosity DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+      
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/non-invasive-prenantal-screening-test/'){ ?>
+        <title>Non-invasive Prenatal Paternity DNA Test in Nigeria | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Non-invasive Prenatal Paternity DNA Test in Nigeria | Lynx DNA Lab">
+        <meta property="og:description" content="Do Non-invasive Prenatal Paternity DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Affordable and Accurate.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Non-invasive Prenatal Paternity DNA Test in Nigeria | Lynx DNA Lab">
+        <meta name="twitter:description" content="Do Non-invasive Prenatal Paternity DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Affordable and Accurate.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+      
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/dna-banking/'){ ?>
+        <title>DNA Banking in Nigeria with Test Centers Nationwide | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="DNA Banking in Nigeria with Test Centers Nationwide | Lynx DNA Lab">
+        <meta property="og:description" content="Lynx DNA Laboratory Offers DNA Banking in Nigeria with Accredited Collection Centers Nationwide. Get an Affordable DNA Test for Paternity, Maternity, Forensic.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="DNA Banking in Nigeria with Test Centers Nationwide | Lynx DNA Lab">
+        <meta name="twitter:description" content="Lynx DNA Laboratory Offers DNA Banking in Nigeria with Accredited Collection Centers Nationwide. Get an Affordable DNA Test for Paternity, Maternity, Forensic.">
+        <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+      
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/cancer-risk-dna-test/'){ ?>
+        <title>Cancer Risk DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab</title>
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Cancer Risk DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
+        <meta property="og:description" content="Do Cancer Risk DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
+        <meta property="og:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
+        <meta property="og:image:secure_url" itemprop="image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png" />
+        <meta property="og:image:alt" content="Lynx DNA Lab" />
+        <meta property="og:image:type" content="image/jpeg">
+        <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <link itemprop="thumbnailUrl" href="http://www.lynxlaboratories.com.ng/img/bg/image 21.png"> 
+        <meta property="og:locale" content="en_GB" />
+        <meta property="fb:page_id" content="1077364553177489" />
+        <meta property="fb:app_id" content="1077364553177489" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Cancer Risk DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
+        <meta name="twitter:description" content="">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
 
       <?php  }else{?>

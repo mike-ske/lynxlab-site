@@ -53,16 +53,16 @@
                 <li class="active_nav">
                     <a href="#what-is-mt-dna-test">What is a MtDNA (Female Lineage) DNA Test?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#why-mt-dna-test">Why MtDNA (Female Lineage) DNA Test? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#how-does-mt-dna-test-work">How Does MtDNA (Female Lineage) DNA Test Work?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#when-can-mt-dna-test-be-done">When Can Female Lineage Test Be Done? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#where-to-do-mt-dna-test-in-nigeria">Where to Do Female Lineage Test in Nigeria? </a>
                 </li>
             </ul>

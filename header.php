@@ -370,7 +370,6 @@
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
       <?php  }?>
 
-
     <!--========== STYLE SHEETS ===== -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">

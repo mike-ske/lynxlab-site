@@ -47,13 +47,13 @@
                 <li class="active_nav">
                     <a href="#what-is-an-avuncular-dna-test">What Is an Avuncular DNA Test?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#why-take-an-avuncular-dna-test">​Why Take an Avuncular DNA Test?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#how-does-an-avuncular-dna-test">​​How Does Avuncular DNA Test Work? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#where-can-avuncular-dna-test">​Where Can Avuncular DNA Test Be Done? </a>
                 </li>
             </ul>

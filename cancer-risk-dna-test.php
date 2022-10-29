@@ -51,13 +51,13 @@
                 <li class="active_nav">
                     <a href="#what-is-cancer-risk-test">What Is Cancer Risk DNA Test?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#why-do-cancer-risk-test">Why Do Cancer Risk DNA Tests? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#how-do-cancer-risk-test">How Does Cancer Risk DNA Test Work? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#where-is-cancer-risk-test">Where Is Cancer Risk Test Done in Nigeria? </a>
                 </li>
             </ul>

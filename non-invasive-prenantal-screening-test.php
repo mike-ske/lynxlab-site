@@ -51,13 +51,13 @@
                 <li class="active_nav">
                     <a href="#what-is-a-non-invasive-prenatal-test">What is a Non-Invasive Prenatal Paternity Test? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#how-does-non-invasive-prenatal-test-work">How Does Non-Invasive Prenatal Paternity Test Work? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#when-can-non-invasive-prenatal-test-be-done">When Can Non-Invasive Prenatal Paternity Test Be Done? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#where-is-non-invasive-prenatal-test-done">Where Is Non-Invasive Prenatal Paternity Test Done?</a>
                 </li>
             </ul>

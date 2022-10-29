@@ -59,16 +59,16 @@
                 <li class="active_nav">
                     <a href="#maternity-what-is-dna-maternity-test">What Is a DNA Maternity Test?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#maternity-why-dna-maternity-test">Why DNA Maternity Test? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#maternity-how-is-dna-maternity-test">How Is DNA Maternity Test Done? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#maternity-when-can-a-dna-maternity-test">When Can a DNA Maternity Test Be Done? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#maternity-where-to-do-a-dna-maternity-test">Where to Do a DNA Maternity Test in Nigeria?</a>
                 </li>
   
@@ -105,9 +105,5 @@
 
 </section>
 <!-- ==================== END OF DNA-TEST SECTION ======================== -->
-
-<!-- modal section -->
-<?php require 'modal-section.php' ?>
-<!--  end modal -->
 
 <?php require 'footer.php' ?>

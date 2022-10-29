@@ -47,13 +47,13 @@
                 <li class="active_nav">
                     <a href="#what-is-siblingship-dna-test">What is a Siblingship DNA Test?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#why-do-a-siblingship-dna-test">Why Do a Siblingship DNA Test?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#how-does-siblingship-dna-test-work">How Does Siblingship DNA Testing Work?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#where-to-do-siblingship-dna-test-in-nigeria">Where to Do Sibling DNA Test in Nigeria?</a>
                 </li>
             </ul>

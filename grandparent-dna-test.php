@@ -56,16 +56,16 @@
                 <li class="active_nav">
                     <a href="#what-is-grandparent-dna-test">What is a Grandparent DNA Test? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#who-do-a-grandparent-dna-test">Why Do a Grandparent DNA Test? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#how-does-a-grandparent-dna-test-work">How Does Grandparent DNA Test Work? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#when-can-a-grandparent-dna-test-be-done">When Can Grandparent DNA Test Be Done?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#where-can-a-grandparent-dna-test-be-done-in-nigeria">Where to Do Grandparent DNA Test in Nigeria?</a> 
                 </li>
             </ul>

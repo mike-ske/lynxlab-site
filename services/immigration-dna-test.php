@@ -69,16 +69,16 @@
                 <li class="active_nav">
                     <a href="#what-is-immigration-dna-test">What Is a Immigration DNA Test?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#why-immigration-dna-test">Why Immigration DNA Test? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#how-is-immigration-dna-test-done">How Is Immigration DNA Test Done?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#when-can-a-immigration-dna-test-be-done">When Can a Immigration DNA Test Be Done? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#where-to-do-a-immigration-dna-test-in-nigeria">Where to Do a Immigration DNA Test in Nigeria? </a>
                 </li>
             </ul>
@@ -115,9 +115,5 @@
 </section>
 <!-- ==================== END OF DNA-TEST SECTION ======================== -->
 
-
-<!-- modal section -->
-<?php require 'modal-section.php' ?>
-<!--  end modal -->
 
 <?php require 'footer.php' ?>

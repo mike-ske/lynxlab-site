@@ -60,16 +60,16 @@
                 <li class="active_nav">
                     <a href="#what-is-family-reconstruction-test">What is a Family Reconstruction DNA Test?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#why-family-reconstruction-test">Why Family Reconstruction DNA Test?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#when-can-family-reconstruction-test-be-done">When Can Family Reconstruction DNA Test Be Done? </a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#how-many-people-take-a-family-reconstruction-test">How Many People Take a Family Reconstruction Test?</a>
                 </li>
-                <li class="active_nav">
+                <li>
                     <a href="#where-to-do-a-family-reconstruction-test">Where to Do Family Reconstruction DNA Test in Nigeria?</a>
                 </li>
             </ul>

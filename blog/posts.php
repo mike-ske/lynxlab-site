@@ -4,13 +4,13 @@
 <?php require './inc/dbconn.php' ?>
 
     <!-- ***** Preloader Start ***** -->
-     <div id="preloader">
+     <!-- <div id="preloader">
         <div class="jumper">
             <div></div>
             <div></div>
             <div></div>
         </div>
-    </div>  
+    </div>   -->
     <!-- ***** Preloader End ***** -->
 
     <!-- Page Content -->
@@ -34,27 +34,25 @@
 
     <section class="blog-posts grid-system">
       <div class="container">
-        <div class="grid_container">
+        <div class="row">
 
           <div class="col-lg-8">
             <div class="all-blog-posts">
                 <div class="row">
                     <?php
-                            // get the page id
-                        if (isset($_GET['page'])) 
-                        {
-                            $page = $_GET['page'];
-                        }
-                        else
-                        {
-                            $page = 1;
+                      // get the page id
+                      if (isset($_GET['page'])) 
+                      {
+                          $page = $_GET['page'];
+                      }
+                      else
+                      {
+                          $page = 1;
 
-                        }   
-
+                      }   
                       $post = paginator($page,6, $conn, 'post');
                       foreach ($post as $value) 
                       {
-                        
                     ?>
                   
                     <div class="col-lg-6">
@@ -69,63 +67,52 @@
                             <li><a><?php echo $value['author'] ?></a></li>
                             <li><a href="post-details?id=<?php echo $value['id']?>"><?php echo convertDate($value['created_date']) ?></a></li>
                           </ul>
-
                           <?php
-                          echo "<br><br>";
-                          $tags =  "<th><tr><td><table><tbody><thead><em><i><blockquote><br><ul><cite><q><address><li><a><b><h1><h2><h3><h4><h5><h6><strong><u>";
-                          $message = strip_tags(html_entity_decode($value['content']), $tags);
-                          echo cutString($message);
-                         
+                            echo "<br><br>";
+                            $tags =  "<th><tr><td><table><tbody><thead><em><i><blockquote><br><ul><cite><q><address><li><a><b><h1><h2><h3><h4><h5><h6><strong><u>";
+                            $message = strip_tags(html_entity_decode($value['content']), $tags);
+                            echo cutString($message);
                           ?>
-                          
                         </div>
                       </div>
                     </div>
-                  
-                    <?php }; ?>
-
+                  <?php }; ?>
                 </div>
-                  
-                  <div class="col-lg-12">
-                    <ul class="page-numbers">
+              </div>
+              <div class="col-lg-12">
+                <ul class="page-numbers">
+                
+                  <!-- == create the pagination == -->
+                  <?php                    
+                    if ($page > 1) 
+                    {
+                        $calc = ($page-1);
+                        echo "<li class='paginate_button page-item previous' id='dataTable_previous'>
+                                  <a href='./posts?page=$calc' aria-controls='dataTable' data-dt-idx='1' tabindex='0' class='page-link'>
+                                    <i class='fa fa-angle-double-left'></i>
+                                  </a>
+                                </li>
+                                ";
                     
-                      <!-- == create the pagination == -->
-                      <?php                    
-                        if ($page > 1) 
-                        {
-                            $calc = ($page-1);
-                            echo "<li class='paginate_button page-item previous' id='dataTable_previous'>
-                                      <a href='./posts?page=$calc' aria-controls='dataTable' data-dt-idx='1' tabindex='0' class='page-link'>
-                                        <i class='fa fa-angle-double-left'></i>
-                                      </a>
-                                    </li>
-                                    ";
-                        
-                        }
-
-                        echo paginatorLink(5, './posts', $conn, 'post');
-                        
-                        $total_pages = nextPage(5, $conn, 'post');
-                        for ($i=1; $i < $total_pages; $i++) 
-                        { 
-                            $i;
-                        }
-                        if ($i > $page) 
-                        {
-                            $calc = ($page+1);
-                            echo  "<li class='paginate_button page-item previous' id='dataTable_previous'>
-                                            <a href='./posts?page=$calc' aria-controls='dataTable' data-dt-idx='1' tabindex='0' class='page-link'>
-                                              <i class='fa fa-angle-double-right'></i>
-                                            </a>
-                                      </li>";
-                        }
-
-                      ?>
-                    </ul>
-                  </div>
-            </div>
-            </div>
-          
+                    }
+                    echo paginatorLink(5, './posts', $conn, 'post');
+                    $total_pages = nextPage(5, $conn, 'post');
+                    for ($i=1; $i < $total_pages; $i++) 
+                    { 
+                        $i;
+                    }
+                    if ($i > $page) 
+                    {
+                        $calc = ($page+1);
+                        echo  "<li class='paginate_button page-item previous' id='dataTable_previous'>
+                                        <a href='./posts?page=$calc' aria-controls='dataTable' data-dt-idx='1' tabindex='0' class='page-link'>
+                                          <i class='fa fa-angle-double-right'></i>
+                                        </a>
+                                  </li>";
+                    }
+                  ?>
+                </ul>
+              </div>
           </div>
 
 
@@ -139,7 +126,6 @@
                         </div>
                         <div class="content">
                           <ul>
-                          
                             <?php
                                 $post = getAllPost($conn, 6);
                                 foreach ($post as $value) 
@@ -189,7 +175,6 @@
               </div>
             </div>
           </div>
-        
       </div>
     </section>
 
