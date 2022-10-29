@@ -18,7 +18,7 @@
             </li>
             <li class="list_1 mega_list" id="disable">
                 
-                <a href="DNA-service" class="link__1 ach" id="ach">DNA service</a>
+                <a href="../DNA-service" class="link__1 ach" id="ach">DNA service</a>
                 <ul class="list_2" id="li">
                     <li class="l_2">
                         <a href="dna-paternity-test"  class="link__2">DNA Paternity Test</a>

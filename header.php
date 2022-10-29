@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <?php if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/about-us/'){ ?>
+      <?php if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/about-us'){ ?>
         <title>Affordable DNA Testing Center Near You | Lynx DNA Lab</title>
         <!-- HTML Meta Tags -->
         <meta name="description" content="We are Lynx DNA Laboratory, a Private DNA Testing Center with Accredited Test Centers in Major Cities in Nigeria. We Are Affiliated to GENETICA DNA and DDC in Ohio, United States.">
@@ -40,7 +40,7 @@
         <meta property="fb:page_id" content="1077364553177489" />
         <meta property="fb:app_id" content="1077364553177489" />
 
-      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/DNA-service/'){ ?>
+      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/DNA-service'){ ?>
         <title>DNA Test Services for Paternity & Maternity in Nigeria | Lynx DNA Lab </title>
 
         <meta property="og:type" content="website">
@@ -63,7 +63,7 @@
         <meta name="twitter:description" content="We are Lynx DNA Laboratory, a Private DNA Testing Center with Accredited Test Centers in Major Cities in Nigeria. We Are Affiliated to GENETICA DNA and DDC in Ohio, United States.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
 
-      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/services/maternity-dna-testing/'){ ?>
+      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/services/maternity-dna-testing'){ ?>
         <title>DNA Maternity Test in Nigeria with Centers Nationwide | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -86,7 +86,7 @@
         <meta name="twitter:description" content="Do DNA Maternity Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your  Location.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
 
-      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/services/dna-paternity-test-nigeria/'){ ?>
+      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/services/dna-paternity-test-nigeria'){ ?>
         <title>DNA Paternity Test in Nigeria with Centers Nationwide | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -108,7 +108,7 @@
         <meta name="twitter:title" content=" DNA Paternity Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
         <meta name="twitter:description" content="Do DNA Paternity Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Preferred Location.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
-      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/services/immigration-dna-test/'){ ?>
+      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/services/immigration-dna-test'){ ?>
         <title>Immigration DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -130,7 +130,7 @@
         <meta name="twitter:title" content="Immigration DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
         <meta name="twitter:description" content="Do Immigration DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
-      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/siblinship-dna-test/'){ ?>
+      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/siblinship-dna-test'){ ?>
         <title>Siblingship DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -152,7 +152,7 @@
         <meta name="twitter:title" content="Siblingship DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab">
         <meta name="twitter:description" content="Do SIblingship DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
-      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/reconstruction-dna-test/'){ ?>
+      <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/reconstruction-dna-test'){ ?>
         <title>Family Reconstruction DNA Test in Nigeria Near You | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -175,7 +175,7 @@
         <meta name="twitter:description" content="Do Family Reconstruction DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
       
-        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/avuncular-dna-test/'){ ?>
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/avuncular-dna-test'){ ?>
         <title>Avuncular DNA Test Center in Nigeria Near You | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -198,7 +198,7 @@
         <meta name="twitter:description" content="Do Avuncular DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
       
-        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/grandparent-dna-test/'){ ?>
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/grandparent-dna-test'){ ?>
         <title>Grandparent DNA Test Center in Nigeria Near You | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -221,7 +221,7 @@
         <meta name="twitter:description" content="Do Grandparent DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
       
-        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/mt-dna-test/'){ ?>
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/mt-dna-test'){ ?>
         <title>Mt (Female Lineage) DNA Test Center in Nigeria Near You | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -244,7 +244,7 @@
         <meta name="twitter:description" content="Do Mt (Female Lineage) DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
       
-        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/twin-zygosity-test/'){ ?>
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/twin-zygosity-test'){ ?>
         <title>Twin Zygosity DNA Test Center in Nigeria Near You | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -267,7 +267,7 @@
         <meta name="twitter:description" content="Do Twin Zygosity DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Accurate, Affordable and Delivered to Your Location.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
       
-        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/non-invasive-prenantal-screening-test/'){ ?>
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/non-invasive-prenantal-screening-test'){ ?>
         <title>Non-invasive Prenatal Paternity DNA Test in Nigeria | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -290,7 +290,7 @@
         <meta name="twitter:description" content="Do Non-invasive Prenatal Paternity DNA Test in Nigeria at Lynx DNA Laboratory with Testing Centers Nationwide. Our DNA Tests Are Affordable and Accurate.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
       
-        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/dna-banking/'){ ?>
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/dna-banking'){ ?>
         <title>DNA Banking in Nigeria with Test Centers Nationwide | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -313,7 +313,7 @@
         <meta name="twitter:description" content="Lynx DNA Laboratory Offers DNA Banking in Nigeria with Accredited Collection Centers Nationwide. Get an Affordable DNA Test for Paternity, Maternity, Forensic.">
         <meta name="twitter:image" content="http://www.lynxlaboratories.com.ng/img/bg/image 21.png">
       
-        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/cancer-risk-dna-test/'){ ?>
+        <?php  }else if(isset($_SERVER['REQUEST_URI'] ) && $_SERVER['REQUEST_URI'] === '/cancer-risk-dna-test'){ ?>
         <title>Cancer Risk DNA Test in Nigeria with Centers Nationwide | Lynx DNA Lab</title>
 
         <meta property="og:type" content="website">
@@ -420,3 +420,4 @@
 
 </head>
 <body>
+ 
