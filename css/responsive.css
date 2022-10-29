@@ -400,6 +400,7 @@
     }
     .set_bdy {
         font-size: 12px;
+        max-width: 100% !important;
     }
     .abt_h1 {
         font-size: 20px;

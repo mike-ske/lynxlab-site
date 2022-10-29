@@ -30,34 +30,34 @@
                         <a href="../immigration-dna-test" class="link__2">Immigration Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="../siblinship-dna-test" class="link__2">Siblingship DNA Test</a>
+                        <a href="../services/siblinship-dna-test" class="link__2">Siblingship DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="../reconstruction-dna-test" class="link__2">Family Reconstruction DNA Test</a>
+                        <a href="../services/reconstruction-dna-test" class="link__2">Family Reconstruction DNA Test</a>
                     </li>
                     <!-- <li class="l_2">
                         <a href="../services#chrome_test" class="link__2">Y-Chromosome Test: Male Lineage Testing</a>
                     </li> -->
                     <li class="l_2">
-                        <a href="../avuncular-dna-test" class="link__2">Avuncular DNA Test: Aunt-Uncle Testing</a>
+                        <a href="../services/avuncular-dna-test" class="link__2">Avuncular DNA Test: Aunt-Uncle Testing</a>
                     </li>
                     <li class="l_2">
-                        <a href="../grandparent-dna-test" class="link__2">Grandparent DNA Test</a>
+                        <a href="../services/grandparent-dna-test" class="link__2">Grandparent DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="../mt-dna-test" class="link__2">MtDNA TEST: Female Lineage Testing</a>
+                        <a href="../services/mt-dna-test" class="link__2">MtDNA TEST: Female Lineage Testing</a>
                     </li>
                     <li class="l_2">
                         <a href="../dna-banking" class="link__2">DNA Banking</a>
                     </li>
                     <li class="l_2">
-                        <a href="../twin-zygosity-test" class="link__2">Twin Zygosity Test</a>
+                        <a href="../services/twin-zygosity-test" class="link__2">Twin Zygosity Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="../non-invasive-prenantal-screening-test"  class="link__2">Non-invasive Prenatal Screening Test</a>
+                        <a href="../../non-invasive-prenantal-screening-test"  class="link__2">Non-invasive Prenatal Screening Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="../non-invasive-pre-paternity-dna-test"  class="link__2">Non-invasive pre-paternity DNA test</a>
+                        <a href="../services/non-invasive-pre-paternity-dna-test"  class="link__2">Non-invasive pre-paternity DNA test</a>
                     </li>
 
                     <li class="l_2">

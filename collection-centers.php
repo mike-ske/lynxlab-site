@@ -403,10 +403,10 @@
                 </div>
                 <div class="blg_set">
                     <h3 class="blg_h3" id="blg_h3" style="display: flex;align-items:center;justify-content:space-between">
-                        <a href="blog/post-details?id=<?php echo $value['id']?>" style="color: #4097d4;">
+                        <a href="blog/post-details?id=<?php echo $value['id']?>" style="color: #4097d4;font-size:55%;line-height:1.5;">
                             <?php echo $value['title']?>
                         </a>
-                        <div class="small" style="font-size: 55%;font-weight: 400;color: #b7b9cc"><?php echo convertYear($value['created_date'])?></div>
+                        <div class="small" style="font-size: 55%;font-weight: 400;width:50%;color: #b7b9cc"><?php echo convertYear($value['created_date'])?></div>
                     </h3>
 
                     <div class="blg_txt">

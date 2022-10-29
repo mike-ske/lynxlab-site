@@ -55,7 +55,7 @@
                       {
                     ?>
                   
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                       <div class="blog-post">
                         <div class="blog-thumb" style="height:350px;">
                           <img style="height:100%;" src="data:image/jpeg;base64,<?php echo getPostImageById($conn, $value['id'])?>" />
@@ -67,15 +67,18 @@
                             <li><a><?php echo $value['author'] ?></a></li>
                             <li><a href="post-details?id=<?php echo $value['id']?>"><?php echo convertDate($value['created_date']) ?></a></li>
                           </ul>
-                          <?php
-                            echo "<br><br>";
-                            $tags =  "<th><tr><td><table><tbody><thead><em><i><blockquote><br><ul><cite><q><address><li><a><b><h1><h2><h3><h4><h5><h6><strong><u>";
-                            $message = strip_tags(html_entity_decode($value['content']), $tags);
-                            echo cutString($message);
-                          ?>
+                          <div>
+                            <?php
+                              echo "<br><br>";
+                              $tags =  "<th><tr><td><table><tbody><thead><em><i><blockquote><br><ul><cite><q><address><li><a><b><h1><h2><h3><h4><h5><h6><strong><u>";
+                              $message = strip_tags(html_entity_decode($value['content']), $tags);
+                              echo cutString($message);
+                            ?>
+                          </div>
                         </div>
                       </div>
                     </div>
+
                   <?php }; ?>
                 </div>
               </div>

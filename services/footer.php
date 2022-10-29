@@ -46,7 +46,7 @@
 
                 <ul class="ft__01">
                     <li class="ft__list active_2">
-                        <a href="./" class="inv_1">Home</a>
+                        <a href="../" class="inv_1">Home</a>
                     </li> 
                     <li class="ft__list">
                         <a href="../dna-service" class="inv_1">Our Services</a>
