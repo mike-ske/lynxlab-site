@@ -1,5 +1,5 @@
-<?php require '../header.php' ?>
-<?php require '../nav.php' ?>
+<?php require 'header.php' ?>
+<?php require 'nav.php' ?>
 
 
 <!-- DNA Test HEROE SECTION -->
@@ -95,9 +95,9 @@
                 </div>
     
                 <div class="connect_btn" data-aos="fade-up" data-aos-duration="3400">
-                    <a href="contact" class="srv_btn">
+                    <a href="../contact" class="srv_btn">
                         <div class="img_dn">
-                            <img src="img/Call.png" alt="Test">
+                            <img src="../img/Call.png" alt="Test">
                         </div>
                         Talk to Us
                     </a>
@@ -114,7 +114,7 @@
 
 
 <!-- modal section -->
-<?php require '../modal-section.php' ?>
+<?php require 'modal-section.php' ?>
 <!--  end modal -->
 
-<?php require '../footer.php' ?>
+<?php require 'footer.php' ?>

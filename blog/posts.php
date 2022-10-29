@@ -34,28 +34,28 @@
 
     <section class="blog-posts grid-system">
       <div class="container">
-        <div class="row">
+        <div class="grid_container">
 
           <div class="col-lg-8">
             <div class="all-blog-posts">
                 <div class="row">
-                  <?php
-                          // get the page id
-                      if (isset($_GET['page'])) 
-                      {
-                          $page = $_GET['page'];
-                      }
-                      else
-                      {
-                          $page = 1;
+                    <?php
+                            // get the page id
+                        if (isset($_GET['page'])) 
+                        {
+                            $page = $_GET['page'];
+                        }
+                        else
+                        {
+                            $page = 1;
 
-                      }   
+                        }   
 
-                    $post = paginator($page,6, $conn, 'post');
-                    foreach ($post as $value) 
-                    {
-                      
-                  ?>
+                      $post = paginator($page,6, $conn, 'post');
+                      foreach ($post as $value) 
+                      {
+                        
+                    ?>
                   
                     <div class="col-lg-6">
                       <div class="blog-post">
@@ -89,8 +89,8 @@
                   <div class="col-lg-12">
                     <ul class="page-numbers">
                     
-                    <!-- == create the pagination == -->
-                    <?php                    
+                      <!-- == create the pagination == -->
+                      <?php                    
                         if ($page > 1) 
                         {
                             $calc = ($page-1);
@@ -123,7 +123,7 @@
                       ?>
                     </ul>
                   </div>
-                
+            </div>
             </div>
           
           </div>

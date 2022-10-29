@@ -4,77 +4,77 @@
     <nav class="fg_center sub__nav">
         <div class="logo">
             <a href="./">
-                <img src="img/logo.png" alt="Lynxs logo">
+                <img src="../img/logo.png" alt="Lynxs logo">
             </a>
         </div>
         <!-- (Down Syndrome)-NIPT -->
         <ul class="list_menu">
             <div class="close_menu" id='close_menu'><i class='bx bx-x' ></i></div>
             <li class="list_1">
-                <a href="./" id="home" class="link__1">Home</a>
+                <a href="../" id="home" class="link__1">Home</a>
             </li>
             <li class="list_1">
-                <a href="about-us" id="about" class="link__1">About Us</a>
+                <a href="../about-us" id="about" class="link__1">About Us</a>
             </li>
             <li class="list_1 mega_list" id="disable">
                 
-                <a href="DNA-service" class="link__1 ach" id="ach">DNA Services</a>
+                <a href="DNA-service" class="link__1 ach" id="ach">DNA service</a>
                 <ul class="list_2" id="li">
                     <li class="l_2">
-                        <a href="services/dna-paternity-test"  class="link__2">DNA Paternity Test</a>
+                        <a href="dna-paternity-test"  class="link__2">DNA Paternity Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="services/maternity-dna-test"  class="link__2">Maternity DNA Test</a>
+                        <a href="maternity-dna-test"  class="link__2">Maternity DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="services/immigration-dna-test"  class="link__2">Immigration Test</a>
+                        <a href="immigration-dna-test"  class="link__2">Immigration Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="siblinship-dna-test"  class="link__2">Siblingship DNA Test</a>
+                        <a href="../siblinship-dna-test"  class="link__2">Siblingship DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="reconstruction-dna-test"  class="link__2">Family Reconstruction DNA Test</a>
+                        <a href="../reconstruction-dna-test"  class="link__2">Family Reconstruction DNA Test</a>
                     </li>
                     <!-- <li class="l_2">
-                        <a href="services#chrome_test"  class="link__2">Y-Chromosome Test: Male Lineage Testing</a>
+                        <a href="chrome_test"  class="link__2">Y-Chromosome Test: Male Lineage Testing</a>
                     </li> -->
                     <li class="l_2">
-                        <a href="avuncular-dna-test"  class="link__2">Avuncular DNA Test: Aunt-Uncle Testing</a>
+                        <a href="../avuncular-dna-test"  class="link__2">Avuncular DNA Test: Aunt-Uncle Testing</a>
                     </li>
                     <li class="l_2">
-                        <a href="grandparent-dna-test"  class="link__2">Grandparent DNA Test</a>
+                        <a href="../grandparent-dna-test"  class="link__2">Grandparent DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="mt-dna-test"  class="link__2">MtDNA TEST: Female Lineage Testing</a>
+                        <a href="../mt-dna-test"  class="link__2">MtDNA TEST: Female Lineage Testing</a>
                     </li>
                     <li class="l_2">
                         <a href="dna-banking" class="link__2">DNA Banking</a>
                     </li>
                     <li class="l_2">
-                        <a href="twin-zygosity-test"  class="link__2">Twin Zygosity Test</a>
+                        <a href="../twin-zygosity-test"  class="link__2">Twin Zygosity Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="non-invasive-prenantal-screening-test"  class="link__2">Non-invasive Prenatal Screeninig Test</a>
+                        <a href="../non-invasive-prenantal-screening-test"  class="link__2">Non-invasive Prenatal Screeninig Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="services/non-invasive-pre-paternity-dna-test"  class="link__2">Non-invasive pre-paternity DNA test</a>
+                        <a href="non-invasive-pre-paternity-dna-test"  class="link__2">Non-invasive pre-paternity DNA test</a>
                     </li>
                     <li class="l_2">
-                        <a href="cancer-risk-dna-test"  class="link__2">Cancer Risk Test</a>
+                        <a href="../cancer-risk-dna-test"  class="link__2">Cancer Risk Test</a>
                     </li> 
                 </ul>
             </li>
             <li class="list_1">
-                <a href="cancer-risk-test" id="cancer" class="link__1">Cancer Risk Test</a>
+                <a href="../cancer-risk-test" id="cancer" class="link__1">Cancer Risk Test</a>
             </li>
             <li class="list_1">
-                <a href="collection-centers" id="col_ct" class="link__1">Collection Centers</a>
+                <a href="../collection-centers" id="col_ct" class="link__1">Collection Centers</a>
             </li>
             <li class="list_1">
-                <a href="blog/" id="blg" class="link__1">Blog</a>
+                <a href="../blog/" id="blg" class="link__1">Blog</a>
             </li>
             <li class="list_1">
-                <a href="contact" id="contact" class="link__1">Contact Us</a>
+                <a href="../contact" id="contact" class="link__1">Contact Us</a>
             </li>
         </ul>
 

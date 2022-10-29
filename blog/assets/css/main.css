@@ -1,0 +1,29 @@
+.grid_container {
+    display: grid;
+    width: 100%;
+    height: fit-content;
+    grid-template-columns: 1fr 20%;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.grid_child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.grid_box{
+
+}
+
+@media only screen and (max-width: 768px){
+    .grid_container{
+        grid-template-columns: 100%;
+    }
+    .grid_child{
+        grid-template-columns: 100%;
+    }
+}

@@ -1,5 +1,5 @@
-<?php require './../header.php' ?>
-<?php require './../nav.php' ?>
+<?php require 'header.php' ?>
+<?php require 'nav.php' ?>
 
 
 <!-- DNA Test HEROE SECTION -->
@@ -89,9 +89,9 @@
                 </div>
     
                 <div class="connect_btn" data-aos="fade-up" data-aos-duration="3400">
-                    <a href="contact" class="srv_btn">
+                    <a href="../contact" class="srv_btn">
                         <div class="img_dn">
-                            <img src="img/Call.png" alt="DNA Maternity Test in Nigeria">
+                            <img src="../img/Call.png" alt="DNA Maternity Test in Nigeria">
                         </div>
                         Talk to Us
                     </a>
@@ -106,9 +106,8 @@
 </section>
 <!-- ==================== END OF DNA-TEST SECTION ======================== -->
 
-
 <!-- modal section -->
-<?php require './../modal-section.php' ?>
+<?php require 'modal-section.php' ?>
 <!--  end modal -->
 
-<?php require './../footer.php' ?>
+<?php require 'footer.php' ?>
