@@ -76,7 +76,7 @@
         </div>
 
         <div class="abt_sec_2"   data-aos="fade-up" data-aos-duration="3200">
-            <img src="img/m_2.png" alt="Affordable DNA Testing Center" class="img">
+            <img src="img/dna/DNA Trending in Nigeria 001.jpeg" alt="Affordable DNA Testing Center" style="width: 100%;" class="img">
         </div>
        
     </div>
@@ -125,7 +125,7 @@
             </p>
         </div>
         <div class="what_2 wht_left"   data-aos="fade-up" data-aos-duration="3200">
-            <img src="img/l_2.png" alt="Affordable DNA Testing Center" class="img">
+            <img src="img/dna/Peace of Mind DNA Test VS Legal DNA Test in Nigeria 001.jpeg" alt="Affordable DNA Testing Center" style="width: 100%;" class="img">
         </div>
     </div>
 </section>
@@ -135,7 +135,7 @@
 <section class="bg_main" id="who">
     <div class="fg_center who_sec">
         <div class="abt_sec_2"   data-aos="fade-up" data-aos-duration="3200">
-            <img src="img/m_2.png" alt="Affordable DNA Testing Center" class="img">
+            <img src="img/mdna/Symptoms of Cancer in Nigeria - Use DNA Test to Detect Cancer 002.jpeg" style="width:  100%;" alt="Affordable DNA Testing Center" class="img">
         </div>
        
         <div class="abt_sec_1"   data-aos="fade-up" data-aos-duration="3200">
