@@ -45,7 +45,7 @@
                         <a href="../services/grandparent-dna-test" class="link__2">Grandparent DNA Test</a>
                     </li>
                     <li class="l_2">
-                        <a href="../services/mt-dna-test" class="link__2">MtDNA TEST: Female Lineage Testing</a>
+                        <a href="../mt-dna-test" class="link__2">MtDNA TEST: Female Lineage Testing</a>
                     </li>
                     <li class="l_2">
                         <a href="../dna-banking" class="link__2">DNA Banking</a>
